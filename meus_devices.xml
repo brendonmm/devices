@@ -429,7 +429,7 @@
 		<dpi>~240dpi</dpi>
 		<css_pixel_ratio>1.5</css_pixel_ratio>
 		<aspect_ratio>15:9</aspect_ratio>
-		<graphics_array>HD</graphics_array>
+		<graphics_array>WVGA</graphics_array>
 		<os>8</os>
 	</device>
 	<device>
@@ -441,7 +441,7 @@
 		<dpi>~240dpi</dpi>
 		<css_pixel_ratio>1.5</css_pixel_ratio>
 		<aspect_ratio>15:9</aspect_ratio>
-		<graphics_array>HD</graphics_array>
+		<graphics_array>WVGA</graphics_array>
 		<os>8</os>
 	</device>
 	<device>
@@ -453,7 +453,7 @@
 		<dpi>~240dpi</dpi>
 		<css_pixel_ratio>1.5</css_pixel_ratio>
 		<aspect_ratio>15:9</aspect_ratio>
-		<graphics_array>HD</graphics_array>
+		<graphics_array>WVGA</graphics_array>
 		<os>8</os>
 	</device>
 	<device>
@@ -563,6 +563,30 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>HD/WXGA</graphics_array>
 		<os>4.2</os>
+	</device>
+	<device>
+		<nome>Google Nexus 4</nome>
+		<resolution>768 x 1280</resolution>
+		<density>xhdpi</density>
+		<screen_size>4.7-inches</screen_size>
+		<ppi>318ppi</ppi>
+		<dpi>~320dpi</dpi>
+		<css_pixel_ratio>2</css_pixel_ratio>
+		<aspect_ratio>15:9</aspect_ratio>
+		<graphics_array>HD/WXGA</graphics_array>
+		<os>4.2.2</os>
+	</device>
+	<device>
+		<nome>Google Nexus 5</nome>
+		<resolution>1080 x 1920</resolution>
+		<density>xxhdpi</density>
+		<screen_size>4.95-inches</screen_size>
+		<ppi>445ppi</ppi>
+		<dpi>~480dpi</dpi>
+		<css_pixel_ratio>3</css_pixel_ratio>
+		<aspect_ratio>16:9</aspect_ratio>
+		<graphics_array>FHD</graphics_array>
+		<os>4.4.4</os>
 	</device>
 	<device>
 		<nome>Google Nexus 7</nome>
