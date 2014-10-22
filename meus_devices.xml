@@ -250,7 +250,7 @@
 		<css_pixel_ratio>2</css_pixel_ratio>
 		<aspect_ratio>1.5:1</aspect_ratio>
 		<graphics_array>DVGA</graphics_array>
-        <os>N/A</os>
+        <os>5</os>
 	</device>
 	<device>
 		<nome>Apple iPhone 5</nome>
@@ -261,8 +261,8 @@
 		<dpi>~320dpi</dpi>
 		<css_pixel_ratio>2</css_pixel_ratio>
 		<aspect_ratio>17:10</aspect_ratio>
-		<graphics_array>N/A</graphics_array>
-        <os>N/A</os>
+		<graphics_array>Retina HD</graphics_array>
+        <os>6</os>
 	</device>
 	<device>
 		<nome>Apple iPhone 5C</nome>
@@ -273,8 +273,8 @@
 		<dpi>~320dpi</dpi>
 		<css_pixel_ratio>2</css_pixel_ratio>
 		<aspect_ratio>17:10</aspect_ratio>
-		<graphics_array>N/A</graphics_array>
-        <os>N/A</os>
+		<graphics_array>Retina HD</graphics_array>
+        <os>7</os>
 	</device>
 	<device>
 		<nome>Apple iPhone 5S</nome>
@@ -285,8 +285,32 @@
 		<dpi>~320dpi</dpi>
 		<css_pixel_ratio>2</css_pixel_ratio>
 		<aspect_ratio>17:10</aspect_ratio>
-		<graphics_array>N/A</graphics_array>
-        <os>N/A</os>
+		<graphics_array>Retina HD</graphics_array>
+        <os>7</os>
+	</device>
+	<device>
+		<nome>Apple iPhone 6</nome>
+		<resolution>750 x 1334</resolution>
+		<density>xhdpi</density>
+		<screen_size>4.7-inches</screen_size>
+		<ppi>326ppi</ppi>
+		<dpi>~320dpi</dpi>
+		<css_pixel_ratio>2</css_pixel_ratio>
+		<aspect_ratio>16:9</aspect_ratio>
+		<graphics_array>Retina HD</graphics_array>
+        <os>8</os>
+	</device>
+	<device>
+		<nome>Apple iPhone 6 Plus</nome>
+		<resolution>1080 x 1920</resolution>
+		<density>xxhdpi</density>
+		<screen_size>5.5-inches</screen_size>
+		<ppi>401ppi</ppi>
+		<dpi>~480dpi</dpi>
+		<css_pixel_ratio>2</css_pixel_ratio>
+		<aspect_ratio>16:9</aspect_ratio>
+		<graphics_array>Retina HD</graphics_array>
+        <os>8</os>
 	</device>
 	<device>
 		<nome>Apple iPad Mini</nome>
@@ -541,7 +565,19 @@
 		<os>2.1</os>
 	</device>
 	<device>
-		<nome>Motorola G</nome>
+		<nome>Motorola Moto E</nome>
+		<resolution>540 x 960</resolution>
+		<density>hdpi</density>
+		<screen_size>4.3-inches</screen_size>
+		<ppi>256ppi</ppi>
+		<dpi>~240dpi</dpi>
+		<css_pixel_ratio>2</css_pixel_ratio>
+		<aspect_ratio>16:9</aspect_ratio>
+		<graphics_array>qHD</graphics_array>
+		<os>4.4.4</os>
+	</device>
+	<device>
+		<nome>Motorola Moto G</nome>
 		<resolution>720 x 1280</resolution>
 		<density>hdpi</density>
 		<screen_size>4.5-inches</screen_size>
@@ -553,7 +589,19 @@
 		<os>4.2</os>
 	</device>
 	<device>
-		<nome>Motorola X</nome>
+		<nome>Motorola Moto G 2</nome>
+		<resolution>720 x 1280</resolution>
+		<density>hdpi</density>
+		<screen_size>5-inches</screen_size>
+		<ppi>294ppi</ppi>
+		<dpi>~320dpi</dpi>
+		<css_pixel_ratio>2</css_pixel_ratio>
+		<aspect_ratio>16:9</aspect_ratio>
+		<graphics_array>HD</graphics_array>
+		<os>4.4.4</os>
+	</device>
+	<device>
+		<nome>Motorola Moto X</nome>
 		<resolution>720 x 1280</resolution>
 		<density>hdpi</density>
 		<screen_size>4.7-inches</screen_size>
@@ -565,7 +613,19 @@
 		<os>4.2</os>
 	</device>
 	<device>
-		<nome>Google Nexus 4</nome>
+		<nome>Motorola Moto X 2</nome>
+		<resolution>1080 x 1920</resolution>
+		<density>xxhdpi</density>
+		<screen_size>5.2-inches</screen_size>
+		<ppi>423ppi</ppi>
+		<dpi>~480dpi</dpi>
+		<css_pixel_ratio>3</css_pixel_ratio>
+		<aspect_ratio>16:9</aspect_ratio>
+		<graphics_array>FHD</graphics_array>
+		<os>4.4.4</os>
+	</device>
+	<device>
+		<nome>Google Nexus 4 (LG)</nome>
 		<resolution>768 x 1280</resolution>
 		<density>xhdpi</density>
 		<screen_size>4.7-inches</screen_size>
@@ -577,7 +637,7 @@
 		<os>4.2.2</os>
 	</device>
 	<device>
-		<nome>Google Nexus 5</nome>
+		<nome>Google Nexus 5 (LG)</nome>
 		<resolution>1080 x 1920</resolution>
 		<density>xxhdpi</density>
 		<screen_size>4.95-inches</screen_size>
@@ -587,6 +647,18 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
 		<os>4.4.4</os>
+	</device>
+	<device>
+		<nome>Google Nexus 6 (Motorola)</nome>
+		<resolution>1440 x 2560</resolution>
+		<density>xxhdpi</density>
+		<screen_size>5.96-inches</screen_size>
+		<ppi>493ppi</ppi>
+		<dpi>~480dpi</dpi>
+		<css_pixel_ratio>3</css_pixel_ratio>
+		<aspect_ratio>16:9</aspect_ratio>
+		<graphics_array>QHD</graphics_array>
+		<os>5</os>
 	</device>
 	<device>
 		<nome>Google Nexus 7</nome>
