@@ -8,6 +8,7 @@
 		<ppi>142ppi</ppi>
 		<dpi>~120dpi</dpi>
 		<css_pixel_ratio>0.75</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>2:3</aspect_ratio>
 		<graphics_array>QVGA</graphics_array>
 		<os>2.1</os>
@@ -20,6 +21,7 @@
 		<ppi>133ppi</ppi>
 		<dpi>~120dpi</dpi>
 		<css_pixel_ratio>0.75</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>2:3</aspect_ratio>
 		<graphics_array>QVGA</graphics_array>
 		<os>2.2</os>
@@ -32,6 +34,7 @@
 		<ppi>164ppi</ppi>
 		<dpi>~160dpi</dpi>
 		<css_pixel_ratio>1</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>2:3</aspect_ratio>
 		<graphics_array>HVGA</graphics_array>
 		<os>2.3.3</os>
@@ -44,6 +47,7 @@
 		<ppi>219ppi</ppi>
 		<dpi>~240dpi</dpi>
 		<css_pixel_ratio>1.5</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>3:5</aspect_ratio>
 		<graphics_array>WVGA</graphics_array>
 		<os>2.3</os>
@@ -56,6 +60,7 @@
 		<ppi>233ppi</ppi>
 		<dpi>~240dpi</dpi>
 		<css_pixel_ratio>1.5</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>3:5</aspect_ratio>
 		<graphics_array>WVGA</graphics_array>
 		<os>4.0.3</os>
@@ -68,6 +73,7 @@
 		<ppi>267ppi</ppi>
 		<dpi>~240dpi</dpi>
 		<css_pixel_ratio>1.5</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>HD/WXGA</graphics_array>
 		<os>4.1.2</os>
@@ -80,6 +86,7 @@
 		<ppi>386ppi</ppi>
 		<dpi>~480dpi</dpi>
 		<css_pixel_ratio>3</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>HD/WXGA</graphics_array>
 		<os>4.2.2</os>
@@ -92,6 +99,7 @@
 		<ppi>306ppi</ppi>
 		<dpi>~320dpi</dpi>
 		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>HD/WXGA</graphics_array>
 		<os>4.2</os>
@@ -104,6 +112,7 @@
 		<ppi>441ppi</ppi>
 		<dpi>~480dpi</dpi>
 		<css_pixel_ratio>3</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
 		<os>4.2.2</os>
@@ -116,102 +125,111 @@
 		<ppi>432ppi</ppi>
 		<dpi>~480dpi</dpi>
 		<css_pixel_ratio>3</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
 		<os>4.2.2</os>
 	</device>
 	<device>
-		<nome>Galaxy Tab 7</nome>
+		<nome>Samsung Galaxy Tab 7</nome>
 		<resolution>600 x 1024</resolution>
 		<density>mdpi</density>
 		<screen_size>7.0-inches</screen_size>
 		<ppi>170ppi</ppi>
 		<dpi>~160dpi</dpi>
 		<css_pixel_ratio>1</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:10</aspect_ratio>
 		<graphics_array>WSVGA</graphics_array>
 		<os>2.2</os>
 	</device>
 	<device>
-		<nome>Galaxy Tab 8</nome>
+		<nome>Samsung Galaxy Tab 8</nome>
 		<resolution>800 x 1280</resolution>
 		<density>mdpi</density>
 		<screen_size>8.9-inches</screen_size>
 		<ppi>170ppi</ppi>
 		<dpi>~160dpi</dpi>
 		<css_pixel_ratio>1</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:10</aspect_ratio>
 		<graphics_array>WSVGA</graphics_array>
 		<os>2.2</os>
 	</device>
 	<device>
-		<nome>Galaxy Tab 10.1</nome>
+		<nome>Samsung Galaxy Tab 10.1</nome>
 		<resolution>800 x 1280</resolution>
 		<density>mdpi</density>
 		<screen_size>10.1-inches</screen_size>
 		<ppi>149ppi</ppi>
 		<dpi>~120dpi</dpi>
 		<css_pixel_ratio>0.75</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>5:8</aspect_ratio>
 		<graphics_array>WXGA</graphics_array>
 		<os>3.1</os>
 	</device>
 	<device>
-		<nome>Galaxy Tab 2 10.1</nome>
+		<nome>Samsung Galaxy Tab 2 10.1</nome>
 		<resolution>800 x 1280</resolution>
 		<density>ldpi</density>
 		<screen_size>10.1-inches</screen_size>
 		<ppi>149ppi</ppi>
 		<dpi>~120dpi</dpi>
 		<css_pixel_ratio>0.75</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>5:8</aspect_ratio>
 		<graphics_array>WXGA</graphics_array>
 		<os>4.0</os>
 	</device>
 	<device>
-		<nome>Galaxy Tab 3 10.1</nome>
+		<nome>Samsung Galaxy Tab 3 10.1</nome>
 		<resolution>800 x 1280</resolution>
 		<density>ldpi</density>
 		<screen_size>10.1-inches</screen_size>
 		<ppi>149ppi</ppi>
 		<dpi>~120dpi</dpi>
 		<css_pixel_ratio>0.75</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>5:8</aspect_ratio>
 		<graphics_array>WXGA</graphics_array>
 		<os>4.0</os>
 	</device>
 	<device>
-		<nome>Galaxy Tab 4 10.1</nome>
+		<nome>Samsung Galaxy Tab 4 10.1</nome>
 		<resolution>800 x 1280</resolution>
 		<density>ldpi</density>
 		<screen_size>10.1-inches</screen_size>
 		<ppi>149ppi</ppi>
 		<dpi>~120dpi</dpi>
 		<css_pixel_ratio>0.75</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>5:8</aspect_ratio>
 		<graphics_array>WXGA</graphics_array>
 		<os>4.0</os>
 	</device>
 	<device>
-		<nome>Galaxy Tab Pro 8.4</nome>
+		<nome>Samsung Galaxy Tab Pro 8.4</nome>
 		<resolution>1600 x 2560</resolution>
 		<density>xhdpi</density>
 		<screen_size>8.4-inches</screen_size>
 		<ppi>359ppi</ppi>
 		<dpi>~320dpi</dpi>
 		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:10</aspect_ratio>
 		<graphics_array>WQXGA</graphics_array>
 		<os>4.0</os>
 	</device>
 	<device>
-		<nome>Galaxy Tab Pro 12.2</nome>
+		<nome>Samsung Galaxy Tab Pro 12.2</nome>
 		<resolution>1600 x 2560</resolution>
 		<density>hdpi</density>
 		<screen_size>12.2-inches</screen_size>
 		<ppi>247ppi</ppi>
 		<dpi>~240dpi</dpi>
 		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:10</aspect_ratio>
 		<graphics_array>WQXGA</graphics_array>
 		<os>4.0</os>
@@ -224,6 +242,7 @@
 		<ppi>163ppi</ppi>
 		<dpi>~160dpi</dpi>
 		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>2:3</aspect_ratio>
 		<graphics_array>HVGA</graphics_array>
         <os>N/A</os>
@@ -236,6 +255,7 @@
 		<ppi>326ppi</ppi>
 		<dpi>~320dpi</dpi>
 		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>1.5:1</aspect_ratio>
 		<graphics_array>DVGA</graphics_array>
         <os>N/A</os>
@@ -248,6 +268,7 @@
 		<ppi>326ppi</ppi>
 		<dpi>~320dpi</dpi>
 		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>1.5:1</aspect_ratio>
 		<graphics_array>DVGA</graphics_array>
         <os>5</os>
@@ -260,6 +281,7 @@
 		<ppi>326ppi</ppi>
 		<dpi>~320dpi</dpi>
 		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>17:10</aspect_ratio>
 		<graphics_array>Retina HD</graphics_array>
         <os>6</os>
@@ -272,6 +294,7 @@
 		<ppi>326ppi</ppi>
 		<dpi>~320dpi</dpi>
 		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>17:10</aspect_ratio>
 		<graphics_array>Retina HD</graphics_array>
         <os>7</os>
@@ -284,6 +307,7 @@
 		<ppi>326ppi</ppi>
 		<dpi>~320dpi</dpi>
 		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>17:10</aspect_ratio>
 		<graphics_array>Retina HD</graphics_array>
         <os>7</os>
@@ -296,6 +320,7 @@
 		<ppi>326ppi</ppi>
 		<dpi>~320dpi</dpi>
 		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>Retina HD</graphics_array>
         <os>8</os>
@@ -308,6 +333,7 @@
 		<ppi>401ppi</ppi>
 		<dpi>~480dpi</dpi>
 		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>Retina HD</graphics_array>
         <os>8</os>
@@ -320,6 +346,7 @@
 		<ppi>163ppi</ppi>
 		<dpi>~160dpi</dpi>
 		<css_pixel_ratio>1</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>4:3</aspect_ratio>
 		<graphics_array>XGA</graphics_array>
         <os>N/A</os>
@@ -332,6 +359,7 @@
 		<ppi>163ppi</ppi>
 		<dpi>~160dpi</dpi>
 		<css_pixel_ratio>1</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>4:3</aspect_ratio>
 		<graphics_array>XGA</graphics_array>
         <os>N/A</os>
@@ -344,6 +372,7 @@
 		<ppi>132ppi</ppi>
 		<dpi>~120dpi</dpi>
 		<css_pixel_ratio>1</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>4:3</aspect_ratio>
 		<graphics_array>XGA</graphics_array>
         <os>N/A</os>
@@ -356,6 +385,7 @@
 		<ppi>264ppi</ppi>
 		<dpi>~240dpi</dpi>
 		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>4:3</aspect_ratio>
 		<graphics_array>QXGA</graphics_array>
         <os>N/A</os>
@@ -368,6 +398,7 @@
 		<ppi>264ppi</ppi>
 		<dpi>~240dpi</dpi>
 		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>4:3</aspect_ratio>
 		<graphics_array>QXGA</graphics_array>
         <os>N/A</os>
@@ -380,6 +411,7 @@
 		<ppi>148ppi</ppi>
 		<dpi>~160dpi</dpi>
 		<css_pixel_ratio>1</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>HD</graphics_array>
 		<os>8</os>
@@ -392,6 +424,7 @@
 		<ppi>208ppi</ppi>
 		<dpi>~240dpi</dpi>
 		<css_pixel_ratio>1.5</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
 		<os>8</os>
@@ -404,6 +437,7 @@
 		<ppi>208ppi</ppi>
 		<dpi>~240dpi</dpi>
 		<css_pixel_ratio>1.5</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
 		<os>8</os>
@@ -416,6 +450,7 @@
 		<ppi>208ppi</ppi>
 		<dpi>~240dpi</dpi>
 		<css_pixel_ratio>1.5</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
 		<os>8</os>
@@ -428,6 +463,7 @@
 		<ppi>216ppi</ppi>
 		<dpi>~240dpi</dpi>
 		<css_pixel_ratio>1.5</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
 		<os>8</os>
@@ -440,6 +476,7 @@
 		<ppi>218ppi</ppi>
 		<dpi>~240dpi</dpi>
 		<css_pixel_ratio>1.5</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
 		<os>8</os>
@@ -452,6 +489,7 @@
 		<ppi>233ppi</ppi>
 		<dpi>~240dpi</dpi>
 		<css_pixel_ratio>1.5</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>15:9</aspect_ratio>
 		<graphics_array>WVGA</graphics_array>
 		<os>8</os>
@@ -464,6 +502,7 @@
 		<ppi>217ppi</ppi>
 		<dpi>~240dpi</dpi>
 		<css_pixel_ratio>1.5</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>15:9</aspect_ratio>
 		<graphics_array>WVGA</graphics_array>
 		<os>8</os>
@@ -476,6 +515,7 @@
 		<ppi>217ppi</ppi>
 		<dpi>~240dpi</dpi>
 		<css_pixel_ratio>1.5</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>15:9</aspect_ratio>
 		<graphics_array>WVGA</graphics_array>
 		<os>8</os>
@@ -488,6 +528,7 @@
 		<ppi>334ppi</ppi>
 		<dpi>~320dpi</dpi>
 		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>15:9</aspect_ratio>
 		<graphics_array>HD/WXGA</graphics_array>
 		<os>8</os>
@@ -500,6 +541,7 @@
 		<ppi>332ppi</ppi>
 		<dpi>~320dpi</dpi>
 		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>15:9</aspect_ratio>
 		<graphics_array>HD/WXGA</graphics_array>
 		<os>8</os>
@@ -512,6 +554,7 @@
 		<ppi>245ppi</ppi>
 		<dpi>~240dpi</dpi>
 		<css_pixel_ratio>1.5</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>HD/WXGA</graphics_array>
 		<os>8</os>
@@ -524,6 +567,7 @@
 		<ppi>367ppi</ppi>
 		<dpi>~320dpi</dpi>
 		<css_pixel_ratio>3</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
 		<os>8</os>
@@ -536,18 +580,20 @@
 		<ppi>441ppi</ppi>
 		<dpi>~480dpi</dpi>
 		<css_pixel_ratio>3</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
 		<os>8</os>
 	</device>
 	<device>
-		<nome>Kindle Fire HD 8.9</nome>
+		<nome>Amazon Kindle Fire HD 8.9</nome>
 		<resolution>1200 x 1920</resolution>
 		<density>hdpi</density>
 		<screen_size>8.9-inches</screen_size>
 		<ppi>254ppi</ppi>
 		<dpi>~240dpi</dpi>
 		<css_pixel_ratio>1.5</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:10</aspect_ratio>
 		<graphics_array>WUXGA</graphics_array>
 		<os>2.1</os>
@@ -560,6 +606,7 @@
 		<ppi>184ppi</ppi>
 		<dpi>~160dpi</dpi>
 		<css_pixel_ratio>0.63</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>5:8</aspect_ratio>
 		<graphics_array>WXGA</graphics_array>
 		<os>2.1</os>
@@ -572,6 +619,7 @@
 		<ppi>256ppi</ppi>
 		<dpi>~240dpi</dpi>
 		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>qHD</graphics_array>
 		<os>4.4.4</os>
@@ -584,6 +632,7 @@
 		<ppi>326ppi</ppi>
 		<dpi>~320dpi</dpi>
 		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>HD/WXGA</graphics_array>
 		<os>4.2</os>
@@ -596,6 +645,7 @@
 		<ppi>294ppi</ppi>
 		<dpi>~320dpi</dpi>
 		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>HD</graphics_array>
 		<os>4.4.4</os>
@@ -608,6 +658,7 @@
 		<ppi>312ppi</ppi>
 		<dpi>~320dpi</dpi>
 		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>HD/WXGA</graphics_array>
 		<os>4.2</os>
@@ -620,6 +671,7 @@
 		<ppi>423ppi</ppi>
 		<dpi>~480dpi</dpi>
 		<css_pixel_ratio>3</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
 		<os>4.4.4</os>
@@ -632,6 +684,7 @@
 		<ppi>318ppi</ppi>
 		<dpi>~320dpi</dpi>
 		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>15:9</aspect_ratio>
 		<graphics_array>HD/WXGA</graphics_array>
 		<os>4.2.2</os>
@@ -644,6 +697,7 @@
 		<ppi>445ppi</ppi>
 		<dpi>~480dpi</dpi>
 		<css_pixel_ratio>3</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
 		<os>4.4.4</os>
@@ -656,6 +710,7 @@
 		<ppi>493ppi</ppi>
 		<dpi>~480dpi</dpi>
 		<css_pixel_ratio>3</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>QHD</graphics_array>
 		<os>5</os>
@@ -667,7 +722,8 @@
 		<screen_size>7.0-inches</screen_size>
 		<ppi>216ppi</ppi>
 		<dpi>~212dpi</dpi>
-		<css_pixel_ratio>1.33*mdpi</css_pixel_ratio>
+		<css_pixel_ratio>1.33</css_pixel_ratio>
+		<css_width>X</css_width>
 		<aspect_ratio>16:10</aspect_ratio>
 		<graphics_array>WXGA</graphics_array>
 		<os>4.2.2</os>

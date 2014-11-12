@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Devices</title>
+	<title>RWD Devices</title>
     	<style type="text/css">
 		table { font-family: verdana; background: #ccc; border-collapse: collapse; }
   		table th { padding: 5px; color: #fff; background: #000; font-weight: bold; }
@@ -11,114 +11,120 @@
 	</style>
     <script>
         var dispositivo;
-    
-        function xmlLoader(url)
-        {
-          if(window.XMLHttpRequest)
-          {
-            var Loader = new XMLHttpRequest();
-            Loader.open("GET", url ,false);
-            Loader.send(null);
-            return Loader.responseXML;
-          }
-          else if(window.ActiveXObject)
-          {
-            var Loader = new ActiveXObject("Msxml2.DOMDocument.3.0");
-            Loader.async = false;
-            Loader.load(url);
-            return Loader;
-          }
-        } 
-    
-        function mountTable(dispositivo)
-        {
-          // Imprime os dados
-          buffer = "<table  width='100%' border='1' style='border-collapse: collapse'>";
-          buffer += "<tr>";
-          buffer += "<th align=center><strong>Dispositivo</strong></th>";
-          buffer += "<th align=center><strong>Resolution</strong></th>";
-          buffer += "<th align=center><strong>Density</strong></th>";
-          buffer += "<th align=center><strong>Screen Size</strong></th>";
-          buffer += "<th align=center><strong>PPI</strong></th>";
-          buffer += "<th align=center><strong>DPI</strong></th>";
-          buffer += "<th align=center><strong>CSS Pixel Ratio</strong></th>";
-          buffer += "<th align=center><strong>Aspect Ratio</strong></th>";
-          buffer += "<th align=center><strong>Graphics Array</strong></th>";
-          buffer += "<th align=center><strong>OS</strong></th>";
-          buffer += "</tr>";
 
-          for(b=0; b<dispositivo.length; b++)
-          {
+        function xmlLoader(url) {
+            if (window.XMLHttpRequest) {
+                var Loader = new XMLHttpRequest();
+                Loader.open("GET", url, false);
+                Loader.send(null);
+                return Loader.responseXML;
+            }
+            else if (window.ActiveXObject) {
+                var Loader = new ActiveXObject("Msxml2.DOMDocument.3.0");
+                Loader.async = false;
+                Loader.load(url);
+                return Loader;
+            }
+        }
+
+        function mountTable(dispositivo) {
+            // Imprime os dados
+            buffer = "<table  width='100%' border='1' style='border-collapse: collapse'>";
             buffer += "<tr>";
-            buffer += "<td>"+ dispositivo[b].nome +"</td>";
-            buffer += "<td align=center>"+ dispositivo[b].resolution +"</td>";
-            buffer += "<td align=center>"+ dispositivo[b].density +"</td>";
-            buffer += "<td align=center>"+ dispositivo[b].screen_size +"</td>";
-            buffer += "<td align=center>"+ dispositivo[b].ppi +"</td>";
-            buffer += "<td align=center>"+ dispositivo[b].dpi +"</td>";
-            buffer += "<td align=center>"+ dispositivo[b].css_pixel_ratio +"</td>";
-            buffer += "<td align=center>"+ dispositivo[b].aspect_ratio +"</td>";
-            buffer += "<td align=center>"+ dispositivo[b].graphics_array +"</td>";
-            buffer += "<td align=center>"+ dispositivo[b].os +"</td>";
+            buffer += "<th align=center><strong>Dispositivo</strong></th>";
+            buffer += "<th align=center><strong>Resolution</strong></th>";
+            buffer += "<th align=center><strong>Density</strong></th>";
+            buffer += "<th align=center><strong>Screen Size</strong></th>";
+            buffer += "<th align=center><strong>PPI</strong></th>";
+            buffer += "<th align=center><strong>DPI</strong></th>";
+            buffer += "<th align=center><strong>CSS Pixel Ratio</strong></th>";
+            buffer += "<th align=center><strong>CSS Width</strong></th>";
+            buffer += "<th align=center><strong>Aspect Ratio</strong></th>";
+            buffer += "<th align=center><strong>Graphics Array</strong></th>";
+            buffer += "<th align=center><strong>OS</strong></th>";
             buffer += "</tr>";
-          }
-      
-          buffer += "</table>";
-          document.write(buffer);
-        }
-    
-        function Dispositivo()
-        {
-          var nome = "";
-          var resolution = "";
-          var density = "";
-          var screen_size = "";
-          var ppi = "";
-          var dpi = "";
-          var css_pixel_ratio = "";
-          var aspect_ratio = "";
-          var graphics_array = "";
-          var os = "";
-        }
-    
-        function xmlParserDispositivosSimplificado(xmlNode)
-        {
-          dispositivo = new Array();
-          var contador = 0;
-      
-          // Captura o Root Element
-          xmlRootNode = xmlNode.getElementsByTagName('dispositivos')[0];
-      
-          // Captura o array de filhos do Root Element
-          xmlListaDevices = xmlRootNode.getElementsByTagName('device');
 
-          // Navega por casa tag 'pessoa'
-          for(i=0; i<xmlListaDevices.length; i++)
-          {
-            // Cria o objeto pessoa
-            dispositivo[i] = new Dispositivo();
-        
-            // Acessa os dados (nós filhos) de uma pessoa
-            xmlDeviceNode = xmlListaDevices[i];
-            dispositivo[i].nome = xmlDeviceNode.getElementsByTagName('nome')[0].firstChild.nodeValue;
-            dispositivo[i].resolution = xmlDeviceNode.getElementsByTagName('resolution')[0].firstChild.nodeValue;
-            dispositivo[i].density = xmlDeviceNode.getElementsByTagName('density')[0].firstChild.nodeValue;
-            dispositivo[i].screen_size = xmlDeviceNode.getElementsByTagName('screen_size')[0].firstChild.nodeValue;
-            dispositivo[i].ppi = xmlDeviceNode.getElementsByTagName('ppi')[0].firstChild.nodeValue;
-            dispositivo[i].dpi = xmlDeviceNode.getElementsByTagName('dpi')[0].firstChild.nodeValue;
-            dispositivo[i].css_pixel_ratio = xmlDeviceNode.getElementsByTagName('css_pixel_ratio')[0].firstChild.nodeValue;
-            dispositivo[i].aspect_ratio = xmlDeviceNode.getElementsByTagName('aspect_ratio')[0].firstChild.nodeValue;
-            dispositivo[i].graphics_array = xmlDeviceNode.getElementsByTagName('graphics_array')[0].firstChild.nodeValue;
-            dispositivo[i].os = xmlDeviceNode.getElementsByTagName('os')[0].firstChild.nodeValue;
-        
-            // Acessa os atributos
-            //dispositivos[contador].categoria = xmlDeviceNode.attributes['categoria'].nodeValue;
-        
-            // Avança uma posição no array
-            //i++;
-          }
+            for (b = 0; b < dispositivo.length; b++) {
+                buffer += "<tr>";
+                buffer += "<td>" + dispositivo[b].nome + "</td>";
+                buffer += "<td align=center>" + dispositivo[b].resolution + "</td>";
+                buffer += "<td align=center>" + dispositivo[b].density + "</td>";
+                buffer += "<td align=center>" + dispositivo[b].screen_size + "</td>";
+                buffer += "<td align=center>" + dispositivo[b].ppi + "</td>";
+                buffer += "<td align=center>" + dispositivo[b].dpi + "</td>";
+                buffer += "<td align=center>" + dispositivo[b].css_pixel_ratio + "</td>";
+                buffer += "<td align=center>" + dispositivo[b].css_width + "</td>";
+                buffer += "<td align=center>" + dispositivo[b].aspect_ratio + "</td>";
+                buffer += "<td align=center>" + dispositivo[b].graphics_array + "</td>";
+                buffer += "<td align=center>" + dispositivo[b].os + "</td>";
+                buffer += "</tr>";
+            }
 
-          mountTable(dispositivo);
+            buffer += "</table>";
+            document.write(buffer);
+        }
+
+        function Dispositivo() {
+            var nome = "";
+            var resolution = "";
+            var density = "";
+            var screen_size = "";
+            var ppi = "";
+            var dpi = "";
+            var css_pixel_ratio = "";
+            var css_width = "";
+            var aspect_ratio = "";
+            var graphics_array = "";
+            var os = "";
+        }
+
+        function xmlParserDispositivosSimplificado(xmlNode) {
+            dispositivo = new Array();
+            var contador = 0;
+
+            // Captura o Root Element
+            xmlRootNode = xmlNode.getElementsByTagName('dispositivos')[0];
+
+            // Captura o array de filhos do Root Element
+            xmlListaDevices = xmlRootNode.getElementsByTagName('device');
+
+            // Navega por casa tag 'pessoa'
+            for (i = 0; i < xmlListaDevices.length; i++) {
+                // Cria o objeto pessoa
+                dispositivo[i] = new Dispositivo();
+
+                // Acessa os dados (nós filhos) de uma pessoa
+                xmlDeviceNode = xmlListaDevices[i];
+                dispositivo[i].nome = xmlDeviceNode.getElementsByTagName('nome')[0].firstChild.nodeValue;
+                dispositivo[i].resolution = xmlDeviceNode.getElementsByTagName('resolution')[0].firstChild.nodeValue;
+                dispositivo[i].density = xmlDeviceNode.getElementsByTagName('density')[0].firstChild.nodeValue;
+                dispositivo[i].screen_size = xmlDeviceNode.getElementsByTagName('screen_size')[0].firstChild.nodeValue;
+                dispositivo[i].ppi = xmlDeviceNode.getElementsByTagName('ppi')[0].firstChild.nodeValue;
+                dispositivo[i].dpi = xmlDeviceNode.getElementsByTagName('dpi')[0].firstChild.nodeValue;
+                dispositivo[i].css_pixel_ratio = xmlDeviceNode.getElementsByTagName('css_pixel_ratio')[0].firstChild.nodeValue;
+                dispositivo[i].css_width = xmlDeviceNode.getElementsByTagName('css_width')[0].firstChild.nodeValue;
+                dispositivo[i].aspect_ratio = xmlDeviceNode.getElementsByTagName('aspect_ratio')[0].firstChild.nodeValue;
+                dispositivo[i].graphics_array = xmlDeviceNode.getElementsByTagName('graphics_array')[0].firstChild.nodeValue;
+                dispositivo[i].os = xmlDeviceNode.getElementsByTagName('os')[0].firstChild.nodeValue;
+
+                if (parseFloat(dispositivo[i].css_pixel_ratio) == 0.63 || parseFloat(dispositivo[i].css_pixel_ratio) == 0.75) {
+                    dispositivo[i].css_width = parseFloat(dispositivo[i].resolution) * parseFloat(dispositivo[i].css_pixel_ratio);
+                }
+                else if (parseFloat(dispositivo[i].css_pixel_ratio) == 1.33) {
+                    dispositivo[i].css_width = (parseFloat(dispositivo[i].resolution) / parseFloat(dispositivo[i].css_pixel_ratio)).toFixed(0);
+                }
+                else {
+                    dispositivo[i].css_width = parseFloat(dispositivo[i].resolution) / parseFloat(dispositivo[i].css_pixel_ratio);
+                }
+
+                // Acessa os atributos
+                //dispositivos[contador].categoria = xmlDeviceNode.attributes['categoria'].nodeValue;
+
+                // Avança uma posição no array
+                //i++;
+            }
+
+            mountTable(dispositivo);
         }
 
         xml = xmlLoader("meus_devices.xml");
