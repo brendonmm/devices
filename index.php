@@ -4,11 +4,12 @@
 	<meta charset="UTF-8">
 	<title>RWD Devices</title>
     	<style type="text/css">
-		table { font-family: verdana; background: #ccc; border-collapse: collapse; }
-  		table th { padding: 5px; color: #fff; background: #000; font-weight: bold; }
-		table td { padding: 5px; }
-		table td:first-child { font-weight: bold; }
+		table { font-family: 'Trebuchet MS', 'Courier New', Arial, sans-serif; background: #ccc; border-collapse: collapse; }
+  		table th { padding: 5px; font-size: 16px; font-weight: bold; color: #fff; background: #000; }
+		table td { font-family: 'Courier New', Arial, sans-serif; padding: 5px; }
+		table td:nth-child(2) { font-family: 'Trebuchet MS', 'Courier New', Arial, sans-serif; background: #bbb; font-weight: bold; }
 	</style>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
     <script>
         var dispositivo;
 
@@ -31,6 +32,7 @@
             // Imprime os dados
             buffer = "<table  width='100%' border='1' style='border-collapse: collapse'>";
             buffer += "<tr>";
+            buffer += "<th align=center><strong></strong></th>";
             buffer += "<th align=center><strong>Dispositivo</strong></th>";
             buffer += "<th align=center><strong>Resolution</strong></th>";
             buffer += "<th align=center><strong>Density</strong></th>";
@@ -46,6 +48,7 @@
 
             for (b = 0; b < dispositivo.length; b++) {
                 buffer += "<tr>";
+                buffer += "<td>" + '<img src="images/' + dispositivo[b].icon + '.png" alt="'+ dispositivo[b].icon +'" />' + "</td>";
                 buffer += "<td>" + dispositivo[b].nome + "</td>";
                 buffer += "<td align=center>" + dispositivo[b].resolution + "</td>";
                 buffer += "<td align=center>" + dispositivo[b].density + "</td>";
@@ -65,6 +68,7 @@
         }
 
         function Dispositivo() {
+            var icon = "";
             var nome = "";
             var resolution = "";
             var density = "";
@@ -95,6 +99,7 @@
 
                 // Acessa os dados (nós filhos) de uma pessoa
                 xmlDeviceNode = xmlListaDevices[i];
+                dispositivo[i].icon = xmlDeviceNode.getElementsByTagName('icon')[0].firstChild.nodeValue;
                 dispositivo[i].nome = xmlDeviceNode.getElementsByTagName('nome')[0].firstChild.nodeValue;
                 dispositivo[i].resolution = xmlDeviceNode.getElementsByTagName('resolution')[0].firstChild.nodeValue;
                 dispositivo[i].density = xmlDeviceNode.getElementsByTagName('density')[0].firstChild.nodeValue;

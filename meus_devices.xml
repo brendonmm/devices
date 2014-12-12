@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <dispositivos>
 	<device>
+		<icon>featurephone</icon>
 		<nome>Samsung Galaxy 5</nome>
 		<resolution>240 x 320</resolution>
 		<density>ldpi</density>
@@ -14,6 +15,7 @@
 		<os>2.1</os>
 	</device>
 	<device>
+		<icon>featurephone</icon>
 		<nome>Samsung Galaxy Y</nome>
 		<resolution>240 x 320</resolution>
 		<density>ldpi</density>
@@ -27,6 +29,7 @@
 		<os>2.2</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Samsung Galaxy Ace</nome>
 		<resolution>320 x 480</resolution>
 		<density>mdpi</density>
@@ -40,6 +43,7 @@
 		<os>2.3.3</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Samsung Galaxy S2</nome>
 		<resolution>480 × 800</resolution>
 		<density>hdpi</density>
@@ -53,6 +57,7 @@
 		<os>2.3</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Samsung Galaxy S Duos</nome>
 		<resolution>480 x 800</resolution>
 		<density>hdpi</density>
@@ -66,6 +71,7 @@
 		<os>4.0.3</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Samsung Galaxy Note 2</nome>
 		<resolution>720 x 1280</resolution>
 		<density>hdpi</density>
@@ -79,6 +85,7 @@
 		<os>4.1.2</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Samsung Galaxy Note 3</nome>
 		<resolution>1080 x 1920</resolution>
 		<density>xxhdpi</density>
@@ -92,6 +99,7 @@
 		<os>4.2.2</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Samsung Galaxy S3</nome>
 		<resolution>720 x 1280</resolution>
 		<density>xhdpi</density>
@@ -105,6 +113,7 @@
 		<os>4.2</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Samsung Galaxy S4</nome>
 		<resolution>1080 x 1920</resolution>
 		<density>xxhdpi</density>
@@ -118,6 +127,7 @@
 		<os>4.2.2</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Samsung Galaxy S5</nome>
 		<resolution>1080 x 1920</resolution>
 		<density>xxhdpi</density>
@@ -131,6 +141,7 @@
 		<os>4.2.2</os>
 	</device>
 	<device>
+		<icon>tablet</icon>
 		<nome>Samsung Galaxy Tab 7</nome>
 		<resolution>600 x 1024</resolution>
 		<density>mdpi</density>
@@ -144,6 +155,7 @@
 		<os>2.2</os>
 	</device>
 	<device>
+		<icon>tablet</icon>
 		<nome>Samsung Galaxy Tab 8</nome>
 		<resolution>800 x 1280</resolution>
 		<density>mdpi</density>
@@ -157,6 +169,7 @@
 		<os>2.2</os>
 	</device>
 	<device>
+		<icon>tablet</icon>
 		<nome>Samsung Galaxy Tab 10.1</nome>
 		<resolution>800 x 1280</resolution>
 		<density>mdpi</density>
@@ -170,6 +183,7 @@
 		<os>3.1</os>
 	</device>
 	<device>
+		<icon>tablet</icon>
 		<nome>Samsung Galaxy Tab 2 10.1</nome>
 		<resolution>800 x 1280</resolution>
 		<density>ldpi</density>
@@ -183,6 +197,7 @@
 		<os>4.0</os>
 	</device>
 	<device>
+		<icon>tablet</icon>
 		<nome>Samsung Galaxy Tab 3 10.1</nome>
 		<resolution>800 x 1280</resolution>
 		<density>ldpi</density>
@@ -196,6 +211,7 @@
 		<os>4.0</os>
 	</device>
 	<device>
+		<icon>tablet</icon>
 		<nome>Samsung Galaxy Tab 4 10.1</nome>
 		<resolution>800 x 1280</resolution>
 		<density>ldpi</density>
@@ -209,6 +225,7 @@
 		<os>4.0</os>
 	</device>
 	<device>
+		<icon>tablet</icon>
 		<nome>Samsung Galaxy Tab Pro 8.4</nome>
 		<resolution>1600 x 2560</resolution>
 		<density>xhdpi</density>
@@ -222,6 +239,7 @@
 		<os>4.0</os>
 	</device>
 	<device>
+		<icon>tablet</icon>
 		<nome>Samsung Galaxy Tab Pro 12.2</nome>
 		<resolution>1600 x 2560</resolution>
 		<density>hdpi</density>
@@ -235,6 +253,7 @@
 		<os>4.0</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Apple iPhone 3GS</nome>
 		<resolution>320 x 480</resolution>
 		<density>mdpi</density>
@@ -248,6 +267,7 @@
         <os>N/A</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Apple iPhone 4</nome>
 		<resolution>640 × 960</resolution>
 		<density>xhdpi</density>
@@ -261,6 +281,7 @@
         <os>N/A</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Apple iPhone 4S</nome>
 		<resolution>640 × 960</resolution>
 		<density>xhdpi</density>
@@ -274,6 +295,7 @@
         <os>5</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Apple iPhone 5</nome>
 		<resolution>640 x 1136</resolution>
 		<density>xhdpi</density>
@@ -287,6 +309,7 @@
         <os>6</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Apple iPhone 5C</nome>
 		<resolution>640 x 1136</resolution>
 		<density>xhdpi</density>
@@ -300,6 +323,7 @@
         <os>7</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Apple iPhone 5S</nome>
 		<resolution>640 x 1136</resolution>
 		<density>xhdpi</density>
@@ -313,6 +337,7 @@
         <os>7</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Apple iPhone 6</nome>
 		<resolution>750 x 1334</resolution>
 		<density>xhdpi</density>
@@ -326,6 +351,7 @@
         <os>8</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Apple iPhone 6 Plus</nome>
 		<resolution>1080 x 1920</resolution>
 		<density>xxhdpi</density>
@@ -339,6 +365,7 @@
         <os>8</os>
 	</device>
 	<device>
+		<icon>tablet</icon>
 		<nome>Apple iPad Mini</nome>
 		<resolution>768 x 1024</resolution>
 		<density>mdpi</density>
@@ -352,6 +379,7 @@
         <os>N/A</os>
 	</device>
 	<device>
+		<icon>tablet</icon>
 		<nome>Apple iPad Mini 2</nome>
 		<resolution>768 x 1024</resolution>
 		<density>mdpi</density>
@@ -365,6 +393,7 @@
         <os>N/A</os>
 	</device>
 	<device>
+		<icon>tablet</icon>
 		<nome>Apple iPad 2</nome>
 		<resolution>768 x 1024</resolution>
 		<density>ldpi</density>
@@ -378,6 +407,7 @@
         <os>N/A</os>
 	</device>
 	<device>
+		<icon>tablet</icon>
 		<nome>Apple iPad Retina</nome>
 		<resolution>1536 x 2048</resolution>
 		<density>hdpi</density>
@@ -391,6 +421,7 @@
         <os>N/A</os>
 	</device>
 	<device>
+		<icon>tablet</icon>
 		<nome>Apple iPad Air</nome>
 		<resolution>1536 x 2048</resolution>
 		<density>hdpi</density>
@@ -404,6 +435,7 @@
         <os>N/A</os>
 	</device>
 	<device>
+		<icon>tablet</icon>
 		<nome>Microsoft Surface</nome>
 		<resolution>768 x 1366</resolution>
 		<density>ldpi</density>
@@ -417,6 +449,7 @@
 		<os>8</os>
 	</device>
 	<device>
+		<icon>tablet</icon>
 		<nome>Microsoft Surface 2</nome>
 		<resolution>1080 x 1920</resolution>
 		<density>ldpi</density>
@@ -430,6 +463,7 @@
 		<os>8</os>
 	</device>
 	<device>
+		<icon>tablet</icon>
 		<nome>Microsoft Surface Pro</nome>
 		<resolution>1080 x 1920</resolution>
 		<density>hdpi</density>
@@ -443,6 +477,7 @@
 		<os>8</os>
 	</device>
 	<device>
+		<icon>tablet</icon>
 		<nome>Microsoft Surface Pro 2</nome>
 		<resolution>1080 x 1920</resolution>
 		<density>hdpi</density>
@@ -456,6 +491,7 @@
 		<os>8</os>
 	</device>
 	<device>
+		<icon>tablet</icon>
 		<nome>Microsoft Surface Pro 3</nome>
 		<resolution>1140 x 2160</resolution>
 		<density>hdpi</density>
@@ -469,6 +505,7 @@
 		<os>8</os>
 	</device>
 	<device>
+		<icon>tablet</icon>
 		<nome>Microsoft Lumia 2520</nome>
 		<resolution>1080 x 1920</resolution>
 		<density>xxhdpi</density>
@@ -482,6 +519,7 @@
 		<os>8</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Microsoft Lumia 520</nome>
 		<resolution>480 x 800</resolution>
 		<density>hdpi</density>
@@ -495,6 +533,7 @@
 		<os>8</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Microsoft Lumia 720</nome>
 		<resolution>480 x 800</resolution>
 		<density>hdpi</density>
@@ -508,6 +547,7 @@
 		<os>8</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Microsoft Lumia 820</nome>
 		<resolution>480 x 800</resolution>
 		<density>hdpi</density>
@@ -521,6 +561,7 @@
 		<os>8</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Microsoft Lumia 925</nome>
 		<resolution>768 x 1280</resolution>
 		<density>xhdpi</density>
@@ -534,6 +575,7 @@
 		<os>8</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Microsoft Lumia 1020</nome>
 		<resolution>768 x 1280</resolution>
 		<density>xhdpi</density>
@@ -547,6 +589,7 @@
 		<os>8</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Microsoft Lumia 1320</nome>
 		<resolution>720 x 1280</resolution>
 		<density>hdpi</density>
@@ -560,6 +603,7 @@
 		<os>8</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Microsoft Lumia 1520</nome>
 		<resolution>1080 x 1920</resolution>
 		<density>xxhdpi</density>
@@ -573,6 +617,7 @@
 		<os>8</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Microsoft Lumia Icon</nome>
 		<resolution>1080 x 1920</resolution>
 		<density>xxhdpi</density>
@@ -586,6 +631,7 @@
 		<os>8</os>
 	</device>
 	<device>
+		<icon>tablet</icon>
 		<nome>Amazon Kindle Fire HD 8.9</nome>
 		<resolution>1200 x 1920</resolution>
 		<density>hdpi</density>
@@ -599,6 +645,7 @@
 		<os>2.1</os>
 	</device>
 	<device>
+		<icon>tablet</icon>
 		<nome>Motorola XOOM 2</nome>
 		<resolution>800 x 1280</resolution>
 		<density>mdpi</density>
@@ -612,6 +659,7 @@
 		<os>2.1</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Motorola Moto E</nome>
 		<resolution>540 x 960</resolution>
 		<density>hdpi</density>
@@ -625,6 +673,7 @@
 		<os>4.4.4</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Motorola Moto G</nome>
 		<resolution>720 x 1280</resolution>
 		<density>hdpi</density>
@@ -638,6 +687,7 @@
 		<os>4.2</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Motorola Moto G 2</nome>
 		<resolution>720 x 1280</resolution>
 		<density>hdpi</density>
@@ -651,6 +701,7 @@
 		<os>4.4.4</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Motorola Moto X</nome>
 		<resolution>720 x 1280</resolution>
 		<density>hdpi</density>
@@ -664,6 +715,7 @@
 		<os>4.2</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Motorola Moto X 2</nome>
 		<resolution>1080 x 1920</resolution>
 		<density>xxhdpi</density>
@@ -677,6 +729,7 @@
 		<os>4.4.4</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Google Nexus 4 (LG)</nome>
 		<resolution>768 x 1280</resolution>
 		<density>xhdpi</density>
@@ -690,6 +743,7 @@
 		<os>4.2.2</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Google Nexus 5 (LG)</nome>
 		<resolution>1080 x 1920</resolution>
 		<density>xxhdpi</density>
@@ -703,6 +757,7 @@
 		<os>4.4.4</os>
 	</device>
 	<device>
+		<icon>smartphone</icon>
 		<nome>Google Nexus 6 (Motorola)</nome>
 		<resolution>1440 x 2560</resolution>
 		<density>xxhdpi</density>
@@ -716,6 +771,7 @@
 		<os>5</os>
 	</device>
 	<device>
+		<icon>tablet</icon>
 		<nome>Google Nexus 7</nome>
 		<resolution>800 x 1280</resolution>
 		<density>tvdpi</density>
@@ -727,5 +783,103 @@
 		<aspect_ratio>16:10</aspect_ratio>
 		<graphics_array>WXGA</graphics_array>
 		<os>4.2.2</os>
+	</device>
+	<device>
+		<icon>laptop</icon>
+		<nome>Netbooks</nome>
+		<resolution>1280 x 800</resolution>
+		<density>N/A</density>
+		<screen_size>13.3-inches</screen_size>
+		<ppi>113ppi</ppi>
+		<dpi>~120dpi</dpi>
+		<css_pixel_ratio>1</css_pixel_ratio>
+		<css_width>1280</css_width>
+		<aspect_ratio>16:10</aspect_ratio>
+		<graphics_array>WXGA</graphics_array>
+		<os>N/A</os>
+	</device>
+	<device>
+		<icon>laptop</icon>
+		<nome>Ultrabook</nome>
+		<resolution>1366 x 768</resolution>
+		<density>N/A</density>
+		<screen_size>15.6-inches</screen_size>
+		<ppi>96ppi</ppi>
+		<dpi>~120dpi</dpi>
+		<css_pixel_ratio>1</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>16:9</aspect_ratio>
+		<graphics_array>HD/FWXGA</graphics_array>
+		<os>N/A</os>
+	</device>
+	<device>
+		<icon>desktop</icon>
+		<nome>Old Desktop</nome>
+		<resolution>1024 x 768</resolution>
+		<density>N/A</density>
+		<screen_size>14-inches</screen_size>
+		<ppi>91dpi</ppi>
+		<dpi>~120dpi</dpi>
+		<css_pixel_ratio>1</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>4:3</aspect_ratio>
+		<graphics_array>XGA</graphics_array>
+		<os>N/A</os>
+	</device>
+	<device>
+		<icon>desktop</icon>
+		<nome>Small Desktop</nome>
+		<resolution>1280 x 1024</resolution>
+		<density>N/A</density>
+		<screen_size>17.0-inches</screen_size>
+		<ppi>96ppi</ppi>
+		<dpi>~120dpi</dpi>
+		<css_pixel_ratio>1</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>16:9</aspect_ratio>
+		<graphics_array>SXGA</graphics_array>
+		<os>N/A</os>
+	</device>
+	<device>
+		<icon>desktop</icon>
+		<nome>Large Desktop</nome>
+		<resolution>1680 x 1050</resolution>
+		<density>N/A</density>
+		<screen_size>15.4-inches</screen_size>
+		<ppi>128ppi</ppi>
+		<dpi>~120dpi</dpi>
+		<css_pixel_ratio>1</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>16:10</aspect_ratio>
+		<graphics_array>WSXGA+</graphics_array>
+		<os>N/A</os>
+	</device>
+	<device>
+		<icon>desktop</icon>
+		<nome>FullHD Desktop</nome>
+		<resolution>1920 x 1080</resolution>
+		<density>N/A</density>
+		<screen_size>21.5-inches</screen_size>
+		<ppi>102ppi</ppi>
+		<dpi>~120dpi</dpi>
+		<css_pixel_ratio>1</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>16:9</aspect_ratio>
+		<graphics_array>UXGA</graphics_array>
+		<os>N/A</os>
+	</device>
+	<device>
+		<icon>desktop</icon>
+		<nome>FullHD Desktop Wide</nome>
+		<resolution>1920 x 1200</resolution>
+		<density>N/A</density>
+		<screen_size>15.4-inches</screen_size>
+		<ppi>147ppi</ppi>
+		<dpi>~120dpi</dpi>
+		<css_pixel_ratio>1</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>16:10</aspect_ratio>
+		<graphics_array>WUXGA</graphics_array>
+		<os>N/A</os>
 	</device>
 </dispositivos>
