@@ -13,6 +13,7 @@
 		<aspect_ratio>2:3</aspect_ratio>
 		<graphics_array>QVGA</graphics_array>
 		<os>2.1</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>featurephone</icon>
@@ -27,6 +28,7 @@
 		<aspect_ratio>2:3</aspect_ratio>
 		<graphics_array>QVGA</graphics_array>
 		<os>2.2</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -41,6 +43,7 @@
 		<aspect_ratio>2:3</aspect_ratio>
 		<graphics_array>HVGA</graphics_array>
 		<os>2.3.3</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -55,6 +58,7 @@
 		<aspect_ratio>3:5</aspect_ratio>
 		<graphics_array>WVGA</graphics_array>
 		<os>2.3</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -69,6 +73,7 @@
 		<aspect_ratio>3:5</aspect_ratio>
 		<graphics_array>WVGA</graphics_array>
 		<os>4.0.3</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -83,6 +88,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>HD/WXGA</graphics_array>
 		<os>4.1.2</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -97,6 +103,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>HD/WXGA</graphics_array>
 		<os>4.2.2</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -111,6 +118,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>HD/WXGA</graphics_array>
 		<os>4.2</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -125,6 +133,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
 		<os>4.2.2</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -139,6 +148,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
 		<os>4.2.2</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
@@ -153,6 +163,7 @@
 		<aspect_ratio>16:10</aspect_ratio>
 		<graphics_array>WSVGA</graphics_array>
 		<os>2.2</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
@@ -167,6 +178,7 @@
 		<aspect_ratio>16:10</aspect_ratio>
 		<graphics_array>WSVGA</graphics_array>
 		<os>2.2</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
@@ -181,6 +193,7 @@
 		<aspect_ratio>5:8</aspect_ratio>
 		<graphics_array>WXGA</graphics_array>
 		<os>3.1</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
@@ -195,6 +208,7 @@
 		<aspect_ratio>5:8</aspect_ratio>
 		<graphics_array>WXGA</graphics_array>
 		<os>4.0</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
@@ -209,6 +223,7 @@
 		<aspect_ratio>5:8</aspect_ratio>
 		<graphics_array>WXGA</graphics_array>
 		<os>4.0</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
@@ -223,6 +238,7 @@
 		<aspect_ratio>5:8</aspect_ratio>
 		<graphics_array>WXGA</graphics_array>
 		<os>4.0</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
@@ -237,6 +253,7 @@
 		<aspect_ratio>16:10</aspect_ratio>
 		<graphics_array>WQXGA</graphics_array>
 		<os>4.0</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
@@ -251,6 +268,7 @@
 		<aspect_ratio>16:10</aspect_ratio>
 		<graphics_array>WQXGA</graphics_array>
 		<os>4.0</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -265,6 +283,7 @@
 		<aspect_ratio>2:3</aspect_ratio>
 		<graphics_array>HVGA</graphics_array>
         <os>N/A</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -279,6 +298,7 @@
 		<aspect_ratio>1.5:1</aspect_ratio>
 		<graphics_array>DVGA</graphics_array>
         <os>N/A</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -293,6 +313,7 @@
 		<aspect_ratio>1.5:1</aspect_ratio>
 		<graphics_array>DVGA</graphics_array>
         <os>5</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -307,6 +328,7 @@
 		<aspect_ratio>17:10</aspect_ratio>
 		<graphics_array>Retina HD</graphics_array>
         <os>6</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -321,6 +343,7 @@
 		<aspect_ratio>17:10</aspect_ratio>
 		<graphics_array>Retina HD</graphics_array>
         <os>7</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -335,6 +358,7 @@
 		<aspect_ratio>17:10</aspect_ratio>
 		<graphics_array>Retina HD</graphics_array>
         <os>7</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -349,6 +373,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>Retina HD</graphics_array>
         <os>8</os>
+		<new>yes</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -363,6 +388,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>Retina HD</graphics_array>
         <os>8</os>
+		<new>yes</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
@@ -377,6 +403,7 @@
 		<aspect_ratio>4:3</aspect_ratio>
 		<graphics_array>XGA</graphics_array>
         <os>N/A</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
@@ -391,6 +418,7 @@
 		<aspect_ratio>4:3</aspect_ratio>
 		<graphics_array>XGA</graphics_array>
         <os>N/A</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
@@ -405,6 +433,7 @@
 		<aspect_ratio>4:3</aspect_ratio>
 		<graphics_array>XGA</graphics_array>
         <os>N/A</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
@@ -419,6 +448,7 @@
 		<aspect_ratio>4:3</aspect_ratio>
 		<graphics_array>QXGA</graphics_array>
         <os>N/A</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
@@ -433,6 +463,7 @@
 		<aspect_ratio>4:3</aspect_ratio>
 		<graphics_array>QXGA</graphics_array>
         <os>N/A</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
@@ -447,6 +478,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>HD</graphics_array>
 		<os>8</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
@@ -461,6 +493,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
 		<os>8</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
@@ -475,6 +508,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
 		<os>8</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
@@ -489,6 +523,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
 		<os>8</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
@@ -503,6 +538,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
 		<os>8</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
@@ -517,6 +553,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
 		<os>8</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -531,6 +568,7 @@
 		<aspect_ratio>15:9</aspect_ratio>
 		<graphics_array>WVGA</graphics_array>
 		<os>8</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -545,6 +583,7 @@
 		<aspect_ratio>15:9</aspect_ratio>
 		<graphics_array>WVGA</graphics_array>
 		<os>8</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -559,6 +598,7 @@
 		<aspect_ratio>15:9</aspect_ratio>
 		<graphics_array>WVGA</graphics_array>
 		<os>8</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -573,6 +613,7 @@
 		<aspect_ratio>15:9</aspect_ratio>
 		<graphics_array>HD/WXGA</graphics_array>
 		<os>8</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -587,6 +628,7 @@
 		<aspect_ratio>15:9</aspect_ratio>
 		<graphics_array>HD/WXGA</graphics_array>
 		<os>8</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -601,6 +643,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>HD/WXGA</graphics_array>
 		<os>8</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -615,6 +658,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
 		<os>8</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -629,6 +673,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
 		<os>8</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
@@ -643,6 +688,7 @@
 		<aspect_ratio>16:10</aspect_ratio>
 		<graphics_array>WUXGA</graphics_array>
 		<os>2.1</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
@@ -657,6 +703,7 @@
 		<aspect_ratio>5:8</aspect_ratio>
 		<graphics_array>WXGA</graphics_array>
 		<os>2.1</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -671,6 +718,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>qHD</graphics_array>
 		<os>4.4.4</os>
+		<new>yes</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -685,6 +733,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>HD/WXGA</graphics_array>
 		<os>4.2</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -699,6 +748,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>HD</graphics_array>
 		<os>4.4.4</os>
+		<new>yes</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -713,6 +763,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>HD/WXGA</graphics_array>
 		<os>4.2</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -727,6 +778,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
 		<os>4.4.4</os>
+		<new>yes</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -741,6 +793,7 @@
 		<aspect_ratio>15:9</aspect_ratio>
 		<graphics_array>HD/WXGA</graphics_array>
 		<os>4.2.2</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -755,6 +808,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
 		<os>4.4.4</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -769,6 +823,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>QHD</graphics_array>
 		<os>5</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
@@ -783,6 +838,7 @@
 		<aspect_ratio>16:10</aspect_ratio>
 		<graphics_array>WXGA</graphics_array>
 		<os>4.2.2</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>laptop</icon>
@@ -797,6 +853,7 @@
 		<aspect_ratio>16:10</aspect_ratio>
 		<graphics_array>WXGA</graphics_array>
 		<os>N/A</os>
+		<new>yes</new>
 	</device>
 	<device>
 		<icon>laptop</icon>
@@ -811,6 +868,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>HD/FWXGA</graphics_array>
 		<os>N/A</os>
+		<new>yes</new>
 	</device>
 	<device>
 		<icon>desktop</icon>
@@ -825,6 +883,7 @@
 		<aspect_ratio>4:3</aspect_ratio>
 		<graphics_array>XGA</graphics_array>
 		<os>N/A</os>
+		<new>yes</new>
 	</device>
 	<device>
 		<icon>desktop</icon>
@@ -839,6 +898,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>SXGA</graphics_array>
 		<os>N/A</os>
+		<new>yes</new>
 	</device>
 	<device>
 		<icon>desktop</icon>
@@ -853,6 +913,7 @@
 		<aspect_ratio>16:10</aspect_ratio>
 		<graphics_array>WSXGA+</graphics_array>
 		<os>N/A</os>
+		<new>yes</new>
 	</device>
 	<device>
 		<icon>desktop</icon>
@@ -867,6 +928,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>UXGA</graphics_array>
 		<os>N/A</os>
+		<new>yes</new>
 	</device>
 	<device>
 		<icon>desktop</icon>
@@ -881,5 +943,6 @@
 		<aspect_ratio>16:10</aspect_ratio>
 		<graphics_array>WUXGA</graphics_array>
 		<os>N/A</os>
+		<new>yes</new>
 	</device>
 </dispositivos>
