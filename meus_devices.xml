@@ -373,7 +373,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>Retina HD</graphics_array>
         <os>8</os>
-		<new>yes</new>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -388,7 +388,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>Retina HD</graphics_array>
         <os>8</os>
-		<new>yes</new>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
@@ -653,7 +653,7 @@
 		<screen_size>6.0-inches</screen_size>
 		<ppi>367ppi</ppi>
 		<dpi>~320dpi</dpi>
-		<css_pixel_ratio>3</css_pixel_ratio>
+		<css_pixel_ratio>2.22</css_pixel_ratio>
 		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
@@ -718,7 +718,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>qHD</graphics_array>
 		<os>4.4.4</os>
-		<new>yes</new>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -748,7 +748,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>HD</graphics_array>
 		<os>4.4.4</os>
-		<new>yes</new>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -778,7 +778,37 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
 		<os>4.4.4</os>
+		<new>no</new>
+	</device>
+	<device>
+		<icon>smartphone</icon>
+		<nome>Motorola Moto MAXX</nome>
+		<resolution>1440 x 2560</resolution>
+		<density>xxhdpi</density>
+		<screen_size>5.2-inches</screen_size>
+		<ppi>565ppi</ppi>
+		<dpi>~480dpi</dpi>
+		<css_pixel_ratio>4</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>16:9</aspect_ratio>
+		<graphics_array>QHD</graphics_array>
+		<os>4.4.4</os>
 		<new>yes</new>
+	</device>
+	<device>
+		<icon>smartphone</icon>
+		<nome>BlackBerry Z10</nome>
+		<resolution>768 x 1280</resolution>
+		<density>xxhdpi</density>
+		<screen_size>4.2-inches</screen_size>
+		<ppi>355ppi</ppi>
+		<dpi>~320dpi</dpi>
+		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>5:3</aspect_ratio>
+		<graphics_array>WXGA</graphics_array>
+		<os>10</os>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -818,7 +848,7 @@
 		<screen_size>5.96-inches</screen_size>
 		<ppi>493ppi</ppi>
 		<dpi>~480dpi</dpi>
-		<css_pixel_ratio>3</css_pixel_ratio>
+		<css_pixel_ratio>3.5</css_pixel_ratio>
 		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>QHD</graphics_array>
@@ -827,7 +857,7 @@
 	</device>
 	<device>
 		<icon>tablet</icon>
-		<nome>Google Nexus 7</nome>
+		<nome>Google Nexus 7 (ASUS)</nome>
 		<resolution>800 x 1280</resolution>
 		<density>tvdpi</density>
 		<screen_size>7.0-inches</screen_size>
@@ -839,6 +869,21 @@
 		<graphics_array>WXGA</graphics_array>
 		<os>4.2.2</os>
 		<new>no</new>
+	</device>
+	<device>
+		<icon>tablet</icon>
+		<nome>Google Nexus 7 2 (ASUS)</nome>
+		<resolution>1200 x 1920</resolution>
+		<density>hxdpi</density>
+		<screen_size>7.0-inches</screen_size>
+		<ppi>323ppi</ppi>
+		<dpi>~320dpi</dpi>
+		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>16:10</aspect_ratio>
+		<graphics_array>WUXGA</graphics_array>
+		<os>4.3</os>
+		<new>yes</new>
 	</device>
 	<device>
 		<icon>laptop</icon>
@@ -853,7 +898,7 @@
 		<aspect_ratio>16:10</aspect_ratio>
 		<graphics_array>WXGA</graphics_array>
 		<os>N/A</os>
-		<new>yes</new>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>laptop</icon>
@@ -868,7 +913,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>HD/FWXGA</graphics_array>
 		<os>N/A</os>
-		<new>yes</new>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>desktop</icon>
@@ -883,7 +928,7 @@
 		<aspect_ratio>4:3</aspect_ratio>
 		<graphics_array>XGA</graphics_array>
 		<os>N/A</os>
-		<new>yes</new>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>desktop</icon>
@@ -898,7 +943,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>SXGA</graphics_array>
 		<os>N/A</os>
-		<new>yes</new>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>desktop</icon>
@@ -913,7 +958,7 @@
 		<aspect_ratio>16:10</aspect_ratio>
 		<graphics_array>WSXGA+</graphics_array>
 		<os>N/A</os>
-		<new>yes</new>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>desktop</icon>
@@ -928,7 +973,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>UXGA</graphics_array>
 		<os>N/A</os>
-		<new>yes</new>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>desktop</icon>
@@ -943,6 +988,6 @@
 		<aspect_ratio>16:10</aspect_ratio>
 		<graphics_array>WUXGA</graphics_array>
 		<os>N/A</os>
-		<new>yes</new>
+		<new>no</new>
 	</device>
 </dispositivos>

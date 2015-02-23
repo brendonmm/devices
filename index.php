@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>RWD Devices</title>
     <style type="text/css">
-		table { font-family: 'Trebuchet MS', 'Courier Pro', 'Courier New', Arial, sans-serif; background: #ccc; border-collapse: collapse; }
+		table { font-family: 'Trebuchet MS', 'Courier Pro', 'Courier New', Arial, sans-serif; background: #ccc; border-color: #000; border-collapse: collapse; }
   		table th { padding: 5px; font-size: 16px; font-weight: bold; color: #fff; background: #000; }
 		table td { font-family: 'Courier Pro', 'Courier New', Arial, sans-serif; padding: 5px; }
 		table td:nth-child(2) { font-family: 'Trebuchet MS', 'Courier New', Arial, sans-serif; background: #bbb; font-weight: bold; }
@@ -78,7 +78,6 @@
 
             buffer += "</table>";
             document.write(buffer);
-            document.write('<div class="alert">Legenda: <span class="span-novo">ADICIONADO RECENTEMENTE</span> <span class="span-antigo">JÁ EXISTIAM</span></div><br>');
         }
 
         function Dispositivo() {
@@ -131,7 +130,7 @@
                 if (parseFloat(dispositivo[i].css_pixel_ratio) == 0.63 || parseFloat(dispositivo[i].css_pixel_ratio) == 0.75) {
                     dispositivo[i].css_width = parseFloat(dispositivo[i].resolution) * parseFloat(dispositivo[i].css_pixel_ratio);
                 }
-                else if (parseFloat(dispositivo[i].css_pixel_ratio) == 1.33) {
+                else if (parseFloat(dispositivo[i].css_pixel_ratio) == 1.33 || parseFloat(dispositivo[i].css_pixel_ratio) == 3.5 || parseFloat(dispositivo[i].css_pixel_ratio) == 2.22) {
                     dispositivo[i].css_width = (parseFloat(dispositivo[i].resolution) / parseFloat(dispositivo[i].css_pixel_ratio)).toFixed(0);
                 }
                 else {
@@ -151,8 +150,9 @@
         xml = xmlLoader("meus_devices.xml");
         xmlParserDispositivosSimplificado(xml);
     </script>
+
 </head>
 <body>
-
+    <div class="alert">Legenda: <span class="span-novo">ADICIONADO RECENTEMENTE</span> <span class="span-antigo">JÁ EXISTIAM</span></div>
 </body>
 </html>
