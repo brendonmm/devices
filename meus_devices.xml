@@ -13,7 +13,7 @@
 		<aspect_ratio>2:3</aspect_ratio>
 		<graphics_array>QVGA</graphics_array>
 		<os>2.1</os>
-		<new>no</new>
+		<new>old</new>
 	</device>
 	<device>
 		<icon>featurephone</icon>
@@ -28,7 +28,7 @@
 		<aspect_ratio>2:3</aspect_ratio>
 		<graphics_array>QVGA</graphics_array>
 		<os>2.2</os>
-		<new>no</new>
+		<new>old</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -152,22 +152,7 @@
 	</device>
 	<device>
 		<icon>smartphone</icon>
-		<nome>Samsung Galaxy S6</nome>
-		<resolution>1440 x 2560</resolution>
-		<density>xxxhdpi</density>
-		<screen_size>5.1-inches</screen_size>
-		<ppi>577ppi</ppi>
-		<dpi>~640dpi</dpi>
-		<css_pixel_ratio>4</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>QHD</graphics_array>
-		<os>5.0.2</os>
-		<new>yes</new>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Samsung Galaxy S6 Edge</nome>
+		<nome>Samsung Galaxy S6 (Edge)</nome>
 		<resolution>1440 x 2560</resolution>
 		<density>xxxhdpi</density>
 		<screen_size>5.1-inches</screen_size>

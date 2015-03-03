@@ -10,10 +10,13 @@
 		table td:nth-child(2) { font-family: 'Trebuchet MS', 'Courier New', Arial, sans-serif; background: #bbb; font-weight: bold; }
         .novo td { background: #dec36a; }
         .novo td:nth-child(2) { background: #aa6d22; }
+        .descontinuado td { background: #d56868; }
+        .descontinuado td:nth-child(2) { background: #d56868; }
         .alert { margin: 20px 0; font-family: 'Trebuchet MS', 'Courier Pro', 'Courier New', Arial, sans-serif; position: relative; float: left; }
         .alert span { font-family: 'Courier Pro', 'Courier New', Arial, sans-serif; }
         .span-novo { width: auto; height: 20px; padding: 5px; color: #aa6d22; border: 1px solid #aa6d22; background: #dec36a; position: relative; }
         .span-antigo { width: auto; height: 20px; padding: 5px; color: #888; border: 1px solid #bbb; background: #ccc; position: relative; }
+        .span-descontinuado { width: auto; height: 20px; padding: 5px; color: #e2dada; border: 1px solid #e2dada; background: #d56868; position: relative; }
 	</style>
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />    
     <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -56,6 +59,8 @@
             for (b = 0; b < dispositivo.length; b++) {
                 if (dispositivo[b].novo === 'yes') {
                     buffer += "<tr class=\"novo\">";
+                } else if (dispositivo[b].novo === 'old') {
+                    buffer += "<tr class=\"descontinuado\">";
                 } else {
                     buffer += "<tr>";
                 }
@@ -153,6 +158,6 @@
 
 </head>
 <body>
-    <div class="alert">Legenda: <span class="span-novo">ADICIONADO RECENTEMENTE</span> <span class="span-antigo">JÁ EXISTIAM</span></div>
+    <div class="alert">Legenda: <span class="span-novo">ADICIONADO RECENTEMENTE</span> <span class="span-antigo">JÁ EXISTIAM</span> <span class="span-descontinuado">DESCONTINUADO</span></div>
 </body>
 </html>

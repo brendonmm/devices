@@ -14,7 +14,7 @@
         "aspect_ratio": "2:3",
         "graphics_array": "QVGA",
         "os": "2.1",
-        "new": "no"
+        "new": "old"
       },
       {
         "icon": "featurephone",
@@ -29,7 +29,7 @@
         "aspect_ratio": "2:3",
         "graphics_array": "QVGA",
         "os": "2.2",
-        "new": "no"
+        "new": "old"
       },
       {
         "icon": "smartphone",
@@ -153,22 +153,7 @@
       },
       {
         "icon": "smartphone",
-        "nome": "Samsung Galaxy S6",
-        "resolution": "1440 x 2560",
-        "density": "xxxhdpi",
-        "screen_size": "5.1-inches",
-        "ppi": "577ppi",
-        "dpi": "~640dpi",
-        "css_pixel_ratio": "4",
-        "css_width": "X",
-        "aspect_ratio": "16:9",
-        "graphics_array": "QHD",
-        "os": "5.0.2",
-        "new": "yes"
-      },
-      {
-        "icon": "smartphone",
-        "nome": "Samsung Galaxy S6 Edge",
+        "nome": "Samsung Galaxy S6 (Edge)",
         "resolution": "1440 x 2560",
         "density": "xxxhdpi",
         "screen_size": "5.1-inches",
