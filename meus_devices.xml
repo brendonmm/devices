@@ -151,6 +151,36 @@
 		<new>no</new>
 	</device>
 	<device>
+		<icon>smartphone</icon>
+		<nome>Samsung Galaxy S6</nome>
+		<resolution>1440 x 2560</resolution>
+		<density>xxhdpi</density>
+		<screen_size>5.1-inches</screen_size>
+		<ppi>577ppi</ppi>
+		<dpi>~480dpi</dpi>
+		<css_pixel_ratio>3</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>16:9</aspect_ratio>
+		<graphics_array>FHD</graphics_array>
+		<os>5.0.2</os>
+		<new>yes</new>
+	</device>
+	<device>
+		<icon>smartphone</icon>
+		<nome>Samsung Galaxy S6 Edge</nome>
+		<resolution>1440 x 2560</resolution>
+		<density>xxhdpi</density>
+		<screen_size>5.1-inches</screen_size>
+		<ppi>577ppi</ppi>
+		<dpi>~480dpi</dpi>
+		<css_pixel_ratio>3</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>16:9</aspect_ratio>
+		<graphics_array>FHD</graphics_array>
+		<os>5.0.2</os>
+		<new>yes</new>
+	</device>
+	<device>
 		<icon>tablet</icon>
 		<nome>Samsung Galaxy Tab 7</nome>
 		<resolution>600 x 1024</resolution>
@@ -793,7 +823,7 @@
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>QHD</graphics_array>
 		<os>4.4.4</os>
-		<new>yes</new>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -883,7 +913,7 @@
 		<aspect_ratio>16:10</aspect_ratio>
 		<graphics_array>WUXGA</graphics_array>
 		<os>4.3</os>
-		<new>yes</new>
+		<new>no</new>
 	</device>
 	<device>
 		<icon>laptop</icon>
