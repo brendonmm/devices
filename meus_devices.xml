@@ -13,7 +13,7 @@
 		<aspect_ratio>2:3</aspect_ratio>
 		<graphics_array>QVGA</graphics_array>
 		<os>2.1</os>
-		<new>old</new>
+		<new>obs</new>
 	</device>
 	<device>
 		<icon>featurephone</icon>
@@ -28,7 +28,7 @@
 		<aspect_ratio>2:3</aspect_ratio>
 		<graphics_array>QVGA</graphics_array>
 		<os>2.2</os>
-		<new>old</new>
+		<new>obs</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -287,6 +287,36 @@
 	</device>
 	<device>
 		<icon>smartphone</icon>
+		<nome>Apple iPod Touch 4</nome>
+		<resolution>640 x 960</resolution>
+		<density>xhdpi</density>
+		<screen_size>3.5-inches</screen_size>
+		<ppi>326ppi</ppi>
+		<dpi>~320dpi</dpi>
+		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>2:3</aspect_ratio>
+		<graphics_array>HVGA</graphics_array>
+        <os>4.1</os>
+		<new>obs</new>
+	</device>
+	<device>
+		<icon>smartphone</icon>
+		<nome>Apple iPod Touch 5</nome>
+		<resolution>640 x 1136</resolution>
+		<density>xhdpi</density>
+		<screen_size>4.0-inches</screen_size>
+		<ppi>326ppi</ppi>
+		<dpi>~320dpi</dpi>
+		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>17:10</aspect_ratio>
+		<graphics_array>Retina HD</graphics_array>
+        <os>6.0</os>
+		<new>yes</new>
+	</device>
+	<device>
+		<icon>smartphone</icon>
 		<nome>Apple iPhone 3GS</nome>
 		<resolution>320 x 480</resolution>
 		<density>mdpi</density>
@@ -297,8 +327,8 @@
 		<css_width>X</css_width>
 		<aspect_ratio>2:3</aspect_ratio>
 		<graphics_array>HVGA</graphics_array>
-        <os>N/A</os>
-		<new>no</new>
+        <os>3.0</os>
+		<new>obs</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -312,8 +342,8 @@
 		<css_width>X</css_width>
 		<aspect_ratio>1.5:1</aspect_ratio>
 		<graphics_array>DVGA</graphics_array>
-        <os>N/A</os>
-		<new>no</new>
+        <os>4.0</os>
+		<new>obs</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -327,8 +357,8 @@
 		<css_width>X</css_width>
 		<aspect_ratio>1.5:1</aspect_ratio>
 		<graphics_array>DVGA</graphics_array>
-        <os>5</os>
-		<new>no</new>
+        <os>5.0</os>
+		<new>des</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -342,8 +372,8 @@
 		<css_width>X</css_width>
 		<aspect_ratio>17:10</aspect_ratio>
 		<graphics_array>Retina HD</graphics_array>
-        <os>6</os>
-		<new>no</new>
+        <os>6.0</os>
+		<new>des</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -357,7 +387,7 @@
 		<css_width>X</css_width>
 		<aspect_ratio>17:10</aspect_ratio>
 		<graphics_array>Retina HD</graphics_array>
-        <os>7</os>
+        <os>7.0</os>
 		<new>no</new>
 	</device>
 	<device>
@@ -372,7 +402,7 @@
 		<css_width>X</css_width>
 		<aspect_ratio>17:10</aspect_ratio>
 		<graphics_array>Retina HD</graphics_array>
-        <os>7</os>
+        <os>7.0</os>
 		<new>no</new>
 	</device>
 	<device>
@@ -387,7 +417,7 @@
 		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>Retina HD</graphics_array>
-        <os>8</os>
+        <os>8.1</os>
 		<new>no</new>
 	</device>
 	<device>
@@ -402,44 +432,14 @@
 		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>Retina HD</graphics_array>
-        <os>8</os>
+        <os>8.1</os>
 		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
-		<nome>Apple iPad Mini</nome>
-		<resolution>768 x 1024</resolution>
+		<nome>Apple iPad 1</nome>
+		<resolution>1024 x 768</resolution>
 		<density>mdpi</density>
-		<screen_size>7.9-inches</screen_size>
-		<ppi>163ppi</ppi>
-		<dpi>~160dpi</dpi>
-		<css_pixel_ratio>1</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>4:3</aspect_ratio>
-		<graphics_array>XGA</graphics_array>
-        <os>N/A</os>
-		<new>no</new>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Apple iPad Mini 2</nome>
-		<resolution>768 x 1024</resolution>
-		<density>mdpi</density>
-		<screen_size>7.9-inches</screen_size>
-		<ppi>163ppi</ppi>
-		<dpi>~160dpi</dpi>
-		<css_pixel_ratio>1</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>4:3</aspect_ratio>
-		<graphics_array>XGA</graphics_array>
-        <os>N/A</os>
-		<new>no</new>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Apple iPad 2</nome>
-		<resolution>768 x 1024</resolution>
-		<density>ldpi</density>
 		<screen_size>9.7-inches</screen_size>
 		<ppi>132ppi</ppi>
 		<dpi>~120dpi</dpi>
@@ -447,13 +447,28 @@
 		<css_width>X</css_width>
 		<aspect_ratio>4:3</aspect_ratio>
 		<graphics_array>XGA</graphics_array>
-        <os>N/A</os>
+        <os>3.2</os>
+		<new>obs</new>
+	</device>
+	<device>
+		<icon>tablet</icon>
+		<nome>Apple iPad 2</nome>
+		<resolution>1024 x 768</resolution>
+		<density>mdpi</density>
+		<screen_size>9.7-inches</screen_size>
+		<ppi>132ppi</ppi>
+		<dpi>~120dpi</dpi>
+		<css_pixel_ratio>1</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>4:3</aspect_ratio>
+		<graphics_array>XGA</graphics_array>
+        <os>4.2.1</os>
 		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
-		<nome>Apple iPad Retina</nome>
-		<resolution>1536 x 2048</resolution>
+		<nome>Apple iPad 3 (Retina)</nome>
+		<resolution>2048 x 1536</resolution>
 		<density>hdpi</density>
 		<screen_size>9.7-inches</screen_size>
 		<ppi>264ppi</ppi>
@@ -461,14 +476,29 @@
 		<css_pixel_ratio>2</css_pixel_ratio>
 		<css_width>X</css_width>
 		<aspect_ratio>4:3</aspect_ratio>
-		<graphics_array>QXGA</graphics_array>
-        <os>N/A</os>
+		<graphics_array>XGA</graphics_array>
+        <os>5.1</os>
+		<new>des</new>
+	</device>
+	<device>
+		<icon>tablet</icon>
+		<nome>Apple iPad 4 (Retina)</nome>
+		<resolution>2048 x 1536</resolution>
+		<density>hdpi</density>
+		<screen_size>9.7-inches</screen_size>
+		<ppi>264ppi</ppi>
+		<dpi>~240dpi</dpi>
+		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>4:3</aspect_ratio>
+		<graphics_array>XGA</graphics_array>
+        <os>6.0</os>
 		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
 		<nome>Apple iPad Air</nome>
-		<resolution>1536 x 2048</resolution>
+		<resolution>2048 x 1536</resolution>
 		<density>hdpi</density>
 		<screen_size>9.7-inches</screen_size>
 		<ppi>264ppi</ppi>
@@ -477,14 +507,74 @@
 		<css_width>X</css_width>
 		<aspect_ratio>4:3</aspect_ratio>
 		<graphics_array>QXGA</graphics_array>
-        <os>N/A</os>
+        <os>7.0</os>
 		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
+		<nome>Apple iPad Air 2</nome>
+		<resolution>2048 x 1536</resolution>
+		<density>hdpi</density>
+		<screen_size>9.7-inches</screen_size>
+		<ppi>264ppi</ppi>
+		<dpi>~240dpi</dpi>
+		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>4:3</aspect_ratio>
+		<graphics_array>QXGA</graphics_array>
+        <os>8.1</os>
+		<new>yes</new>
+	</device>
+	<device>
+		<icon>tablet</icon>
+		<nome>Apple iPad Mini</nome>
+		<resolution>1024 x 768</resolution>
+		<density>mdpi</density>
+		<screen_size>7.9-inches</screen_size>
+		<ppi>163ppi</ppi>
+		<dpi>~160dpi</dpi>
+		<css_pixel_ratio>1</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>4:3</aspect_ratio>
+		<graphics_array>XGA</graphics_array>
+        <os>6.0</os>
+		<new>no</new>
+	</device>
+	<device>
+		<icon>tablet</icon>
+		<nome>Apple iPad Mini 2 (Retina)</nome>
+		<resolution>2048 x 1536</resolution>
+		<density>mdpi</density>
+		<screen_size>7.9-inches</screen_size>
+		<ppi>163ppi</ppi>
+		<dpi>~160dpi</dpi>
+		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>4:3</aspect_ratio>
+		<graphics_array>XGA</graphics_array>
+        <os>7.0</os>
+		<new>no</new>
+	</device>
+	<device>
+		<icon>tablet</icon>
+		<nome>Apple iPad Mini 3 (Retina)</nome>
+		<resolution>2048 x 1536</resolution>
+		<density>mdpi</density>
+		<screen_size>7.9-inches</screen_size>
+		<ppi>163ppi</ppi>
+		<dpi>~160dpi</dpi>
+		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>4:3</aspect_ratio>
+		<graphics_array>XGA</graphics_array>
+        <os>8.1</os>
+		<new>yes</new>
+	</device>
+	<device>
+		<icon>tablet</icon>
 		<nome>Microsoft Surface</nome>
-		<resolution>768 x 1366</resolution>
-		<density>ldpi</density>
+		<resolution>1366 x 768</resolution>
+		<density>mdpi</density>
 		<screen_size>10.6-inches</screen_size>
 		<ppi>148ppi</ppi>
 		<dpi>~160dpi</dpi>
@@ -498,8 +588,8 @@
 	<device>
 		<icon>tablet</icon>
 		<nome>Microsoft Surface 2</nome>
-		<resolution>1080 x 1920</resolution>
-		<density>ldpi</density>
+		<resolution>1920 x 1080</resolution>
+		<density>mdpi</density>
 		<screen_size>10.6-inches</screen_size>
 		<ppi>208ppi</ppi>
 		<dpi>~240dpi</dpi>
@@ -513,7 +603,7 @@
 	<device>
 		<icon>tablet</icon>
 		<nome>Microsoft Surface Pro</nome>
-		<resolution>1080 x 1920</resolution>
+		<resolution>1920 x 1080</resolution>
 		<density>hdpi</density>
 		<screen_size>10.6-inches</screen_size>
 		<ppi>208ppi</ppi>
@@ -528,7 +618,7 @@
 	<device>
 		<icon>tablet</icon>
 		<nome>Microsoft Surface Pro 2</nome>
-		<resolution>1080 x 1920</resolution>
+		<resolution>1920 x 1080</resolution>
 		<density>hdpi</density>
 		<screen_size>10.6-inches</screen_size>
 		<ppi>208ppi</ppi>
@@ -543,7 +633,7 @@
 	<device>
 		<icon>tablet</icon>
 		<nome>Microsoft Surface Pro 3</nome>
-		<resolution>1140 x 2160</resolution>
+		<resolution>2160 x 1140</resolution>
 		<density>hdpi</density>
 		<screen_size>12.0-inches</screen_size>
 		<ppi>216ppi</ppi>
@@ -552,13 +642,13 @@
 		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>FHD</graphics_array>
-		<os>8</os>
+		<os>8.1</os>
 		<new>no</new>
 	</device>
 	<device>
 		<icon>tablet</icon>
 		<nome>Microsoft Lumia 2520</nome>
-		<resolution>1080 x 1920</resolution>
+		<resolution>1920 x 1080</resolution>
 		<density>xxhdpi</density>
 		<screen_size>10.1-inches</screen_size>
 		<ppi>218ppi</ppi>
@@ -693,7 +783,7 @@
 	<device>
 		<icon>tablet</icon>
 		<nome>Amazon Kindle Fire HD 8.9</nome>
-		<resolution>1200 x 1920</resolution>
+		<resolution>1920 x 1200</resolution>
 		<density>hdpi</density>
 		<screen_size>8.9-inches</screen_size>
 		<ppi>254ppi</ppi>
@@ -708,7 +798,7 @@
 	<device>
 		<icon>tablet</icon>
 		<nome>Motorola XOOM 2</nome>
-		<resolution>800 x 1280</resolution>
+		<resolution>1280 x 800</resolution>
 		<density>mdpi</density>
 		<screen_size>8.2-inches</screen_size>
 		<ppi>184ppi</ppi>
@@ -873,7 +963,7 @@
 	<device>
 		<icon>tablet</icon>
 		<nome>Google Nexus 7 (ASUS)</nome>
-		<resolution>800 x 1280</resolution>
+		<resolution>1280 x 800</resolution>
 		<density>tvdpi</density>
 		<screen_size>7.0-inches</screen_size>
 		<ppi>216ppi</ppi>
@@ -888,8 +978,8 @@
 	<device>
 		<icon>tablet</icon>
 		<nome>Google Nexus 7 2 (ASUS)</nome>
-		<resolution>1200 x 1920</resolution>
-		<density>hxdpi</density>
+		<resolution>1920 x 1200</resolution>
+		<density>xhdpi</density>
 		<screen_size>7.0-inches</screen_size>
 		<ppi>323ppi</ppi>
 		<dpi>~320dpi</dpi>
@@ -899,6 +989,21 @@
 		<graphics_array>WUXGA</graphics_array>
 		<os>4.3</os>
 		<new>no</new>
+	</device>
+	<device>
+		<icon>tablet</icon>
+		<nome>Google Glass</nome>
+		<resolution>640 x 360</resolution>
+		<density>N/A</density>
+		<screen_size>N/A</screen_size>
+		<ppi>N/A</ppi>
+		<dpi>N/A</dpi>
+		<css_pixel_ratio>1.5</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>FHD</aspect_ratio>
+		<graphics_array>N/A</graphics_array>
+		<os>4.4.2</os>
+		<new>yes</new>
 	</device>
 	<device>
 		<icon>laptop</icon>
