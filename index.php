@@ -40,7 +40,7 @@
             <tbody></tbody>
         </table>
         <div class="alert">
-            <span>Legenda:</span><span class="span-novo">ADICIONADO RECENTEMENTE</span> <span class="span-antigo">JÁ EXISTIAM</span> <span class="span-descontinuado">DESCONTINUADO</span>
+            <span>Legenda:</span><span class="span-novo">ADICIONADO RECENTEMENTE</span> <span class="span-descontinuado">DESCONTINUADO</span>
         </div>
     </div>
     <script type="text/javascript" src="js/jquery.tablesorter.widgets.min.js"></script>
