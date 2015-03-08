@@ -1,0 +1,72 @@
+::-moz-selection { background: #dec36a; }
+::selection { background: #dec36a; }
+
+* { margin: 0; padding: 0; }
+body { width: 100%; font-family: 'Trebuchet MS', 'Courier Pro', 'Courier New', Arial, sans-serif; }
+h1 { width: 100%; margin: 0 0 10px 0; padding: 10px; font-family: 'Courier Pro', 'Courier New', Arial, sans-serif; font-weight: bold; color: #aa6d22; }
+h2 { padding: 5px 10px; }
+p { padding: 5px 10px 10px 10px; }
+#page-wrap { margin: 0px; }
+
+.table { width: 100%!important; margin: 0!important; font-family: 'Trebuchet MS', 'Courier Pro', 'Courier New', Arial, sans-serif; background: #ccc; border-color: #000; border-collapse: collapse; }
+.table th { padding: 5px; font-size: 16px; font-weight: bold; color: #fff; text-align: center; background: #000; cursor: s-resize; }
+.table td { padding: 5px; text-align: center; vertical-align: middle; }
+
+.novo td { background: #dec36a; }
+.novo td:first-child { background: #aa6d22; }
+.descontinuado td { background: #d56868; }
+.descontinuado td:first-child { background: #cd2525; }
+
+.alert { margin: 10px 0; padding: 10px; position: relative; float: left; }
+.alert span { width: auto; height: 20px; margin: 0 10px 0 0; padding: 5px; font-family: 'Courier Pro', 'Courier New', Arial, sans-serif; font-weight: bold; position: relative; float: left; }
+.span-novo { color: #aa6d22; border: 1px solid #aa6d22; background: #dec36a; }
+.span-antigo { color: #888; border: 1px solid #bbb; background: #ccc; }
+.span-descontinuado { color: #e2dada; border: 1px solid #e2dada; background: #d56868; }
+        
+.tablesorter-header.tablesorter-reorder-helper { cursor: move; }
+.tablesorter-reorder-helper-bar { width: 1px; background: #000; }
+
+@media only screen and (max-width: 992px), (min-device-width: 768px) and (max-device-width: 1024px) {
+    #page-wrap { margin: 5px; }
+    .alert span { width: 90%; margin: 5px 10px; text-align: center; }
+    .alert span:first-child { text-align: left; }
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { display: block; }
+    .table { width: calc(100% - 20px)!important; margin: 10px!important; border: 0; }
+	/* Hide table headers (but not display: none;, for accessibility) */
+	.table thead tr { top: -9999px; left: -9999px; position: absolute; }
+	.table tr { border: 1px solid #000; }
+    .table tr:nth-of-type(odd) { background: #eee; }
+	/* Behave  like a "row" */
+    .table td { padding-left: 50%; border: none; border-bottom: 1px solid #000; position: relative; }
+    /* Now like a table header --- Top/left values mimic padding */ 
+	.table td:before { width: 45%; padding-right: 10px; top: 6px; left: 6px; white-space: nowrap; position: absolute; }
+	.table td:first-child { padding-left: 0; font-weight: bold; text-align: center; background: #625d5d; }
+
+    .novo td:first-child { background: #aa6d22; }
+    .descontinuado td:first-child { background: #cd2525; }
+	/* Label the data */
+	.table td:nth-of-type(1):before { content: ""; width: 0; }
+	.table td:nth-of-type(2):before { content: "Resolution"; }
+	.table td:nth-of-type(3):before { content: "Density"; }
+	.table td:nth-of-type(4):before { content: "Screen Size"; }
+	.table td:nth-of-type(5):before { content: "PPI"; }
+	.table td:nth-of-type(6):before { content: "DPI"; }
+	.table td:nth-of-type(7):before { content: "CSS Pixel Ratio"; }
+	.table td:nth-of-type(8):before { content: "CSS Width"; }
+	.table td:nth-of-type(9):before { content: "Aspect Ratio"; }
+	.table td:nth-of-type(10):before { content: "Graphics Array"; }
+	.table td:nth-of-type(11):before { content: "OS"; }
+}
+	
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 320px) and (max-width : 480px) {
+    .table { border: 1px solid #000; }
+	body { width: 100%; margin: 0; padding: 0; position: relative; }
+	/* Now like a table header --- Top/left values mimic padding */ 
+}
+	
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body { width: 100%; }
+}
