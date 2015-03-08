@@ -21,10 +21,10 @@
         <h1>RWD Devices</h1>
         <h2>Principais dispositivos</h2>
         <p>Aqui você encontra os principais dispositivos do mercado e informações para desenvolver seu app e site melhor.</p>
-        <table id="dispositivos" border='1' class="table">
+        <table id="dispositivos" border='1' class="table" lang="en">
             <thead>
                 <tr>
-                    <th class="reorder-false reorder-block-left"><strong>Dispositivo</strong></th>
+                    <th class="reorder-false reorder-block-left"><strong>Device</strong></th>
                     <th><strong>Resolution</strong></th>
                     <th><strong>Density</strong></th>
                     <th><strong>Screen Size</strong></th>

@@ -10,7 +10,7 @@ p { padding: 5px 10px 10px 10px; }
 
 .table { width: 100%!important; margin: 0!important; font-family: 'Trebuchet MS', 'Courier Pro', 'Courier New', Arial, sans-serif; background: #ccc; border-color: #000; border-collapse: collapse; }
 .table th { padding: 5px; font-size: 16px; font-weight: bold; color: #fff; text-align: center; background: #000; cursor: s-resize; }
-.table td { padding: 5px; text-align: center; vertical-align: middle!important; }
+.table td { padding: 5px; text-align: center!important; vertical-align: middle!important; }
 
 .novo td { background: #dec36a!important; }
 .novo:hover td, 
@@ -39,13 +39,13 @@ p { padding: 5px 10px 10px 10px; }
     .table { width: calc(100% - 20px)!important; margin: 10px!important; border: 0; }
 	/* Hide table headers (but not display: none;, for accessibility) */
 	.table thead tr { top: -9999px; left: -9999px; position: absolute; }
-	.table tr { border: 1px solid #000; }
+	.table tr { border: 1px solid #000!important; }
     .table tr:nth-of-type(odd) { background: #eee; }
 	/* Behave  like a "row" */
-    .table td { padding-left: 50%; border: none; border-bottom: 1px solid #000; position: relative; }
+    .table td { padding-left: 50%!important; border: none!important; border-bottom: 1px solid #000!important; position: relative; }
     /* Now like a table header --- Top/left values mimic padding */ 
 	.table td:before { width: 45%; padding-right: 10px; top: 6px; left: 6px; white-space: nowrap; position: absolute; }
-	.table td:first-child { padding-left: 0; font-weight: bold; text-align: center; background: #625d5d; }
+	.table td:first-child { padding-left: 0!important; font-weight: bold; text-align: center; background: #625d5d; }
 
     .novo td:first-child { background: #aa6d22; }
     .descontinuado td:first-child { background: #cd2525; }
@@ -65,7 +65,7 @@ p { padding: 5px 10px 10px 10px; }
 	
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 320px) and (max-width : 480px) {
-    .table { border: 1px solid #000; }
+    .table { border: 1px solid #000!important; }
 	body { width: 100%; margin: 0; padding: 0; position: relative; }
 	/* Now like a table header --- Top/left values mimic padding */ 
 }
