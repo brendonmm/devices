@@ -2,25 +2,25 @@
 ::selection { background: #dec36a; }
 
 * { margin: 0; padding: 0; }
-body { width: 100%; font-family: "Open Sans", 'Trebuchet MS', 'Courier Pro', 'Courier New', Arial, sans-serif; }
+body { width: 100%; font-family: "Open Sans", 'Trebuchet MS', 'Courier Pro', 'Courier New', Arial, sans-serif; font-size: 10px; }
 h1, h2 { font-family: "PT Sans","PT Sans Pro",'Courier Pro', 'Courier New', Arial, sans-serif; }
-h1 { width: 100%; margin: 0 0 10px 0; padding: 10px; font-size: 26px; font-weight: bold; color: #aa6d22; }
-h2 { padding: 5px 10px; font-size: 22px; font-weight: bold; font-style: italic; }
-p { padding: 5px 10px 10px 10px; font-size: 18px; font-weight: lighter; }
-#page-wrap { width: calc(80% - 120px); margin: 0px auto; padding: 60px; }
+h1 { width: calc(100% - 20px); margin: 0 0 10px 0; padding: 10px; font-size: 2rem; font-weight: bold; color: #aa6d22; }
+h2 { padding: 5px 10px; font-size: 1.6rem; font-weight: bold; font-style: italic; }
+p { padding: 5px 10px 10px 10px; font-size: 1.3rem; font-weight: lighter; }
+#page-wrap { width: calc(80% - 200px); margin: 0px auto; padding: 60px; }
 
 .lista { width: 80%; margin: 10px; }
-.lista li { margin: 0 0 5px 0; font-size: 18px; font-weight: lighter; list-style-type: none; }
+.lista li { margin: 0 0 5px 0; font-size: 1.3rem; font-weight: lighter; list-style-type: none; }
 .lista li:before { content: "\f121"; left: -3px; font-family: FontAwesome; position: relative; }
 
-blockquote { width: 70%; margin: 10px; }
+blockquote { width: 70%; margin: 10px; font-size: 1.3rem; }
 
-code { padding: 0; font-size: 108%; font-style: normal; }
-pre { width: 50%; margin: 10px auto; padding: 15px; font-size: 14px; color: #333; background-color: #eee; border: 1px solid #ddd; border-left-width: 5px; overflow-x: auto; }
+code { padding: 0; font-size: 1.2rem; font-style: normal; }
+pre { width: 70%; margin: 10px auto; padding: 15px; font-size: 1.2rem; color: #333; background-color: #eee; border: 1px solid #ddd; border-left-width: 5px; overflow-x: auto; }
 
 .table { width: 100%!important; margin: 0!important; border-collapse: collapse; }
-.table th { font-size: 14px!important; text-align: center; }
-.table td { color: #000!important; text-align: center!important; vertical-align: middle!important; }
+.table th { font-size: 0.9rem!important; text-align: center; }
+.table td { font-size: 0.8rem!important; color: #000!important; text-align: center!important; vertical-align: middle!important; }
 
 .novo td { background: #dec36a!important; }
 .novo:hover td, 
@@ -38,17 +38,17 @@ pre { width: 50%; margin: 10px auto; padding: 15px; font-size: 14px; color: #333
 .obsoleto td:first-child { background: #625d5d!important; }
 
 .alert { width: calc(100% - 20px); margin: 10px 0; padding: 10px; position: relative; float: left; }
-.container-table { width: 100%; margin: 10px 0; position: relative; float: left; }
-.alert span { width: auto; height: 20px; margin: 0 10px 0 0; padding: 5px 10px; font-weight: bold; position: relative; float: left; }
+.alert span { width: auto; height: 20px; margin: 0 10px 0 0; padding: 5px 10px; font-size: 1rem; font-weight: bold; position: relative; float: left; }
 .span-novo { color: #aa6d22; border: 1px solid #aa6d22; background: #dec36a; }
 .span-descontinuado { color: #e2dada; border: 1px solid #e2dada; background: #d56868; }
 .span-obsoleto { color: #D9D9D9; border: 1px solid #D9D9D9; background: #625d5d; }
-        
+
+.container-table { width: 100%; margin: 10px 0; position: relative; float: left; }
 .tablesorter-header.tablesorter-reorder-helper { cursor: move; }
 .tablesorter-reorder-helper-bar { width: 1px; background: #000; }
 
 @media only screen and (max-width: 992px), (min-device-width: 768px) and (max-device-width: 1024px), print {
-    #page-wrap { width: calc(100% - 40px); margin: 5px auto; padding: 20px; }
+    #page-wrap { width: calc(90% - 40px); margin: 5px auto; padding: 20px; }
     .alert span { width: 90%; margin: 5px 10px; text-align: center; }
     .alert span:first-child { text-align: left; }
     pre { width: 70%; }
@@ -61,9 +61,9 @@ pre { width: 50%; margin: 10px auto; padding: 15px; font-size: 14px; color: #333
 	.table tr { border: 1px solid #000!important; }
     .table tr:nth-of-type(odd) { background: #eee; }
 	/* Behave  like a "row" */
-    .table td { padding-left: 50%!important; border: none!important; border-bottom: 1px solid #000!important; position: relative; }
+    .table td { padding-left: 50%!important; font-size: 1.2rem!important; border: none!important; border-bottom: 1px solid #000!important; position: relative; }
     /* Now like a table header --- Top/left values mimic padding */ 
-	.table td:before { width: 45%; padding-right: 10px; top: 6px; left: 6px; white-space: nowrap; position: absolute; }
+	.table td:before { width: 45%; padding-right: 10px; top: 6px; left: 6px; font-size: 1.2rem!important; white-space: nowrap; position: absolute; }
 	.table td:first-child { padding-left: 0!important; font-weight: bold; text-align: center; color: #FFF!important; background: #625d5d; }
 
     .novo td:first-child { background: #aa6d22; }
@@ -86,7 +86,7 @@ pre { width: 50%; margin: 10px auto; padding: 15px; font-size: 14px; color: #333
 @media only screen and (min-width: 320px) and (max-width : 480px) {
 	body { width: 100%; margin: 0; padding: 0; position: relative; }
     .table { border: 1px solid #000!important; }
-    pre { width: calc(90% - 20px); }
+    pre { width: calc(90% - 50px); }
 
     blockquote { width: calc(90% - 20px); margin: 10px; }
     cite { word-break: break-all; }
@@ -97,6 +97,13 @@ pre { width: 50%; margin: 10px auto; padding: 15px; font-size: 14px; color: #333
     body { width: 100%; }
 }
 
+@media only screen and (min-resolution: 2dppx), (min-resolution: 320dpi), (-webkit-device-pixel-ratio: 2) {
+    pre { font-size: 2rem; }
+    .alert span { height: auto; font-size: 2rem!important; }
+    .table { width: calc(98% - 40px)!important; }
+    .table td { font-size: 1rem!important; }
+    .table td:before { font-size: 2.4rem!important; }
+}
 
 @media print {
     #page-wrap { width: calc(90% - 40px); margin: 25px auto; padding: 20px; }
