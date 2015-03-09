@@ -571,6 +571,21 @@
 		<new>yes</new>
 	</device>
 	<device>
+		<icon>smartwatch</icon>
+		<nome>Apple Watch</nome>
+		<resolution>320 x 290</resolution>
+		<density>hdpi</density>
+		<screen_size>1.56-inches</screen_size>
+		<ppi>205ppi</ppi>
+		<dpi>~240dpi</dpi>
+		<css_pixel_ratio>1.5</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>16:9</aspect_ratio>
+		<graphics_array>M/A</graphics_array>
+		<os>8.1</os>
+		<new>yes</new>
+	</device>
+	<device>
 		<icon>tablet</icon>
 		<nome>Microsoft Surface</nome>
 		<resolution>1366 x 768</resolution>
@@ -827,7 +842,7 @@
 	</device>
 	<device>
 		<icon>smartphone</icon>
-		<nome>Motorola Moto E 2</nome>
+		<nome>Motorola Moto E</nome>
 		<resolution>540 x 960</resolution>
 		<density>hdpi</density>
 		<screen_size>4.5-inches</screen_size>
@@ -931,6 +946,36 @@
 		<new>no</new>
 	</device>
 	<device>
+		<icon>smartwatch</icon>
+		<nome>Motorola Moto 360</nome>
+		<resolution>320 x 290</resolution>
+		<density>hdpi</density>
+		<screen_size>1.56-inches</screen_size>
+		<ppi>205ppi</ppi>
+		<dpi>~240dpi</dpi>
+		<css_pixel_ratio>1.5</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>1.10:1</aspect_ratio>
+		<graphics_array>M/A</graphics_array>
+		<os>5.0</os>
+		<new>yes</new>
+	</device>
+	<device>
+		<icon>smartwatch</icon>
+		<nome>LG G Watch</nome>
+		<resolution>280 x 280</resolution>
+		<density>hdpi</density>
+		<screen_size>1.56-inches</screen_size>
+		<ppi>205ppi</ppi>
+		<dpi>~240dpi</dpi>
+		<css_pixel_ratio>1.5</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>1:1</aspect_ratio>
+		<graphics_array>M/A</graphics_array>
+		<os>5.0</os>
+		<new>yes</new>
+	</device>
+	<device>
 		<icon>smartphone</icon>
 		<nome>BlackBerry Z10</nome>
 		<resolution>768 x 1280</resolution>
@@ -1019,6 +1064,21 @@
 		<graphics_array>WUXGA</graphics_array>
 		<os>4.3</os>
 		<new>no</new>
+	</device>
+	<device>
+		<icon>tablet</icon>
+		<nome>Google Glass</nome>
+		<resolution>640 x 360</resolution>
+		<density>N/A</density>
+		<screen_size>N/A</screen_size>
+		<ppi>N/A</ppi>
+		<dpi>N/A</dpi>
+		<css_pixel_ratio>1.5</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>FHD</aspect_ratio>
+		<graphics_array>N/A</graphics_array>
+		<os>4.4.2</os>
+		<new>yes</new>
 	</device>
 	<device>
 		<icon>laptop</icon>
