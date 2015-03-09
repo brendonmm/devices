@@ -9,4 +9,3 @@
     <link href="css/tablesorter.theme.metro-dark.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/tablesorter.filter.formatter.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />

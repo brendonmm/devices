@@ -1,4 +1,4 @@
-var meuTema = ['blue', 'dark', 'grey', 'metro-dark'];
+﻿var meuTema = ['blue', 'dark', 'grey', 'metro-dark'];
 
 function shuffle(array) {
     var cont = array.length, temp, index;
@@ -129,13 +129,10 @@ $(function () {
             dispositivo[i].novo = xmlDeviceNode.getElementsByTagName('new')[0].firstChild.nodeValue;
 
             if (parseFloat(dispositivo[i].css_pixel_ratio) == 0.63 || parseFloat(dispositivo[i].css_pixel_ratio) == 0.75) {
-                dispositivo[i].css_width = parseFloat(dispositivo[i].resolution) * parseFloat(dispositivo[i].css_pixel_ratio);
-            }
-            else if (parseFloat(dispositivo[i].css_pixel_ratio) == 1.33 || parseFloat(dispositivo[i].css_pixel_ratio) == 3.5 || parseFloat(dispositivo[i].css_pixel_ratio) == 2.22) {
-                dispositivo[i].css_width = (parseFloat(dispositivo[i].resolution) / parseFloat(dispositivo[i].css_pixel_ratio)).toFixed(0);
+                dispositivo[i].css_width = (parseFloat(dispositivo[i].resolution) * parseFloat(dispositivo[i].css_pixel_ratio)).toFixed(0);
             }
             else {
-                dispositivo[i].css_width = parseFloat(dispositivo[i].resolution) / parseFloat(dispositivo[i].css_pixel_ratio);
+                dispositivo[i].css_width = (parseFloat(dispositivo[i].resolution) / parseFloat(dispositivo[i].css_pixel_ratio)).toFixed(0);
             }
 
             // Acessa os atributos
@@ -147,7 +144,7 @@ $(function () {
         mountTable(dispositivo);
     }
 
-    xml = xmlLoader("meus_devices.xml");
+    xml = xmlLoader("data/meus_devices.xml");
     xmlParserDispositivosSimplificado(xml);
 });
 

@@ -9,6 +9,7 @@
     <meta name="description" content="Aqui você encontra os principais dispositivos do mercado e informações para desenvolver seu app e site melhor">
     <?php include 'includes/header.php';  ?>
     
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <?php include 'includes/google-analytics.php';  ?>
 
 </head>
@@ -67,5 +68,6 @@
 
     <?php include 'includes/scripts.php';  ?>
 
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

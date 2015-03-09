@@ -161,7 +161,7 @@
 		<css_pixel_ratio>4</css_pixel_ratio>
 		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>QHD</graphics_array>
+		<graphics_array>WQHD</graphics_array>
 		<os>5.0.2</os>
 		<new>yes</new>
 	</device>
@@ -531,7 +531,7 @@
 		<resolution>1024 x 768</resolution>
 		<density>mdpi</density>
 		<screen_size>7.9-inches</screen_size>
-		<ppi>163ppi</ppi>
+		<ppi>162ppi</ppi>
 		<dpi>~160dpi</dpi>
 		<css_pixel_ratio>1</css_pixel_ratio>
 		<css_width>X</css_width>
@@ -546,8 +546,8 @@
 		<resolution>2048 x 1536</resolution>
 		<density>mdpi</density>
 		<screen_size>7.9-inches</screen_size>
-		<ppi>163ppi</ppi>
-		<dpi>~160dpi</dpi>
+		<ppi>324ppi</ppi>
+		<dpi>~320dpi</dpi>
 		<css_pixel_ratio>2</css_pixel_ratio>
 		<css_width>X</css_width>
 		<aspect_ratio>4:3</aspect_ratio>
@@ -561,8 +561,8 @@
 		<resolution>2048 x 1536</resolution>
 		<density>mdpi</density>
 		<screen_size>7.9-inches</screen_size>
-		<ppi>163ppi</ppi>
-		<dpi>~160dpi</dpi>
+		<ppi>324ppi</ppi>
+		<dpi>~320dpi</dpi>
 		<css_pixel_ratio>2</css_pixel_ratio>
 		<css_width>X</css_width>
 		<aspect_ratio>4:3</aspect_ratio>
@@ -818,12 +818,27 @@
 		<screen_size>4.3-inches</screen_size>
 		<ppi>256ppi</ppi>
 		<dpi>~240dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_pixel_ratio>1.5</css_pixel_ratio>
 		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
 		<graphics_array>qHD</graphics_array>
 		<os>4.4.4</os>
 		<new>no</new>
+	</device>
+	<device>
+		<icon>smartphone</icon>
+		<nome>Motorola Moto E 2</nome>
+		<resolution>540 x 960</resolution>
+		<density>hdpi</density>
+		<screen_size>4.5-inches</screen_size>
+		<ppi>245ppi</ppi>
+		<dpi>~240dpi</dpi>
+		<css_pixel_ratio>1.5</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>16:9</aspect_ratio>
+		<graphics_array>qHD</graphics_array>
+		<os>5.0</os>
+		<new>yes</new>
 	</device>
 	<device>
 		<icon>smartphone</icon>
@@ -887,6 +902,21 @@
 	</device>
 	<device>
 		<icon>smartphone</icon>
+		<nome>Motorola DROID MAXX</nome>
+		<resolution>720 x 1280</resolution>
+		<density>xhdpi</density>
+		<screen_size>5-inches</screen_size>
+		<ppi>294ppi</ppi>
+		<dpi>~320dpi</dpi>
+		<css_pixel_ratio>2</css_pixel_ratio>
+		<css_width>X</css_width>
+		<aspect_ratio>16:9</aspect_ratio>
+		<graphics_array>HD/WXGA</graphics_array>
+		<os>4.2.2</os>
+		<new>yes</new>
+	</device>
+	<device>
+		<icon>smartphone</icon>
 		<nome>Motorola Moto MAXX</nome>
 		<resolution>1440 x 2560</resolution>
 		<density>xxxhdpi</density>
@@ -896,7 +926,7 @@
 		<css_pixel_ratio>4</css_pixel_ratio>
 		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>QHD</graphics_array>
+		<graphics_array>WQHD</graphics_array>
 		<os>4.4.4</os>
 		<new>no</new>
 	</device>
@@ -956,7 +986,7 @@
 		<css_pixel_ratio>3.5</css_pixel_ratio>
 		<css_width>X</css_width>
 		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>QHD</graphics_array>
+		<graphics_array>WQHD</graphics_array>
 		<os>5</os>
 		<new>no</new>
 	</device>
@@ -989,21 +1019,6 @@
 		<graphics_array>WUXGA</graphics_array>
 		<os>4.3</os>
 		<new>no</new>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Google Glass</nome>
-		<resolution>640 x 360</resolution>
-		<density>N/A</density>
-		<screen_size>N/A</screen_size>
-		<ppi>N/A</ppi>
-		<dpi>N/A</dpi>
-		<css_pixel_ratio>1.5</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>FHD</aspect_ratio>
-		<graphics_array>N/A</graphics_array>
-		<os>4.4.2</os>
-		<new>yes</new>
 	</device>
 	<device>
 		<icon>laptop</icon>
