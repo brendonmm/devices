@@ -24,17 +24,17 @@ pre { width: 70%; margin: 10px auto; padding: 15px; font-size: 1.2rem; color: #3
 .table td { font-size: 0.8rem!important; color: #000!important; text-align: center!important; vertical-align: middle!important; }
 
 .novo td { background: #dec36a!important; }
-.novo:hover td, 
+.novo:hover td,
 .novo:hover td:first-child { background: #D9D9D9!important; color: #000!important; }
 .novo td:first-child { background: #aa6d22!important; }
 
 .descontinuado td { background: #d56868!important; }
-.descontinuado:hover td, 
+.descontinuado:hover td,
 .descontinuado:hover td:first-child { background: #D9D9D9!important; color: #000!important; }
 .descontinuado td:first-child { background: #cd2525!important; }
 
 .obsoleto td { background: #625d5d!important; }
-.obsoleto:hover td, 
+.obsoleto:hover td,
 .obsoleto:hover td:first-child { background: #D9D9D9!important; color: #000!important; }
 .obsoleto td:first-child { background: #625d5d!important; }
 
@@ -81,46 +81,47 @@ pre { width: 70%; margin: 10px auto; padding: 15px; font-size: 1.2rem; color: #3
     .alert span:first-child { text-align: left; }
     pre { width: 70%; }
 
-	/* Force table to not be like tables anymore */
-	table, thead, tbody, th, td, tr { display: block; }
+    /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr { display: block; }
     .table { width: calc(100% - 20px)!important; margin: 10px!important; border: 0; }
-	/* Hide table headers (but not display: none;, for accessibility) */
-	.table thead tr { top: -9999px; left: -9999px; position: absolute; }
-	.table tr { border: 1px solid #000!important; }
+    /* Hide table headers (but not display: none;, for accessibility) */
+    .table thead tr { top: -9999px; left: -9999px; position: absolute; }
+    .table tr { border: 1px solid #000!important; }
     .table tr:nth-of-type(odd) { background: #eee; }
-	/* Behave  like a "row" */
-    .table td { padding-left: 50%!important; font-size: 1.2rem!important; border: none!important; border-bottom: 1px solid #000!important; position: relative; }
-    /* Now like a table header --- Top/left values mimic padding */ 
-	.table td:before { width: 45%; padding-right: 10px; top: 6px; left: 6px; font-size: 1.2rem!important; white-space: nowrap; position: absolute; }
-	.table td:first-child { padding-left: 0!important; font-weight: bold; text-align: center; color: #FFF!important; background: #625d5d; }
+    /* Behave  like a "row" */
+    .table td { padding: 1% 0 1% 50%!important; font-size: 1.2rem!important; border: none!important; border-bottom: 1px solid #000!important; position: relative; }
+    /* Now like a table header --- Top/left values mimic padding */
+    .table td:before { width: 45%; padding-right: 10px; top: 6px; left: 6px; font-size: 1.2rem!important; white-space: nowrap; position: absolute; }
+    .table td:first-child { padding-left: 0!important; font-weight: bold; text-align: center; color: #FFF!important; background: #625d5d; }
 
     .novo td:first-child { background: #aa6d22; }
     .descontinuado td:first-child { background: #cd2525; }
-	/* Label the data */
-	.table td:nth-of-type(1):before { content: ""; width: 0; }
-	.table td:nth-of-type(2):before { content: "Resolution"; }
-	.table td:nth-of-type(3):before { content: "Density"; }
-	.table td:nth-of-type(4):before { content: "Screen Size"; }
-	.table td:nth-of-type(5):before { content: "PPI"; }
-	.table td:nth-of-type(6):before { content: "DPI"; }
-	.table td:nth-of-type(7):before { content: "CSS Pixel Ratio"; }
-	.table td:nth-of-type(8):before { content: "CSS Width"; }
-	.table td:nth-of-type(9):before { content: "Aspect Ratio"; }
-	.table td:nth-of-type(10):before { content: "Graphics Array"; }
-	.table td:nth-of-type(11):before { content: "OS"; }
-	.table td:nth-of-type(12):before { content: "Release"; }
+    /* Label the data */
+    .table td:nth-of-type(1):before { content: ""; width: 0; }
+    .table td:nth-of-type(2):before { content: "Resolution"; }
+    .table td:nth-of-type(3):before { content: "Density"; }
+    .table td:nth-of-type(4):before { content: "Screen Size"; }
+    .table td:nth-of-type(5):before { content: "PPI"; }
+    .table td:nth-of-type(6):before { content: "DPI"; }
+    .table td:nth-of-type(7):before { content: "CSS Pixel Ratio"; }
+    .table td:nth-of-type(8):before { content: "CSS Width"; }
+    .table td:nth-of-type(9):before { content: "Aspect Ratio"; }
+    .table td:nth-of-type(10):before { content: "Graphics Array"; }
+    .table td:nth-of-type(11):before { content: "First OS"; }
+    .table td:nth-of-type(12):before { content: "Last OS"; }
+    .table td:nth-of-type(13):before { content: "Release"; }
 }
-	
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 320px) and (max-width : 480px) {
-	body { width: 100%; margin: 0; padding: 0; position: relative; }
+    body { width: 100%; margin: 0; padding: 0; position: relative; }
     .table { border: 1px solid #000!important; }
     pre { width: calc(90% - 50px); }
 
     blockquote { width: calc(90% - 20px); margin: 10px; }
     cite { word-break: break-all; }
 }
-	
+
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     body { width: 100%; }

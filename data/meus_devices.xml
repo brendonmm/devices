@@ -1,1267 +1,1346 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <dispositivos>
-	<device>
-		<icon>featurephone</icon>
-		<nome>Samsung Galaxy 5</nome>
-		<resolution>240 x 320</resolution>
-		<density>ldpi</density>
-		<screen_size>2.8-inches</screen_size>
-		<ppi>142ppi</ppi>
-		<dpi>~120dpi</dpi>
-		<css_pixel_ratio>0.75</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>2:3</aspect_ratio>
-		<graphics_array>QVGA</graphics_array>
-		<os>2.1</os>
-		<status>obsoleto</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>featurephone</icon>
-		<nome>Samsung Galaxy Y</nome>
-		<resolution>240 x 320</resolution>
-		<density>ldpi</density>
-		<screen_size>3.0-inches</screen_size>
-		<ppi>133ppi</ppi>
-		<dpi>~120dpi</dpi>
-		<css_pixel_ratio>0.75</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>2:3</aspect_ratio>
-		<graphics_array>QVGA</graphics_array>
-		<os>2.2</os>
-		<status>obsoleto</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Samsung Galaxy Ace</nome>
-		<resolution>320 x 480</resolution>
-		<density>mdpi</density>
-		<screen_size>3.5-inches</screen_size>
-		<ppi>164ppi</ppi>
-		<dpi>~160dpi</dpi>
-		<css_pixel_ratio>1</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>2:3</aspect_ratio>
-		<graphics_array>HVGA</graphics_array>
-		<os>2.3.3</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Samsung Galaxy S2</nome>
-		<resolution>480 × 800</resolution>
-		<density>hdpi</density>
-		<screen_size>4.27-inches</screen_size>
-		<ppi>219ppi</ppi>
-		<dpi>~240dpi</dpi>
-		<css_pixel_ratio>1.5</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>3:5</aspect_ratio>
-		<graphics_array>WVGA</graphics_array>
-		<os>2.3</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Samsung Galaxy S Duos</nome>
-		<resolution>480 x 800</resolution>
-		<density>hdpi</density>
-		<screen_size>4.0-inches</screen_size>
-		<ppi>233ppi</ppi>
-		<dpi>~240dpi</dpi>
-		<css_pixel_ratio>1.5</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>3:5</aspect_ratio>
-		<graphics_array>WVGA</graphics_array>
-		<os>4.0.3</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Samsung Galaxy Note 2</nome>
-		<resolution>720 x 1280</resolution>
-		<density>hdpi</density>
-		<screen_size>5.5-inches</screen_size>
-		<ppi>267ppi</ppi>
-		<dpi>~240dpi</dpi>
-		<css_pixel_ratio>1.5</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>HD/WXGA</graphics_array>
-		<os>4.1.2</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Samsung Galaxy Note 3</nome>
-		<resolution>1080 x 1920</resolution>
-		<density>xxhdpi</density>
-		<screen_size>5.7-inches</screen_size>
-		<ppi>386ppi</ppi>
-		<dpi>~480dpi</dpi>
-		<css_pixel_ratio>3</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>HD/WXGA</graphics_array>
-		<os>4.2.2</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Samsung Galaxy S3</nome>
-		<resolution>720 x 1280</resolution>
-		<density>xhdpi</density>
-		<screen_size>4.8-inches</screen_size>
-		<ppi>306ppi</ppi>
-		<dpi>~320dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>HD/WXGA</graphics_array>
-		<os>4.2</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Samsung Galaxy S4</nome>
-		<resolution>1080 x 1920</resolution>
-		<density>xxhdpi</density>
-		<screen_size>5.0-inches</screen_size>
-		<ppi>441ppi</ppi>
-		<dpi>~480dpi</dpi>
-		<css_pixel_ratio>3</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>FHD</graphics_array>
-		<os>4.2.2</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Samsung Galaxy S5</nome>
-		<resolution>1080 x 1920</resolution>
-		<density>xxhdpi</density>
-		<screen_size>5.1-inches</screen_size>
-		<ppi>432ppi</ppi>
-		<dpi>~480dpi</dpi>
-		<css_pixel_ratio>3</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>FHD</graphics_array>
-		<os>4.2.2</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Samsung Galaxy S6 (Edge)</nome>
-		<resolution>1440 x 2560</resolution>
-		<density>xxxhdpi</density>
-		<screen_size>5.1-inches</screen_size>
-		<ppi>577ppi</ppi>
-		<dpi>~640dpi</dpi>
-		<css_pixel_ratio>4</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>WQHD</graphics_array>
-		<os>5.0.2</os>
-		<status>novo</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Samsung Galaxy Tab 7</nome>
-		<resolution>600 x 1024</resolution>
-		<density>mdpi</density>
-		<screen_size>7.0-inches</screen_size>
-		<ppi>170ppi</ppi>
-		<dpi>~160dpi</dpi>
-		<css_pixel_ratio>1</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:10</aspect_ratio>
-		<graphics_array>WSVGA</graphics_array>
-		<os>2.2</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Samsung Galaxy Tab 8</nome>
-		<resolution>800 x 1280</resolution>
-		<density>mdpi</density>
-		<screen_size>8.9-inches</screen_size>
-		<ppi>170ppi</ppi>
-		<dpi>~160dpi</dpi>
-		<css_pixel_ratio>1</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:10</aspect_ratio>
-		<graphics_array>WSVGA</graphics_array>
-		<os>2.2</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Samsung Galaxy Tab 10.1</nome>
-		<resolution>800 x 1280</resolution>
-		<density>mdpi</density>
-		<screen_size>10.1-inches</screen_size>
-		<ppi>149ppi</ppi>
-		<dpi>~120dpi</dpi>
-		<css_pixel_ratio>0.75</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>5:8</aspect_ratio>
-		<graphics_array>WXGA</graphics_array>
-		<os>3.1</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Samsung Galaxy Tab 2 10.1</nome>
-		<resolution>800 x 1280</resolution>
-		<density>ldpi</density>
-		<screen_size>10.1-inches</screen_size>
-		<ppi>149ppi</ppi>
-		<dpi>~120dpi</dpi>
-		<css_pixel_ratio>0.75</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>5:8</aspect_ratio>
-		<graphics_array>WXGA</graphics_array>
-		<os>4.0</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Samsung Galaxy Tab 3 10.1</nome>
-		<resolution>800 x 1280</resolution>
-		<density>ldpi</density>
-		<screen_size>10.1-inches</screen_size>
-		<ppi>149ppi</ppi>
-		<dpi>~120dpi</dpi>
-		<css_pixel_ratio>0.75</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>5:8</aspect_ratio>
-		<graphics_array>WXGA</graphics_array>
-		<os>4.0</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Samsung Galaxy Tab 4 10.1</nome>
-		<resolution>800 x 1280</resolution>
-		<density>ldpi</density>
-		<screen_size>10.1-inches</screen_size>
-		<ppi>149ppi</ppi>
-		<dpi>~120dpi</dpi>
-		<css_pixel_ratio>0.75</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>5:8</aspect_ratio>
-		<graphics_array>WXGA</graphics_array>
-		<os>4.0</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Samsung Galaxy Tab Pro 8.4</nome>
-		<resolution>1600 x 2560</resolution>
-		<density>xhdpi</density>
-		<screen_size>8.4-inches</screen_size>
-		<ppi>359ppi</ppi>
-		<dpi>~320dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:10</aspect_ratio>
-		<graphics_array>WQXGA</graphics_array>
-		<os>4.0</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Samsung Galaxy Tab Pro 12.2</nome>
-		<resolution>1600 x 2560</resolution>
-		<density>hdpi</density>
-		<screen_size>12.2-inches</screen_size>
-		<ppi>247ppi</ppi>
-		<dpi>~240dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:10</aspect_ratio>
-		<graphics_array>WQXGA</graphics_array>
-		<os>4.0</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Apple iPod Touch 4</nome>
-		<resolution>640 x 960</resolution>
-		<density>xhdpi</density>
-		<screen_size>3.5-inches</screen_size>
-		<ppi>326ppi</ppi>
-		<dpi>~320dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>2:3</aspect_ratio>
-		<graphics_array>HVGA</graphics_array>
-        <os>4.1</os>
-		<status>obsoleto</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Apple iPod Touch 5</nome>
-		<resolution>640 x 1136</resolution>
-		<density>xhdpi</density>
-		<screen_size>4.0-inches</screen_size>
-		<ppi>326ppi</ppi>
-		<dpi>~320dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>17:10</aspect_ratio>
-		<graphics_array>Retina HD</graphics_array>
-        <os>6.0</os>
-		<status>novo</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Apple iPhone 3GS</nome>
-		<resolution>320 x 480</resolution>
-		<density>mdpi</density>
-		<screen_size>3.5-inches</screen_size>
-		<ppi>163ppi</ppi>
-		<dpi>~160dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>2:3</aspect_ratio>
-		<graphics_array>HVGA</graphics_array>
-        <os>3.0</os>
-		<status>obsoleto</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Apple iPhone 4</nome>
-		<resolution>640 × 960</resolution>
-		<density>xhdpi</density>
-		<screen_size>3.5-inches</screen_size>
-		<ppi>326ppi</ppi>
-		<dpi>~320dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>1.5:1</aspect_ratio>
-		<graphics_array>DVGA</graphics_array>
-        <os>4.0</os>
-		<status>obsoleto</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Apple iPhone 4S</nome>
-		<resolution>640 × 960</resolution>
-		<density>xhdpi</density>
-		<screen_size>3.5-inches</screen_size>
-		<ppi>326ppi</ppi>
-		<dpi>~320dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>1.5:1</aspect_ratio>
-		<graphics_array>DVGA</graphics_array>
-        <os>5.0</os>
-		<status>descontinuado</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Apple iPhone 5</nome>
-		<resolution>640 x 1136</resolution>
-		<density>xhdpi</density>
-		<screen_size>4.0-inches</screen_size>
-		<ppi>326ppi</ppi>
-		<dpi>~320dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>17:10</aspect_ratio>
-		<graphics_array>Retina HD</graphics_array>
-        <os>6.0</os>
-		<status>descontinuado</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Apple iPhone 5C</nome>
-		<resolution>640 x 1136</resolution>
-		<density>xhdpi</density>
-		<screen_size>4.0-inches</screen_size>
-		<ppi>326ppi</ppi>
-		<dpi>~320dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>17:10</aspect_ratio>
-		<graphics_array>Retina HD</graphics_array>
-        <os>7.0</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Apple iPhone 5S</nome>
-		<resolution>640 x 1136</resolution>
-		<density>xhdpi</density>
-		<screen_size>4.0-inches</screen_size>
-		<ppi>326ppi</ppi>
-		<dpi>~320dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>17:10</aspect_ratio>
-		<graphics_array>Retina HD</graphics_array>
-        <os>7.0</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Apple iPhone 6</nome>
-		<resolution>750 x 1334</resolution>
-		<density>xhdpi</density>
-		<screen_size>4.7-inches</screen_size>
-		<ppi>326ppi</ppi>
-		<dpi>~320dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>Retina HD</graphics_array>
-        <os>8.1</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Apple iPhone 6 Plus</nome>
-		<resolution>1080 x 1920</resolution>
-		<density>xxhdpi</density>
-		<screen_size>5.5-inches</screen_size>
-		<ppi>401ppi</ppi>
-		<dpi>~480dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>Retina HD</graphics_array>
-        <os>8.1</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Apple iPad 1</nome>
-		<resolution>1024 x 768</resolution>
-		<density>mdpi</density>
-		<screen_size>9.7-inches</screen_size>
-		<ppi>132ppi</ppi>
-		<dpi>~120dpi</dpi>
-		<css_pixel_ratio>1</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>4:3</aspect_ratio>
-		<graphics_array>XGA</graphics_array>
-        <os>3.2</os>
-		<status>obsoleto</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Apple iPad 2</nome>
-		<resolution>1024 x 768</resolution>
-		<density>mdpi</density>
-		<screen_size>9.7-inches</screen_size>
-		<ppi>132ppi</ppi>
-		<dpi>~120dpi</dpi>
-		<css_pixel_ratio>1</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>4:3</aspect_ratio>
-		<graphics_array>XGA</graphics_array>
-        <os>4.2.1</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Apple iPad 3 (Retina)</nome>
-		<resolution>2048 x 1536</resolution>
-		<density>hdpi</density>
-		<screen_size>9.7-inches</screen_size>
-		<ppi>264ppi</ppi>
-		<dpi>~240dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>4:3</aspect_ratio>
-		<graphics_array>XGA</graphics_array>
-        <os>5.1</os>
-		<status>descontinuado</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Apple iPad 4 (Retina)</nome>
-		<resolution>2048 x 1536</resolution>
-		<density>hdpi</density>
-		<screen_size>9.7-inches</screen_size>
-		<ppi>264ppi</ppi>
-		<dpi>~240dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>4:3</aspect_ratio>
-		<graphics_array>XGA</graphics_array>
-        <os>6.0</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Apple iPad Air</nome>
-		<resolution>2048 x 1536</resolution>
-		<density>hdpi</density>
-		<screen_size>9.7-inches</screen_size>
-		<ppi>264ppi</ppi>
-		<dpi>~240dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>4:3</aspect_ratio>
-		<graphics_array>QXGA</graphics_array>
-        <os>7.0</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Apple iPad Air 2</nome>
-		<resolution>2048 x 1536</resolution>
-		<density>hdpi</density>
-		<screen_size>9.7-inches</screen_size>
-		<ppi>264ppi</ppi>
-		<dpi>~240dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>4:3</aspect_ratio>
-		<graphics_array>QXGA</graphics_array>
-        <os>8.1</os>
-		<status>novo</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Apple iPad Mini</nome>
-		<resolution>1024 x 768</resolution>
-		<density>mdpi</density>
-		<screen_size>7.9-inches</screen_size>
-		<ppi>162ppi</ppi>
-		<dpi>~160dpi</dpi>
-		<css_pixel_ratio>1</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>4:3</aspect_ratio>
-		<graphics_array>XGA</graphics_array>
-        <os>6.0</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Apple iPad Mini 2 (Retina)</nome>
-		<resolution>2048 x 1536</resolution>
-		<density>mdpi</density>
-		<screen_size>7.9-inches</screen_size>
-		<ppi>324ppi</ppi>
-		<dpi>~320dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>4:3</aspect_ratio>
-		<graphics_array>XGA</graphics_array>
-        <os>7.0</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Apple iPad Mini 3 (Retina)</nome>
-		<resolution>2048 x 1536</resolution>
-		<density>mdpi</density>
-		<screen_size>7.9-inches</screen_size>
-		<ppi>324ppi</ppi>
-		<dpi>~320dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>4:3</aspect_ratio>
-		<graphics_array>XGA</graphics_array>
-        <os>8.1</os>
-		<status>novo</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartwatch</icon>
-		<nome>Apple Watch</nome>
-		<resolution>320 x 290</resolution>
-		<density>hdpi</density>
-		<screen_size>1.56-inches</screen_size>
-		<ppi>205ppi</ppi>
-		<dpi>~240dpi</dpi>
-		<css_pixel_ratio>1.5</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>M/A</graphics_array>
-		<os>8.1</os>
-		<status>novo</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Microsoft Surface</nome>
-		<resolution>1366 x 768</resolution>
-		<density>mdpi</density>
-		<screen_size>10.6-inches</screen_size>
-		<ppi>148ppi</ppi>
-		<dpi>~160dpi</dpi>
-		<css_pixel_ratio>1</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>HD</graphics_array>
-		<os>8</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Microsoft Surface 2</nome>
-		<resolution>1920 x 1080</resolution>
-		<density>mdpi</density>
-		<screen_size>10.6-inches</screen_size>
-		<ppi>208ppi</ppi>
-		<dpi>~240dpi</dpi>
-		<css_pixel_ratio>1.5</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>FHD</graphics_array>
-		<os>8</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Microsoft Surface Pro</nome>
-		<resolution>1920 x 1080</resolution>
-		<density>hdpi</density>
-		<screen_size>10.6-inches</screen_size>
-		<ppi>208ppi</ppi>
-		<dpi>~240dpi</dpi>
-		<css_pixel_ratio>1.5</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>FHD</graphics_array>
-		<os>8</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Microsoft Surface Pro 2</nome>
-		<resolution>1920 x 1080</resolution>
-		<density>hdpi</density>
-		<screen_size>10.6-inches</screen_size>
-		<ppi>208ppi</ppi>
-		<dpi>~240dpi</dpi>
-		<css_pixel_ratio>1.5</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>FHD</graphics_array>
-		<os>8</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Microsoft Surface Pro 3</nome>
-		<resolution>2160 x 1140</resolution>
-		<density>hdpi</density>
-		<screen_size>12.0-inches</screen_size>
-		<ppi>216ppi</ppi>
-		<dpi>~240dpi</dpi>
-		<css_pixel_ratio>1.5</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>FHD</graphics_array>
-		<os>8.1</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Microsoft Lumia 2520</nome>
-		<resolution>1920 x 1080</resolution>
-		<density>xxhdpi</density>
-		<screen_size>10.1-inches</screen_size>
-		<ppi>218ppi</ppi>
-		<dpi>~240dpi</dpi>
-		<css_pixel_ratio>1.5</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>FHD</graphics_array>
-		<os>8</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Microsoft Lumia 520</nome>
-		<resolution>480 x 800</resolution>
-		<density>hdpi</density>
-		<screen_size>4.0-inches</screen_size>
-		<ppi>233ppi</ppi>
-		<dpi>~240dpi</dpi>
-		<css_pixel_ratio>1.5</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>15:9</aspect_ratio>
-		<graphics_array>WVGA</graphics_array>
-		<os>8</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Microsoft Lumia 720</nome>
-		<resolution>480 x 800</resolution>
-		<density>hdpi</density>
-		<screen_size>4.3-inches</screen_size>
-		<ppi>217ppi</ppi>
-		<dpi>~240dpi</dpi>
-		<css_pixel_ratio>1.5</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>15:9</aspect_ratio>
-		<graphics_array>WVGA</graphics_array>
-		<os>8</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Microsoft Lumia 820</nome>
-		<resolution>480 x 800</resolution>
-		<density>hdpi</density>
-		<screen_size>4.3-inches</screen_size>
-		<ppi>217ppi</ppi>
-		<dpi>~240dpi</dpi>
-		<css_pixel_ratio>1.5</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>15:9</aspect_ratio>
-		<graphics_array>WVGA</graphics_array>
-		<os>8</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Microsoft Lumia 925</nome>
-		<resolution>768 x 1280</resolution>
-		<density>xhdpi</density>
-		<screen_size>4.5-inches</screen_size>
-		<ppi>334ppi</ppi>
-		<dpi>~320dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>15:9</aspect_ratio>
-		<graphics_array>HD/WXGA</graphics_array>
-		<os>8</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Microsoft Lumia 1020</nome>
-		<resolution>768 x 1280</resolution>
-		<density>xhdpi</density>
-		<screen_size>4.5-inches</screen_size>
-		<ppi>332ppi</ppi>
-		<dpi>~320dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>15:9</aspect_ratio>
-		<graphics_array>HD/WXGA</graphics_array>
-		<os>8</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Microsoft Lumia 1320</nome>
-		<resolution>720 x 1280</resolution>
-		<density>hdpi</density>
-		<screen_size>6.0-inches</screen_size>
-		<ppi>245ppi</ppi>
-		<dpi>~240dpi</dpi>
-		<css_pixel_ratio>1.5</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>HD/WXGA</graphics_array>
-		<os>8</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Microsoft Lumia 1520</nome>
-		<resolution>1080 x 1920</resolution>
-		<density>xxhdpi</density>
-		<screen_size>6.0-inches</screen_size>
-		<ppi>367ppi</ppi>
-		<dpi>~320dpi</dpi>
-		<css_pixel_ratio>2.22</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>FHD</graphics_array>
-		<os>8</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Microsoft Lumia Icon</nome>
-		<resolution>1080 x 1920</resolution>
-		<density>xxhdpi</density>
-		<screen_size>5.0-inches</screen_size>
-		<ppi>441ppi</ppi>
-		<dpi>~480dpi</dpi>
-		<css_pixel_ratio>3</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>FHD</graphics_array>
-		<os>8</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Amazon Kindle Fire HD 8.9</nome>
-		<resolution>1920 x 1200</resolution>
-		<density>hdpi</density>
-		<screen_size>8.9-inches</screen_size>
-		<ppi>254ppi</ppi>
-		<dpi>~240dpi</dpi>
-		<css_pixel_ratio>1.5</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:10</aspect_ratio>
-		<graphics_array>WUXGA</graphics_array>
-		<os>2.1</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Motorola XOOM 2</nome>
-		<resolution>1280 x 800</resolution>
-		<density>mdpi</density>
-		<screen_size>8.2-inches</screen_size>
-		<ppi>184ppi</ppi>
-		<dpi>~160dpi</dpi>
-		<css_pixel_ratio>0.63</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>5:8</aspect_ratio>
-		<graphics_array>WXGA</graphics_array>
-		<os>2.1</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Motorola Moto E</nome>
-		<resolution>540 x 960</resolution>
-		<density>hdpi</density>
-		<screen_size>4.3-inches</screen_size>
-		<ppi>256ppi</ppi>
-		<dpi>~240dpi</dpi>
-		<css_pixel_ratio>1.5</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>qHD</graphics_array>
-		<os>4.4.4</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Motorola Moto E 2</nome>
-		<resolution>540 x 960</resolution>
-		<density>hdpi</density>
-		<screen_size>4.5-inches</screen_size>
-		<ppi>245ppi</ppi>
-		<dpi>~240dpi</dpi>
-		<css_pixel_ratio>1.5</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>qHD</graphics_array>
-		<os>5.0</os>
-		<status>novo</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Motorola Moto G</nome>
-		<resolution>720 x 1280</resolution>
-		<density>hdpi</density>
-		<screen_size>4.5-inches</screen_size>
-		<ppi>326ppi</ppi>
-		<dpi>~320dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>HD/WXGA</graphics_array>
-		<os>4.2</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Motorola Moto G 2</nome>
-		<resolution>720 x 1280</resolution>
-		<density>hdpi</density>
-		<screen_size>5-inches</screen_size>
-		<ppi>294ppi</ppi>
-		<dpi>~320dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>HD</graphics_array>
-		<os>4.4.4</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Motorola Moto X</nome>
-		<resolution>720 x 1280</resolution>
-		<density>hdpi</density>
-		<screen_size>4.7-inches</screen_size>
-		<ppi>312ppi</ppi>
-		<dpi>~320dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>HD/WXGA</graphics_array>
-		<os>4.2</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Motorola Moto X 2</nome>
-		<resolution>1080 x 1920</resolution>
-		<density>xxhdpi</density>
-		<screen_size>5.2-inches</screen_size>
-		<ppi>423ppi</ppi>
-		<dpi>~480dpi</dpi>
-		<css_pixel_ratio>3</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>FHD</graphics_array>
-		<os>4.4.4</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Motorola DROID MAXX</nome>
-		<resolution>720 x 1280</resolution>
-		<density>xhdpi</density>
-		<screen_size>5-inches</screen_size>
-		<ppi>294ppi</ppi>
-		<dpi>~320dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>HD/WXGA</graphics_array>
-		<os>4.2.2</os>
-		<status>novo</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Motorola Moto MAXX</nome>
-		<resolution>1440 x 2560</resolution>
-		<density>xxxhdpi</density>
-		<screen_size>5.2-inches</screen_size>
-		<ppi>565ppi</ppi>
-		<dpi>~640dpi</dpi>
-		<css_pixel_ratio>4</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>WQHD</graphics_array>
-		<os>4.4.4</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartwatch</icon>
-		<nome>Motorola Moto 360</nome>
-		<resolution>320 x 290</resolution>
-		<density>hdpi</density>
-		<screen_size>1.56-inches</screen_size>
-		<ppi>205ppi</ppi>
-		<dpi>~240dpi</dpi>
-		<css_pixel_ratio>1.5</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>1.10:1</aspect_ratio>
-		<graphics_array>M/A</graphics_array>
-		<os>5.0</os>
-		<status>novo</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartwatch</icon>
-		<nome>LG G Watch</nome>
-		<resolution>280 x 280</resolution>
-		<density>hdpi</density>
-		<screen_size>1.56-inches</screen_size>
-		<ppi>205ppi</ppi>
-		<dpi>~240dpi</dpi>
-		<css_pixel_ratio>1.5</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>1:1</aspect_ratio>
-		<graphics_array>M/A</graphics_array>
-		<os>5.0</os>
-		<status>novo</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>BlackBerry Z10</nome>
-		<resolution>768 x 1280</resolution>
-		<density>xxhdpi</density>
-		<screen_size>4.2-inches</screen_size>
-		<ppi>355ppi</ppi>
-		<dpi>~320dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>5:3</aspect_ratio>
-		<graphics_array>WXGA</graphics_array>
-		<os>10</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Google Nexus 4 (LG)</nome>
-		<resolution>768 x 1280</resolution>
-		<density>xhdpi</density>
-		<screen_size>4.7-inches</screen_size>
-		<ppi>318ppi</ppi>
-		<dpi>~320dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>15:9</aspect_ratio>
-		<graphics_array>HD/WXGA</graphics_array>
-		<os>4.2.2</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Google Nexus 5 (LG)</nome>
-		<resolution>1080 x 1920</resolution>
-		<density>xxhdpi</density>
-		<screen_size>4.95-inches</screen_size>
-		<ppi>445ppi</ppi>
-		<dpi>~480dpi</dpi>
-		<css_pixel_ratio>3</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>FHD</graphics_array>
-		<os>4.4.4</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartphone</icon>
-		<nome>Google Nexus 6 (Motorola)</nome>
-		<resolution>1440 x 2560</resolution>
-		<density>xxhdpi</density>
-		<screen_size>5.96-inches</screen_size>
-		<ppi>493ppi</ppi>
-		<dpi>~480dpi</dpi>
-		<css_pixel_ratio>3.5</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>WQHD</graphics_array>
-		<os>5</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Google Nexus 7 (ASUS)</nome>
-		<resolution>1280 x 800</resolution>
-		<density>tvdpi</density>
-		<screen_size>7.0-inches</screen_size>
-		<ppi>216ppi</ppi>
-		<dpi>~212dpi</dpi>
-		<css_pixel_ratio>1.33</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:10</aspect_ratio>
-		<graphics_array>WXGA</graphics_array>
-		<os>4.2.2</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>tablet</icon>
-		<nome>Google Nexus 7 2 (ASUS)</nome>
-		<resolution>1920 x 1200</resolution>
-		<density>xhdpi</density>
-		<screen_size>7.0-inches</screen_size>
-		<ppi>323ppi</ppi>
-		<dpi>~320dpi</dpi>
-		<css_pixel_ratio>2</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:10</aspect_ratio>
-		<graphics_array>WUXGA</graphics_array>
-		<os>4.3</os>
-		<status>existente</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>smartglass</icon>
-		<nome>Google Glass</nome>
-		<resolution>640 x 360</resolution>
-		<density>N/A</density>
-		<screen_size>N/A</screen_size>
-		<ppi>N/A</ppi>
-		<dpi>N/A</dpi>
-		<css_pixel_ratio>1.5</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>FHD</aspect_ratio>
-		<graphics_array>N/A</graphics_array>
-		<os>4.4.2</os>
-		<status>novo</status>
-		<release>XXXX</release>
-	</device>
-	<device>
-		<icon>laptop</icon>
-		<nome>Netbooks</nome>
-		<resolution>1280 x 800</resolution>
-		<density>N/A</density>
-		<screen_size>13.3-inches</screen_size>
-		<ppi>113ppi</ppi>
-		<dpi>~120dpi</dpi>
-		<css_pixel_ratio>1</css_pixel_ratio>
-		<css_width>1280</css_width>
-		<aspect_ratio>16:10</aspect_ratio>
-		<graphics_array>WXGA</graphics_array>
-		<os>N/A</os>
-		<status>existente</status>
-		<release>N/A</release>
-	</device>
-	<device>
-		<icon>laptop</icon>
-		<nome>Ultrabook</nome>
-		<resolution>1366 x 768</resolution>
-		<density>N/A</density>
-		<screen_size>15.6-inches</screen_size>
-		<ppi>96ppi</ppi>
-		<dpi>~120dpi</dpi>
-		<css_pixel_ratio>1</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>HD/FWXGA</graphics_array>
-		<os>N/A</os>
-		<status>existente</status>
-		<release>N/A</release>
-	</device>
-	<device>
-		<icon>desktop</icon>
-		<nome>Old Desktop</nome>
-		<resolution>1024 x 768</resolution>
-		<density>N/A</density>
-		<screen_size>14-inches</screen_size>
-		<ppi>91dpi</ppi>
-		<dpi>~120dpi</dpi>
-		<css_pixel_ratio>1</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>4:3</aspect_ratio>
-		<graphics_array>XGA</graphics_array>
-		<os>N/A</os>
-		<status>existente</status>
-		<release>N/A</release>
-	</device>
-	<device>
-		<icon>desktop</icon>
-		<nome>Small Desktop</nome>
-		<resolution>1280 x 1024</resolution>
-		<density>N/A</density>
-		<screen_size>17.0-inches</screen_size>
-		<ppi>96ppi</ppi>
-		<dpi>~120dpi</dpi>
-		<css_pixel_ratio>1</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>SXGA</graphics_array>
-		<os>N/A</os>
-		<status>existente</status>
-		<release>N/A</release>
-	</device>
-	<device>
-		<icon>desktop</icon>
-		<nome>Large Desktop</nome>
-		<resolution>1680 x 1050</resolution>
-		<density>N/A</density>
-		<screen_size>15.4-inches</screen_size>
-		<ppi>128ppi</ppi>
-		<dpi>~120dpi</dpi>
-		<css_pixel_ratio>1</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:10</aspect_ratio>
-		<graphics_array>WSXGA+</graphics_array>
-		<os>N/A</os>
-		<status>existente</status>
-		<release>N/A</release>
-	</device>
-	<device>
-		<icon>desktop</icon>
-		<nome>FullHD Desktop</nome>
-		<resolution>1920 x 1080</resolution>
-		<density>N/A</density>
-		<screen_size>21.5-inches</screen_size>
-		<ppi>102ppi</ppi>
-		<dpi>~120dpi</dpi>
-		<css_pixel_ratio>1</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:9</aspect_ratio>
-		<graphics_array>UXGA</graphics_array>
-		<os>N/A</os>
-		<status>existente</status>
-		<release>N/A</release>
-	</device>
-	<device>
-		<icon>desktop</icon>
-		<nome>FullHD Desktop Wide</nome>
-		<resolution>1920 x 1200</resolution>
-		<density>N/A</density>
-		<screen_size>15.4-inches</screen_size>
-		<ppi>147ppi</ppi>
-		<dpi>~120dpi</dpi>
-		<css_pixel_ratio>1</css_pixel_ratio>
-		<css_width>X</css_width>
-		<aspect_ratio>16:10</aspect_ratio>
-		<graphics_array>WUXGA</graphics_array>
-		<os>N/A</os>
-		<status>existente</status>
-		<release>N/A</release>
-	</device>
+    <device>
+        <icon>featurephone</icon>
+        <nome>Samsung Galaxy 5</nome>
+        <resolution>240 x 320</resolution>
+        <density>ldpi</density>
+        <screen_size>2.8-inches</screen_size>
+        <ppi>142ppi</ppi>
+        <dpi>~120dpi</dpi>
+        <css_pixel_ratio>0.75</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>2:3</aspect_ratio>
+        <graphics_array>QVGA</graphics_array>
+        <first_os>2.1</first_os>
+        <last_os>2.1</last_os>
+        <status>obsoleto</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>featurephone</icon>
+        <nome>Samsung Galaxy Y</nome>
+        <resolution>240 x 320</resolution>
+        <density>ldpi</density>
+        <screen_size>3.0-inches</screen_size>
+        <ppi>133ppi</ppi>
+        <dpi>~120dpi</dpi>
+        <css_pixel_ratio>0.75</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>2:3</aspect_ratio>
+        <graphics_array>QVGA</graphics_array>
+        <first_os>2.2</first_os>
+        <last_os>2.2</last_os>
+        <status>obsoleto</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Samsung Galaxy Ace</nome>
+        <resolution>320 x 480</resolution>
+        <density>mdpi</density>
+        <screen_size>3.5-inches</screen_size>
+        <ppi>164ppi</ppi>
+        <dpi>~160dpi</dpi>
+        <css_pixel_ratio>1</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>2:3</aspect_ratio>
+        <graphics_array>HVGA</graphics_array>
+        <first_os>2.3.3</first_os>
+        <last_os>2.3.3</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Samsung Galaxy S2</nome>
+        <resolution>480 × 800</resolution>
+        <density>hdpi</density>
+        <screen_size>4.27-inches</screen_size>
+        <ppi>219ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>1.5</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>3:5</aspect_ratio>
+        <graphics_array>WVGA</graphics_array>
+        <first_os>2.3</first_os>
+        <last_os>2.3</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Samsung Galaxy S Duos</nome>
+        <resolution>480 x 800</resolution>
+        <density>hdpi</density>
+        <screen_size>4.0-inches</screen_size>
+        <ppi>233ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>1.5</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>3:5</aspect_ratio>
+        <graphics_array>WVGA</graphics_array>
+        <first_os>4.0.3</first_os>
+        <last_os>4.0.3</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Samsung Galaxy Note 2</nome>
+        <resolution>720 x 1280</resolution>
+        <density>hdpi</density>
+        <screen_size>5.5-inches</screen_size>
+        <ppi>267ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>1.5</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>HD/WXGA</graphics_array>
+        <first_os>4.1.2</first_os>
+        <last_os>4.1.2</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Samsung Galaxy Note 3</nome>
+        <resolution>1080 x 1920</resolution>
+        <density>xxhdpi</density>
+        <screen_size>5.7-inches</screen_size>
+        <ppi>386ppi</ppi>
+        <dpi>~480dpi</dpi>
+        <css_pixel_ratio>3</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>HD/WXGA</graphics_array>
+        <first_os>4.2.2</first_os>
+        <last_os>4.2.2</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Samsung Galaxy S3</nome>
+        <resolution>720 x 1280</resolution>
+        <density>xhdpi</density>
+        <screen_size>4.8-inches</screen_size>
+        <ppi>306ppi</ppi>
+        <dpi>~320dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>HD/WXGA</graphics_array>
+        <first_os>4.2</first_os>
+        <last_os>4.2</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Samsung Galaxy S4</nome>
+        <resolution>1080 x 1920</resolution>
+        <density>xxhdpi</density>
+        <screen_size>5.0-inches</screen_size>
+        <ppi>441ppi</ppi>
+        <dpi>~480dpi</dpi>
+        <css_pixel_ratio>3</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>FHD</graphics_array>
+        <first_os>4.2.2</first_os>
+        <last_os>4.2.2</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Samsung Galaxy S5</nome>
+        <resolution>1080 x 1920</resolution>
+        <density>xxhdpi</density>
+        <screen_size>5.1-inches</screen_size>
+        <ppi>432ppi</ppi>
+        <dpi>~480dpi</dpi>
+        <css_pixel_ratio>3</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>FHD</graphics_array>
+        <first_os>4.2.2</first_os>
+        <last_os>4.2.2</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Samsung Galaxy S6 (Edge)</nome>
+        <resolution>1440 x 2560</resolution>
+        <density>xxxhdpi</density>
+        <screen_size>5.1-inches</screen_size>
+        <ppi>577ppi</ppi>
+        <dpi>~640dpi</dpi>
+        <css_pixel_ratio>4</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>WQHD</graphics_array>
+        <first_os>5.0.2</first_os>
+        <last_os>5.0.2</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Samsung Galaxy Tab 7</nome>
+        <resolution>600 x 1024</resolution>
+        <density>mdpi</density>
+        <screen_size>7.0-inches</screen_size>
+        <ppi>170ppi</ppi>
+        <dpi>~160dpi</dpi>
+        <css_pixel_ratio>1</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:10</aspect_ratio>
+        <graphics_array>WSVGA</graphics_array>
+        <first_os>2.2</first_os>
+        <last_os>2.2</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Samsung Galaxy Tab 8</nome>
+        <resolution>800 x 1280</resolution>
+        <density>mdpi</density>
+        <screen_size>8.9-inches</screen_size>
+        <ppi>170ppi</ppi>
+        <dpi>~160dpi</dpi>
+        <css_pixel_ratio>1</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:10</aspect_ratio>
+        <graphics_array>WSVGA</graphics_array>
+        <first_os>2.2</first_os>
+        <last_os>2.2</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Samsung Galaxy Tab 10.1</nome>
+        <resolution>800 x 1280</resolution>
+        <density>mdpi</density>
+        <screen_size>10.1-inches</screen_size>
+        <ppi>149ppi</ppi>
+        <dpi>~120dpi</dpi>
+        <css_pixel_ratio>0.75</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>5:8</aspect_ratio>
+        <graphics_array>WXGA</graphics_array>
+        <first_os>3.1</first_os>
+        <last_os>3.1</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Samsung Galaxy Tab 2 10.1</nome>
+        <resolution>800 x 1280</resolution>
+        <density>ldpi</density>
+        <screen_size>10.1-inches</screen_size>
+        <ppi>149ppi</ppi>
+        <dpi>~120dpi</dpi>
+        <css_pixel_ratio>0.75</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>5:8</aspect_ratio>
+        <graphics_array>WXGA</graphics_array>
+        <first_os>4.0</first_os>
+        <last_os>4.0</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Samsung Galaxy Tab 3 10.1</nome>
+        <resolution>800 x 1280</resolution>
+        <density>ldpi</density>
+        <screen_size>10.1-inches</screen_size>
+        <ppi>149ppi</ppi>
+        <dpi>~120dpi</dpi>
+        <css_pixel_ratio>0.75</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>5:8</aspect_ratio>
+        <graphics_array>WXGA</graphics_array>
+        <first_os>4.0</first_os>
+        <last_os>4.0</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Samsung Galaxy Tab 4 10.1</nome>
+        <resolution>800 x 1280</resolution>
+        <density>ldpi</density>
+        <screen_size>10.1-inches</screen_size>
+        <ppi>149ppi</ppi>
+        <dpi>~120dpi</dpi>
+        <css_pixel_ratio>0.75</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>5:8</aspect_ratio>
+        <graphics_array>WXGA</graphics_array>
+        <first_os>4.0</first_os>
+        <last_os>4.0</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Samsung Galaxy Tab Pro 8.4</nome>
+        <resolution>1600 x 2560</resolution>
+        <density>xhdpi</density>
+        <screen_size>8.4-inches</screen_size>
+        <ppi>359ppi</ppi>
+        <dpi>~320dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:10</aspect_ratio>
+        <graphics_array>WQXGA</graphics_array>
+        <first_os>4.0</first_os>
+        <last_os>4.0</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Samsung Galaxy Tab Pro 12.2</nome>
+        <resolution>1600 x 2560</resolution>
+        <density>hdpi</density>
+        <screen_size>12.2-inches</screen_size>
+        <ppi>247ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:10</aspect_ratio>
+        <graphics_array>WQXGA</graphics_array>
+        <first_os>4.0</first_os>
+        <last_os>4.0</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Apple iPod Touch 4</nome>
+        <resolution>640 x 960</resolution>
+        <density>xhdpi</density>
+        <screen_size>3.5-inches</screen_size>
+        <ppi>326ppi</ppi>
+        <dpi>~320dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>2:3</aspect_ratio>
+        <graphics_array>HVGA</graphics_array>
+        <first_os>4.1</first_os>
+        <last_os>4.1</last_os>
+        <status>obsoleto</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Apple iPod Touch 5</nome>
+        <resolution>640 x 1136</resolution>
+        <density>xhdpi</density>
+        <screen_size>4.0-inches</screen_size>
+        <ppi>326ppi</ppi>
+        <dpi>~320dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>17:10</aspect_ratio>
+        <graphics_array>Retina HD</graphics_array>
+        <first_os>6.0</first_os>
+        <last_os>6.0</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Apple iPhone 3GS</nome>
+        <resolution>320 x 480</resolution>
+        <density>mdpi</density>
+        <screen_size>3.5-inches</screen_size>
+        <ppi>163ppi</ppi>
+        <dpi>~160dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>2:3</aspect_ratio>
+        <graphics_array>HVGA</graphics_array>
+        <first_os>3.0</first_os>
+        <last_os>3.0</last_os>
+        <status>obsoleto</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Apple iPhone 4</nome>
+        <resolution>640 × 960</resolution>
+        <density>xhdpi</density>
+        <screen_size>3.5-inches</screen_size>
+        <ppi>326ppi</ppi>
+        <dpi>~320dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>1.5:1</aspect_ratio>
+        <graphics_array>DVGA</graphics_array>
+        <first_os>4.0</first_os>
+        <last_os>4.0</last_os>
+        <status>obsoleto</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Apple iPhone 4S</nome>
+        <resolution>640 × 960</resolution>
+        <density>xhdpi</density>
+        <screen_size>3.5-inches</screen_size>
+        <ppi>326ppi</ppi>
+        <dpi>~320dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>1.5:1</aspect_ratio>
+        <graphics_array>DVGA</graphics_array>
+        <first_os>5.0</first_os>
+        <last_os>5.0</last_os>
+        <status>obsoleto</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Apple iPhone 5</nome>
+        <resolution>640 x 1136</resolution>
+        <density>xhdpi</density>
+        <screen_size>4.0-inches</screen_size>
+        <ppi>326ppi</ppi>
+        <dpi>~320dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>17:10</aspect_ratio>
+        <graphics_array>Retina HD</graphics_array>
+        <first_os>6.0</first_os>
+        <last_os>6.0</last_os>
+        <status>obsoleto</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Apple iPhone 5C</nome>
+        <resolution>640 x 1136</resolution>
+        <density>xhdpi</density>
+        <screen_size>4.0-inches</screen_size>
+        <ppi>326ppi</ppi>
+        <dpi>~320dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>17:10</aspect_ratio>
+        <graphics_array>Retina HD</graphics_array>
+        <first_os>7.0</first_os>
+        <last_os>7.0</last_os>
+        <status>descontinuado</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Apple iPhone 5S</nome>
+        <resolution>640 x 1136</resolution>
+        <density>xhdpi</density>
+        <screen_size>4.0-inches</screen_size>
+        <ppi>326ppi</ppi>
+        <dpi>~320dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>17:10</aspect_ratio>
+        <graphics_array>Retina HD</graphics_array>
+        <first_os>7.0</first_os>
+        <last_os>7.0</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Apple iPhone 6</nome>
+        <resolution>750 x 1334</resolution>
+        <density>xhdpi</density>
+        <screen_size>4.7-inches</screen_size>
+        <ppi>326ppi</ppi>
+        <dpi>~320dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>Retina HD</graphics_array>
+        <first_os>8.1</first_os>
+        <last_os>8.1</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Apple iPhone 6 Plus</nome>
+        <resolution>1080 x 1920</resolution>
+        <density>xxhdpi</density>
+        <screen_size>5.5-inches</screen_size>
+        <ppi>401ppi</ppi>
+        <dpi>~480dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>Retina HD</graphics_array>
+        <first_os>8.1</first_os>
+        <last_os>8.1</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Apple iPad 1</nome>
+        <resolution>1024 x 768</resolution>
+        <density>mdpi</density>
+        <screen_size>9.7-inches</screen_size>
+        <ppi>132ppi</ppi>
+        <dpi>~120dpi</dpi>
+        <css_pixel_ratio>1</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>4:3</aspect_ratio>
+        <graphics_array>XGA</graphics_array>
+        <first_os>3.2</first_os>
+        <last_os>3.2</last_os>
+        <status>obsoleto</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Apple iPad 2</nome>
+        <resolution>1024 x 768</resolution>
+        <density>mdpi</density>
+        <screen_size>9.7-inches</screen_size>
+        <ppi>132ppi</ppi>
+        <dpi>~120dpi</dpi>
+        <css_pixel_ratio>1</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>4:3</aspect_ratio>
+        <graphics_array>XGA</graphics_array>
+        <first_os>4.2.1</first_os>
+        <last_os>4.2.1</last_os>
+        <status>obsoleto</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Apple iPad 3 (Retina)</nome>
+        <resolution>2048 x 1536</resolution>
+        <density>hdpi</density>
+        <screen_size>9.7-inches</screen_size>
+        <ppi>264ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>4:3</aspect_ratio>
+        <graphics_array>XGA</graphics_array>
+        <first_os>5.1</first_os>
+        <last_os>5.1</last_os>
+        <status>obsoleto</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Apple iPad 4 (Retina)</nome>
+        <resolution>2048 x 1536</resolution>
+        <density>hdpi</density>
+        <screen_size>9.7-inches</screen_size>
+        <ppi>264ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>4:3</aspect_ratio>
+        <graphics_array>XGA</graphics_array>
+        <first_os>6.0</first_os>
+        <last_os>6.0</last_os>
+        <status>descontinuado</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Apple iPad Air</nome>
+        <resolution>2048 x 1536</resolution>
+        <density>hdpi</density>
+        <screen_size>9.7-inches</screen_size>
+        <ppi>264ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>4:3</aspect_ratio>
+        <graphics_array>QXGA</graphics_array>
+        <first_os>7.0</first_os>
+        <last_os>7.0</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Apple iPad Air 2</nome>
+        <resolution>2048 x 1536</resolution>
+        <density>hdpi</density>
+        <screen_size>9.7-inches</screen_size>
+        <ppi>264ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>4:3</aspect_ratio>
+        <graphics_array>QXGA</graphics_array>
+        <first_os>8.1</first_os>
+        <last_os>8.1</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Apple iPad Mini</nome>
+        <resolution>1024 x 768</resolution>
+        <density>mdpi</density>
+        <screen_size>7.9-inches</screen_size>
+        <ppi>162ppi</ppi>
+        <dpi>~160dpi</dpi>
+        <css_pixel_ratio>1</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>4:3</aspect_ratio>
+        <graphics_array>XGA</graphics_array>
+        <first_os>6.0</first_os>
+        <last_os>6.0</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Apple iPad Mini 2 (Retina)</nome>
+        <resolution>2048 x 1536</resolution>
+        <density>mdpi</density>
+        <screen_size>7.9-inches</screen_size>
+        <ppi>324ppi</ppi>
+        <dpi>~320dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>4:3</aspect_ratio>
+        <graphics_array>XGA</graphics_array>
+        <first_os>7.0</first_os>
+        <last_os>7.0</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Apple iPad Mini 3 (Retina)</nome>
+        <resolution>2048 x 1536</resolution>
+        <density>mdpi</density>
+        <screen_size>7.9-inches</screen_size>
+        <ppi>324ppi</ppi>
+        <dpi>~320dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>4:3</aspect_ratio>
+        <graphics_array>XGA</graphics_array>
+        <first_os>8.1</first_os>
+        <last_os>8.1</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartwatch</icon>
+        <nome>Apple Watch</nome>
+        <resolution>320 x 290</resolution>
+        <density>hdpi</density>
+        <screen_size>1.56-inches</screen_size>
+        <ppi>205ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>1.5</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>M/A</graphics_array>
+        <first_os>8.1</first_os>
+        <last_os>8.1</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Microsoft Surface</nome>
+        <resolution>1366 x 768</resolution>
+        <density>mdpi</density>
+        <screen_size>10.6-inches</screen_size>
+        <ppi>148ppi</ppi>
+        <dpi>~160dpi</dpi>
+        <css_pixel_ratio>1</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>HD</graphics_array>
+        <first_os>8</first_os>
+        <last_os>8</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Microsoft Surface 2</nome>
+        <resolution>1920 x 1080</resolution>
+        <density>mdpi</density>
+        <screen_size>10.6-inches</screen_size>
+        <ppi>208ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>1.5</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>FHD</graphics_array>
+        <first_os>8</first_os>
+        <last_os>8</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Microsoft Surface Pro</nome>
+        <resolution>1920 x 1080</resolution>
+        <density>hdpi</density>
+        <screen_size>10.6-inches</screen_size>
+        <ppi>208ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>1.5</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>FHD</graphics_array>
+        <first_os>8</first_os>
+        <last_os>8</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Microsoft Surface Pro 2</nome>
+        <resolution>1920 x 1080</resolution>
+        <density>hdpi</density>
+        <screen_size>10.6-inches</screen_size>
+        <ppi>208ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>1.5</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>FHD</graphics_array>
+        <first_os>8</first_os>
+        <last_os>8</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Microsoft Surface Pro 3</nome>
+        <resolution>2160 x 1140</resolution>
+        <density>hdpi</density>
+        <screen_size>12.0-inches</screen_size>
+        <ppi>216ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>1.5</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>FHD</graphics_array>
+        <first_os>8.1</first_os>
+        <last_os>8.1</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Microsoft Lumia 2520</nome>
+        <resolution>1920 x 1080</resolution>
+        <density>xxhdpi</density>
+        <screen_size>10.1-inches</screen_size>
+        <ppi>218ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>1.5</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>FHD</graphics_array>
+        <first_os>8</first_os>
+        <last_os>8</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Microsoft Lumia 520</nome>
+        <resolution>480 x 800</resolution>
+        <density>hdpi</density>
+        <screen_size>4.0-inches</screen_size>
+        <ppi>233ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>1.5</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>15:9</aspect_ratio>
+        <graphics_array>WVGA</graphics_array>
+        <first_os>8</first_os>
+        <last_os>8</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Microsoft Lumia 720</nome>
+        <resolution>480 x 800</resolution>
+        <density>hdpi</density>
+        <screen_size>4.3-inches</screen_size>
+        <ppi>217ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>1.5</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>15:9</aspect_ratio>
+        <graphics_array>WVGA</graphics_array>
+        <first_os>8</first_os>
+        <last_os>8</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Microsoft Lumia 820</nome>
+        <resolution>480 x 800</resolution>
+        <density>hdpi</density>
+        <screen_size>4.3-inches</screen_size>
+        <ppi>217ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>1.5</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>15:9</aspect_ratio>
+        <graphics_array>WVGA</graphics_array>
+        <first_os>8</first_os>
+        <last_os>8</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Microsoft Lumia 925</nome>
+        <resolution>768 x 1280</resolution>
+        <density>xhdpi</density>
+        <screen_size>4.5-inches</screen_size>
+        <ppi>334ppi</ppi>
+        <dpi>~320dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>15:9</aspect_ratio>
+        <graphics_array>HD/WXGA</graphics_array>
+        <first_os>8</first_os>
+        <last_os>8</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Microsoft Lumia 1020</nome>
+        <resolution>768 x 1280</resolution>
+        <density>xhdpi</density>
+        <screen_size>4.5-inches</screen_size>
+        <ppi>332ppi</ppi>
+        <dpi>~320dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>15:9</aspect_ratio>
+        <graphics_array>HD/WXGA</graphics_array>
+        <first_os>8</first_os>
+        <last_os>8</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Microsoft Lumia 1320</nome>
+        <resolution>720 x 1280</resolution>
+        <density>hdpi</density>
+        <screen_size>6.0-inches</screen_size>
+        <ppi>245ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>1.5</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>HD/WXGA</graphics_array>
+        <first_os>8</first_os>
+        <last_os>8</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Microsoft Lumia 1520</nome>
+        <resolution>1080 x 1920</resolution>
+        <density>xxhdpi</density>
+        <screen_size>6.0-inches</screen_size>
+        <ppi>367ppi</ppi>
+        <dpi>~320dpi</dpi>
+        <css_pixel_ratio>2.22</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>FHD</graphics_array>
+        <first_os>8</first_os>
+        <last_os>8</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Microsoft Lumia Icon</nome>
+        <resolution>1080 x 1920</resolution>
+        <density>xxhdpi</density>
+        <screen_size>5.0-inches</screen_size>
+        <ppi>441ppi</ppi>
+        <dpi>~480dpi</dpi>
+        <css_pixel_ratio>3</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>FHD</graphics_array>
+        <first_os>8</first_os>
+        <last_os>8</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Amazon Kindle Fire HD 8.9</nome>
+        <resolution>1920 x 1200</resolution>
+        <density>hdpi</density>
+        <screen_size>8.9-inches</screen_size>
+        <ppi>254ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>1.5</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:10</aspect_ratio>
+        <graphics_array>WUXGA</graphics_array>
+        <first_os>2.1</first_os>
+        <last_os>2.1</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Motorola XOOM 2</nome>
+        <resolution>1280 x 800</resolution>
+        <density>mdpi</density>
+        <screen_size>8.2-inches</screen_size>
+        <ppi>184ppi</ppi>
+        <dpi>~160dpi</dpi>
+        <css_pixel_ratio>0.63</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>5:8</aspect_ratio>
+        <graphics_array>WXGA</graphics_array>
+        <first_os>2.1</first_os>
+        <last_os>2.1</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Motorola Moto E</nome>
+        <resolution>540 x 960</resolution>
+        <density>hdpi</density>
+        <screen_size>4.3-inches</screen_size>
+        <ppi>256ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>1.5</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>qHD</graphics_array>
+        <first_os>4.4.4</first_os>
+        <last_os>4.4.4</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Motorola Moto E 2</nome>
+        <resolution>540 x 960</resolution>
+        <density>hdpi</density>
+        <screen_size>4.5-inches</screen_size>
+        <ppi>245ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>1.5</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>qHD</graphics_array>
+        <first_os>5.0</first_os>
+        <last_os>5.0</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Motorola Moto G</nome>
+        <resolution>720 x 1280</resolution>
+        <density>hdpi</density>
+        <screen_size>4.5-inches</screen_size>
+        <ppi>326ppi</ppi>
+        <dpi>~320dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>HD/WXGA</graphics_array>
+        <first_os>4.2</first_os>
+        <last_os>4.2</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Motorola Moto G 2</nome>
+        <resolution>720 x 1280</resolution>
+        <density>hdpi</density>
+        <screen_size>5-inches</screen_size>
+        <ppi>294ppi</ppi>
+        <dpi>~320dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>HD</graphics_array>
+        <first_os>4.4.4</first_os>
+        <last_os>4.4.4</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Motorola Moto X</nome>
+        <resolution>720 x 1280</resolution>
+        <density>hdpi</density>
+        <screen_size>4.7-inches</screen_size>
+        <ppi>312ppi</ppi>
+        <dpi>~320dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>HD/WXGA</graphics_array>
+        <first_os>4.2</first_os>
+        <last_os>4.2</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Motorola Moto X 2</nome>
+        <resolution>1080 x 1920</resolution>
+        <density>xxhdpi</density>
+        <screen_size>5.2-inches</screen_size>
+        <ppi>423ppi</ppi>
+        <dpi>~480dpi</dpi>
+        <css_pixel_ratio>3</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>FHD</graphics_array>
+        <first_os>4.4.4</first_os>
+        <last_os>4.4.4</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Motorola DROID MAXX</nome>
+        <resolution>720 x 1280</resolution>
+        <density>xhdpi</density>
+        <screen_size>5-inches</screen_size>
+        <ppi>294ppi</ppi>
+        <dpi>~320dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>HD/WXGA</graphics_array>
+        <first_os>4.2.2</first_os>
+        <last_os>4.2.2</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Motorola Moto MAXX</nome>
+        <resolution>1440 x 2560</resolution>
+        <density>xxxhdpi</density>
+        <screen_size>5.2-inches</screen_size>
+        <ppi>565ppi</ppi>
+        <dpi>~640dpi</dpi>
+        <css_pixel_ratio>4</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>WQHD</graphics_array>
+        <first_os>4.4.4</first_os>
+        <last_os>4.4.4</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartwatch</icon>
+        <nome>Motorola Moto 360</nome>
+        <resolution>320 x 290</resolution>
+        <density>hdpi</density>
+        <screen_size>1.56-inches</screen_size>
+        <ppi>205ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>1.5</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>1.10:1</aspect_ratio>
+        <graphics_array>M/A</graphics_array>
+        <first_os>5.0</first_os>
+        <last_os>5.0</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartwatch</icon>
+        <nome>LG G Watch</nome>
+        <resolution>280 x 280</resolution>
+        <density>hdpi</density>
+        <screen_size>1.56-inches</screen_size>
+        <ppi>205ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>1.5</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>1:1</aspect_ratio>
+        <graphics_array>M/A</graphics_array>
+        <first_os>5.0</first_os>
+        <last_os>5.0</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>BlackBerry Z10</nome>
+        <resolution>768 x 1280</resolution>
+        <density>xxhdpi</density>
+        <screen_size>4.2-inches</screen_size>
+        <ppi>355ppi</ppi>
+        <dpi>~320dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>5:3</aspect_ratio>
+        <graphics_array>WXGA</graphics_array>
+        <first_os>10</first_os>
+        <last_os>10</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Google Nexus 4 (LG)</nome>
+        <resolution>768 x 1280</resolution>
+        <density>xhdpi</density>
+        <screen_size>4.7-inches</screen_size>
+        <ppi>318ppi</ppi>
+        <dpi>~320dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>15:9</aspect_ratio>
+        <graphics_array>HD/WXGA</graphics_array>
+        <first_os>4.2.2</first_os>
+        <last_os>4.2.2</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Google Nexus 5 (LG)</nome>
+        <resolution>1080 x 1920</resolution>
+        <density>xxhdpi</density>
+        <screen_size>4.95-inches</screen_size>
+        <ppi>445ppi</ppi>
+        <dpi>~480dpi</dpi>
+        <css_pixel_ratio>3</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>FHD</graphics_array>
+        <first_os>4.4.4</first_os>
+        <last_os>4.4.4</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Google Nexus 6 (Motorola)</nome>
+        <resolution>1440 x 2560</resolution>
+        <density>xxhdpi</density>
+        <screen_size>5.96-inches</screen_size>
+        <ppi>493ppi</ppi>
+        <dpi>~480dpi</dpi>
+        <css_pixel_ratio>3.5</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>WQHD</graphics_array>
+        <first_os>5</first_os>
+        <last_os>5</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Google Nexus 7 (ASUS)</nome>
+        <resolution>1280 x 800</resolution>
+        <density>tvdpi</density>
+        <screen_size>7.0-inches</screen_size>
+        <ppi>216ppi</ppi>
+        <dpi>~212dpi</dpi>
+        <css_pixel_ratio>1.33</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:10</aspect_ratio>
+        <graphics_array>WXGA</graphics_array>
+        <first_os>4.2.2</first_os>
+        <last_os>4.2.2</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Google Nexus 7 2 (ASUS)</nome>
+        <resolution>1920 x 1200</resolution>
+        <density>xhdpi</density>
+        <screen_size>7.0-inches</screen_size>
+        <ppi>323ppi</ppi>
+        <dpi>~320dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:10</aspect_ratio>
+        <graphics_array>WUXGA</graphics_array>
+        <first_os>4.3</first_os>
+        <last_os>4.3</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>smartglass</icon>
+        <nome>Google Glass</nome>
+        <resolution>640 x 360</resolution>
+        <density>N/A</density>
+        <screen_size>N/A</screen_size>
+        <ppi>N/A</ppi>
+        <dpi>N/A</dpi>
+        <css_pixel_ratio>1.5</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>FHD</aspect_ratio>
+        <graphics_array>N/A</graphics_array>
+        <first_os>4.4.2</first_os>
+        <last_os>4.4.2</last_os>
+        <status>existente</status>
+        <release>XXXX</release>
+    </device>
+    <device>
+        <icon>laptop</icon>
+        <nome>Netbooks</nome>
+        <resolution>1280 x 800</resolution>
+        <density>N/A</density>
+        <screen_size>13.3-inches</screen_size>
+        <ppi>113ppi</ppi>
+        <dpi>~120dpi</dpi>
+        <css_pixel_ratio>1</css_pixel_ratio>
+        <css_width>1280</css_width>
+        <aspect_ratio>16:10</aspect_ratio>
+        <graphics_array>WXGA</graphics_array>
+        <first_os>N/A</first_os>
+        <last_os>N/A</last_os>
+        <status>existente</status>
+        <release>N/A</release>
+    </device>
+    <device>
+        <icon>laptop</icon>
+        <nome>Ultrabook</nome>
+        <resolution>1366 x 768</resolution>
+        <density>N/A</density>
+        <screen_size>15.6-inches</screen_size>
+        <ppi>96ppi</ppi>
+        <dpi>~120dpi</dpi>
+        <css_pixel_ratio>1</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>HD/FWXGA</graphics_array>
+        <first_os>N/A</first_os>
+        <last_os>N/A</last_os>
+        <status>existente</status>
+        <release>N/A</release>
+    </device>
+    <device>
+        <icon>desktop</icon>
+        <nome>Old Desktop</nome>
+        <resolution>1024 x 768</resolution>
+        <density>N/A</density>
+        <screen_size>14-inches</screen_size>
+        <ppi>91dpi</ppi>
+        <dpi>~120dpi</dpi>
+        <css_pixel_ratio>1</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>4:3</aspect_ratio>
+        <graphics_array>XGA</graphics_array>
+        <first_os>N/A</first_os>
+        <last_os>N/A</last_os>
+        <status>existente</status>
+        <release>N/A</release>
+    </device>
+    <device>
+        <icon>desktop</icon>
+        <nome>Small Desktop</nome>
+        <resolution>1280 x 1024</resolution>
+        <density>N/A</density>
+        <screen_size>17.0-inches</screen_size>
+        <ppi>96ppi</ppi>
+        <dpi>~120dpi</dpi>
+        <css_pixel_ratio>1</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>SXGA</graphics_array>
+        <first_os>N/A</first_os>
+        <last_os>N/A</last_os>
+        <status>existente</status>
+        <release>N/A</release>
+    </device>
+    <device>
+        <icon>desktop</icon>
+        <nome>Large Desktop</nome>
+        <resolution>1680 x 1050</resolution>
+        <density>N/A</density>
+        <screen_size>15.4-inches</screen_size>
+        <ppi>128ppi</ppi>
+        <dpi>~120dpi</dpi>
+        <css_pixel_ratio>1</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:10</aspect_ratio>
+        <graphics_array>WSXGA+</graphics_array>
+        <first_os>N/A</first_os>
+        <last_os>N/A</last_os>
+        <status>existente</status>
+        <release>N/A</release>
+    </device>
+    <device>
+        <icon>desktop</icon>
+        <nome>FullHD Desktop</nome>
+        <resolution>1920 x 1080</resolution>
+        <density>N/A</density>
+        <screen_size>21.5-inches</screen_size>
+        <ppi>102ppi</ppi>
+        <dpi>~120dpi</dpi>
+        <css_pixel_ratio>1</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>UXGA</graphics_array>
+        <first_os>N/A</first_os>
+        <last_os>N/A</last_os>
+        <status>existente</status>
+        <release>N/A</release>
+    </device>
+    <device>
+        <icon>desktop</icon>
+        <nome>FullHD Desktop Wide</nome>
+        <resolution>1920 x 1200</resolution>
+        <density>N/A</density>
+        <screen_size>15.4-inches</screen_size>
+        <ppi>147ppi</ppi>
+        <dpi>~120dpi</dpi>
+        <css_pixel_ratio>1</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>16:10</aspect_ratio>
+        <graphics_array>WUXGA</graphics_array>
+        <first_os>N/A</first_os>
+        <last_os>N/A</last_os>
+        <status>existente</status>
+        <release>N/A</release>
+    </device>
 </dispositivos>

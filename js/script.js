@@ -19,35 +19,6 @@ function shuffle(array) {
 //shuffle(meuTema);
 
 $(function () {
-    $("#dispositivos").tablesorter({
-        theme: meuTema[0],
-        widgets: ['reorder', 'columnSelector', 'stickyHeaders', 'filter'],
-        widgetOptions: {
-            reorder_axis: 'x', // 'x' or 'xy'
-            reorder_delay: 300,
-            reorder_helperClass: 'tablesorter-reorder-helper',
-            reorder_helperBar: 'tablesorter-reorder-helper-bar',
-            reorder_noReorder: 'reorder-false',
-            reorder_blocked: 'reorder-block-left reorder-block-end',
-            reorder_complete: null, // callback
-            columnSelector_container : $('#columnSelector'),
-			columnSelector_columns : {
-				0: 'disable'
-			},
-			columnSelector_saveColumns: true,
-			columnSelector_layout : '<label><input type="checkbox">{name}</label>',
-			columnSelector_name  : 'data-selector-name',
-			columnSelector_mediaquery: true,
-			columnSelector_mediaqueryName: 'Auto: ',
-			columnSelector_mediaqueryState: true,
-			columnSelector_breakpoints : [ '20em', '30em', '40em', '50em', '60em', '70em' ],
-			columnSelector_priority : 'data-priority'
-        },
-        initialized: function (table) {
-            
-        }
-    });
-
     $('.table th strong').each(
         function () {
             var meuID = $(this).data('id');
@@ -63,11 +34,42 @@ $(function () {
 
 });
 
+if (window.innerWidth > 1024) {
+    $("#dispositivos").tablesorter({
+        theme: meuTema[0],
+        widgets: ['reorder', 'columnSelector', 'stickyHeaders', 'filter'],
+        widgetOptions: {
+            reorder_axis: 'x', // 'x' or 'xy'
+            reorder_delay: 300,
+            reorder_helperClass: 'tablesorter-reorder-helper',
+            reorder_helperBar: 'tablesorter-reorder-helper-bar',
+            reorder_noReorder: 'reorder-false',
+            reorder_blocked: 'reorder-block-left reorder-block-end',
+            reorder_complete: null, // callback
+            columnSelector_container : $('#columnSelector'),
+            columnSelector_columns : {
+                0: 'disable'
+            },
+            columnSelector_saveColumns: true,
+            columnSelector_layout : '<label><input type="checkbox">{name}</label>',
+            columnSelector_name  : 'data-selector-name',
+            columnSelector_mediaquery: true,
+            columnSelector_mediaqueryName: 'Auto: ',
+            columnSelector_mediaqueryState: true,
+            columnSelector_breakpoints : [ '20em', '30em', '40em', '50em', '60em', '70em' ],
+            columnSelector_priority : 'data-priority'
+        },
+        initialized: function (table) {
+
+        }
+    });
+}
+
 
 function buscarReferencia(mGlossario, id){
     for(var i= 0; i<mGlossario.length; i++){
         if(mGlossario[i].id == id){
-            var refGlossario = mGlossario[i];                
+            var refGlossario = mGlossario[i];
             break;
         }
     }
@@ -116,7 +118,8 @@ function getDevice(){
             buffer += "<td>" + dispositivo[b].css_width + "</td>";
             buffer += "<td>" + dispositivo[b].aspect_ratio + "</td>";
             buffer += "<td>" + dispositivo[b].graphics_array + "</td>";
-            buffer += "<td>" + dispositivo[b].os + "</td>";
+            buffer += "<td>" + dispositivo[b].first_os + "</td>";
+            buffer += "<td>" + dispositivo[b].last_os + "</td>";
             buffer += "<td>" + dispositivo[b].release + "</td>";
             buffer += "</tr>";
         }
@@ -137,7 +140,8 @@ function getDevice(){
         var css_width = "";
         var aspect_ratio = "";
         var graphics_array = "";
-        var os = "";
+        var first_os = "";
+        var last_os = "";
         var status = "";
         var release = "";
     }
@@ -169,7 +173,8 @@ function getDevice(){
             dispositivo[i].css_width = xmlDeviceNode.getElementsByTagName('css_width')[0].firstChild.nodeValue;
             dispositivo[i].aspect_ratio = xmlDeviceNode.getElementsByTagName('aspect_ratio')[0].firstChild.nodeValue;
             dispositivo[i].graphics_array = xmlDeviceNode.getElementsByTagName('graphics_array')[0].firstChild.nodeValue;
-            dispositivo[i].os = xmlDeviceNode.getElementsByTagName('os')[0].firstChild.nodeValue;
+            dispositivo[i].first_os = xmlDeviceNode.getElementsByTagName('first_os')[0].firstChild.nodeValue;
+            dispositivo[i].last_os = xmlDeviceNode.getElementsByTagName('last_os')[0].firstChild.nodeValue;
             dispositivo[i].release = xmlDeviceNode.getElementsByTagName('release')[0].firstChild.nodeValue;
             dispositivo[i].status = xmlDeviceNode.getElementsByTagName('status')[0].firstChild.nodeValue;
 
@@ -193,64 +198,69 @@ function getDevice(){
     xmlParserDispositivosSimplificado(xml);
 }
 
-var deviceInfo = 
+var deviceInfo =
 [
-    { 
+    {
         'id': 'device',
         'title': 'Device',
         'legenda': 'Device name and Brand'
     },
-    { 
+    {
         'id': 'resolution',
         'title': 'Resolution',
         'legenda': 'Width x Height of Device'
     },
-    { 
+    {
         'id': 'density',
         'title': 'Density',
         'legenda': 'Pixel Density'
     },
-    { 
+    {
         'id': 'screen_size',
         'title': 'Screen Size (inch)',
         'legenda': 'How many inches is the screen'
     },
-    { 
+    {
         'id': 'ppi',
         'title': 'PPI',
         'legenda': 'Pixels per inch of the screen'
     },
-    { 
+    {
         'id': 'dpi',
         'title': 'DPI',
         'legenda': 'Dots per inch of the screen - Density'
     },
-    { 
+    {
         'id': 'css_pixel_ratio',
         'title': 'CSS Pixel Ratio',
         'legenda': 'It is the ratio between hardware pixels and CSS pixels'
     },
-    { 
+    {
         'id': 'css_width',
         'title': 'CSS Width',
         'legenda': 'Can be calculated by dividing the Pixel Width by the CSS Pixel Ratio'
     },
-    { 
+    {
         'id': 'aspect_ratio',
         'title': 'Aspect Ratio',
         'legenda': 'Display Aspect Ratio - the proportional relationship between its width and its height'
     },
-    { 
+    {
         'id': 'graphics_array',
         'title': 'Graphics Array',
         'legenda': 'Device\'s dimensions (width x height)'
     },
-    { 
-        'id': 'os',
-        'title': 'OS',
+    {
+        'id': 'first_os',
+        'title': 'First OS',
         'legenda': 'Device Operational System Version on Release'
     },
-    { 
+    {
+        'id': 'last_os',
+        'title': 'Last OS',
+        'legenda': 'Device Operational System Version on the last update'
+    },
+    {
         'id': 'release',
         'title': 'Release',
         'legenda': 'Release date of device'
