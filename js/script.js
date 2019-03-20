@@ -21,7 +21,7 @@ function shuffle(array) {
 $(function () {
     $("#dispositivos").tablesorter({
         theme: meuTema[0],
-        widgets: ['reorder', 'stickyHeaders', 'filter'],
+        widgets: ['reorder', 'columnSelector', 'stickyHeaders', 'filter'],
         widgetOptions: {
             reorder_axis: 'x', // 'x' or 'xy'
             reorder_delay: 300,
@@ -29,10 +29,52 @@ $(function () {
             reorder_helperBar: 'tablesorter-reorder-helper-bar',
             reorder_noReorder: 'reorder-false',
             reorder_blocked: 'reorder-block-left reorder-block-end',
-            reorder_complete: null // callback
+            reorder_complete: null, // callback
+            columnSelector_container : $('#columnSelector'),
+			columnSelector_columns : {
+				0: 'disable'
+			},
+			columnSelector_saveColumns: true,
+			columnSelector_layout : '<label><input type="checkbox">{name}</label>',
+			columnSelector_name  : 'data-selector-name',
+			columnSelector_mediaquery: true,
+			columnSelector_mediaqueryName: 'Auto: ',
+			columnSelector_mediaqueryState: true,
+			columnSelector_breakpoints : [ '20em', '30em', '40em', '50em', '60em', '70em' ],
+			columnSelector_priority : 'data-priority'
+        },
+        initialized: function (table) {
+            
         }
     });
 
+    $('.table th strong').each(
+        function () {
+            var meuID = $(this).data('id');
+            var deviceRef = buscarReferencia(deviceInfo, meuID);
+
+            $(this).css('cursor', 'help');
+
+            $(this).append('<span class="popover above">' + deviceRef.legenda + '</span>');
+        }
+    );
+
+    getDevice();
+
+});
+
+
+function buscarReferencia(mGlossario, id){
+    for(var i= 0; i<mGlossario.length; i++){
+        if(mGlossario[i].id == id){
+            var refGlossario = mGlossario[i];                
+            break;
+        }
+    }
+    return refGlossario;
+}
+
+function getDevice(){
     var dispositivo;
 
     function xmlLoader(url) {
@@ -53,11 +95,11 @@ $(function () {
     function mountTable(dispositivo) {
         buffer = '';
         for (b = 0; b < dispositivo.length; b++) {
-            if (dispositivo[b].novo === 'yes') {
+            if (dispositivo[b].status === 'novo') {
                 buffer += "<tr class=\"novo\">";
-            } else if (dispositivo[b].novo === 'des') {
+            } else if (dispositivo[b].status === 'descontinuado') {
                 buffer += "<tr class=\"descontinuado\">";
-            } else if (dispositivo[b].novo === 'obs') {
+            } else if (dispositivo[b].status === 'obsoleto') {
                 buffer += "<tr class=\"obsoleto\">";
             } else {
                 buffer += "<tr>";
@@ -75,6 +117,7 @@ $(function () {
             buffer += "<td>" + dispositivo[b].aspect_ratio + "</td>";
             buffer += "<td>" + dispositivo[b].graphics_array + "</td>";
             buffer += "<td>" + dispositivo[b].os + "</td>";
+            buffer += "<td>" + dispositivo[b].release + "</td>";
             buffer += "</tr>";
         }
 
@@ -95,7 +138,8 @@ $(function () {
         var aspect_ratio = "";
         var graphics_array = "";
         var os = "";
-        var novo = "";
+        var status = "";
+        var release = "";
     }
 
     function xmlParserDispositivosSimplificado(xmlNode) {
@@ -126,7 +170,8 @@ $(function () {
             dispositivo[i].aspect_ratio = xmlDeviceNode.getElementsByTagName('aspect_ratio')[0].firstChild.nodeValue;
             dispositivo[i].graphics_array = xmlDeviceNode.getElementsByTagName('graphics_array')[0].firstChild.nodeValue;
             dispositivo[i].os = xmlDeviceNode.getElementsByTagName('os')[0].firstChild.nodeValue;
-            dispositivo[i].novo = xmlDeviceNode.getElementsByTagName('new')[0].firstChild.nodeValue;
+            dispositivo[i].release = xmlDeviceNode.getElementsByTagName('release')[0].firstChild.nodeValue;
+            dispositivo[i].status = xmlDeviceNode.getElementsByTagName('status')[0].firstChild.nodeValue;
 
             if (parseFloat(dispositivo[i].css_pixel_ratio) == 0.63 || parseFloat(dispositivo[i].css_pixel_ratio) == 0.75) {
                 dispositivo[i].css_width = (parseFloat(dispositivo[i].resolution) * parseFloat(dispositivo[i].css_pixel_ratio)).toFixed(0);
@@ -146,7 +191,71 @@ $(function () {
 
     xml = xmlLoader("data/meus_devices.xml");
     xmlParserDispositivosSimplificado(xml);
-});
+}
+
+var deviceInfo = 
+[
+    { 
+        'id': 'device',
+        'title': 'Device',
+        'legenda': 'Device name and Brand'
+    },
+    { 
+        'id': 'resolution',
+        'title': 'Resolution',
+        'legenda': 'Width x Height of Device'
+    },
+    { 
+        'id': 'density',
+        'title': 'Density',
+        'legenda': 'Pixel Density'
+    },
+    { 
+        'id': 'screen_size',
+        'title': 'Screen Size (inch)',
+        'legenda': 'How many inches is the screen'
+    },
+    { 
+        'id': 'ppi',
+        'title': 'PPI',
+        'legenda': 'Pixels per inch of the screen'
+    },
+    { 
+        'id': 'dpi',
+        'title': 'DPI',
+        'legenda': 'Dots per inch of the screen - Density'
+    },
+    { 
+        'id': 'css_pixel_ratio',
+        'title': 'CSS Pixel Ratio',
+        'legenda': 'It is the ratio between hardware pixels and CSS pixels'
+    },
+    { 
+        'id': 'css_width',
+        'title': 'CSS Width',
+        'legenda': 'Can be calculated by dividing the Pixel Width by the CSS Pixel Ratio'
+    },
+    { 
+        'id': 'aspect_ratio',
+        'title': 'Aspect Ratio',
+        'legenda': 'Display Aspect Ratio - the proportional relationship between its width and its height'
+    },
+    { 
+        'id': 'graphics_array',
+        'title': 'Graphics Array',
+        'legenda': 'Device\'s dimensions (width x height)'
+    },
+    { 
+        'id': 'os',
+        'title': 'OS',
+        'legenda': 'Device Operational System Version on Release'
+    },
+    { 
+        'id': 'release',
+        'title': 'Release',
+        'legenda': 'Release date of device'
+    }
+];
 
 /* GOOGLE FONTS PT Sans */
 (function() {

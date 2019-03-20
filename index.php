@@ -1,14 +1,14 @@
 ﻿<?php
-    /* RWD Devices */    
+    /* RWD Devices - Beta Version */    
 ?>
 <!doctype html>
 <html lang="pt-BR" dir="ltr">
 <head>
     <meta charset="UTF-8" />
-    <title>RWD Devices</title>
+    <title>RWD Devices (Beta Version)</title>
     <meta name="description" content="Aqui você encontra os principais dispositivos do mercado e informações para desenvolver seu app e site melhor">
     <?php include 'includes/header.php';  ?>
-    
+
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <?php include 'includes/google-analytics.php';  ?>
 
@@ -46,20 +46,26 @@
         </div>
     </div>
     <div class="container-table">
+        <div class="columnSelectorWrapper horizontal">
+            <input id="colSelect1" type="checkbox" class="hidden" />
+            <label class="columnSelectorButton" for="colSelect1">Escolher Colunas</label>
+            <div id="columnSelector" class="columnSelector"></div>
+        </div>
         <table id="dispositivos" border='1' class="table" lang="en">
             <thead>
                 <tr>
-                    <th class="reorder-false reorder-block-left"><strong>Device</strong></th>
-                    <th><strong>Resolution</strong></th>
-                    <th><strong>Density</strong></th>
-                    <th><strong>Screen Size</strong></th>
-                    <th><strong>PPI</strong></th>
-                    <th><strong>DPI</strong></th>
-                    <th><strong>CSS Pixel Ratio</strong></th>
-                    <th><strong>CSS Width</strong></th>
-                    <th><strong>Aspect Ratio</strong></th>
-                    <th><strong>Graphics Array</strong></th>
-                    <th class="reorder-block-end"><strong>OS</strong></th>
+                    <th data-priority="critical" class="reorder-false reorder-block-left"><strong class="info" data-id="device">Device</strong></th>
+                    <th data-priority="critical"><strong class="info" data-id="resolution">Resolution</strong></th>
+                    <th data-priority="critical"><strong class="info" data-id="density">Density</strong></th>
+                    <th data-priority="6"><strong class="info" data-id="screen_size">Screen Size</strong></th>
+                    <th data-priority="5"><strong class="info" data-id="ppi">PPI</strong></th>
+                    <th data-priority="4"><strong class="info" data-id="dpi">DPI</strong></th>
+                    <th data-priority="critical"><strong class="info" data-id="css_pixel_ratio">CSS Pixel Ratio</strong></th>
+                    <th data-priority="critical"><strong class="info" data-id="css_width">CSS Width</strong></th>
+                    <th data-priority="3"><strong class="info" data-id="aspect_ratio">Aspect Ratio</strong></th>
+                    <th data-priority="2"><strong class="info" data-id="graphics_array">Graphics Array</strong></th>
+                    <th data-priority="1"><strong class="info" data-id="os">OS</strong></th>
+                    <th data-priority="0" class="reorder-block-end"><strong class="info" data-id="release">Release</strong></th>
                 </tr>
             </thead>
             <tbody></tbody>
@@ -67,7 +73,7 @@
     </div>
 
     <?php include 'includes/scripts.php';  ?>
-
+    
     <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

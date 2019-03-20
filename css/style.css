@@ -20,6 +20,7 @@ pre { width: 70%; margin: 10px auto; padding: 15px; font-size: 1.2rem; color: #3
 
 .table { width: 100%!important; margin: 0!important; border-collapse: collapse; }
 .table th { font-size: 0.9rem!important; text-align: center; }
+.table th td { cursor: move; }
 .table td { font-size: 0.8rem!important; color: #000!important; text-align: center!important; vertical-align: middle!important; }
 
 .novo td { background: #dec36a!important; }
@@ -46,6 +47,33 @@ pre { width: 70%; margin: 10px auto; padding: 15px; font-size: 1.2rem; color: #3
 .container-table { width: 100%; margin: 10px 0; position: relative; float: left; }
 .tablesorter-header.tablesorter-reorder-helper { cursor: move; }
 .tablesorter-reorder-helper-bar { width: 1px; background: #000; }
+
+/* SELECIONAR COLUNAS */
+#columnSelector.horizontal label { display: block; /* block; vertical */ }
+.columnSelectorWrapper { margin: 20px 10px; position: relative; z-index: 300; }
+.columnSelector, .hidden { display: none; }
+.columnSelectorButton { padding: 5px 10px; font-size: 0.8rem; text-transform: uppercase; color: #000; background: #999; border: #000 1px solid; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; cursor: pointer; }
+/* this won't work in IE8 & older */
+#colSelect1:checked + label { background: #5797d7; border-color: #555; }
+#colSelect1:checked ~ #columnSelector { display: block; }
+.columnSelector { padding: 10px; top: 30px; background: #fff; border: #000 1px solid; position: absolute; }
+.columnSelector label { font-size: 0.8rem; display: block; }
+.columnSelector label:nth-child(1) { border-bottom: #000 solid 1px; margin-bottom: 5px; }
+.columnSelector .disabled { color: #ddd; }
+
+/* @begin POPOVER */
+.info { width: 80px; cursor: default; display: inline-block; position: relative; }
+.info .popover { width: 90px; padding: 7px 10px; left: -3px; top: 40px; font-size: 12px; color: #fff; background-color: rgba(0, 0, 0, 0.85); border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.4); -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4); display: none; position: absolute; z-index: 4; }
+.info .popover:before { content: ''; margin-left: -7px; left: 50%; top: -7px; border-bottom: 7px solid rgba(0, 0, 0, 0.85); border-right: 7px solid transparent; border-left: 7px solid transparent; display: block; position: absolute; }
+.info:hover .popover { -webkit-animation: fade-in .3s linear 1, move-down .3s linear 1; -moz-animation: fade-in .3s linear 1, move-down .3s linear 1; -ms-animation: fade-in .3s linear 1, move-down .3s linear 1; display: block; }
+@-webkit-keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+@-moz-keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+@-ms-keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+
+@-webkit-keyframes move-down { from { top: 55px; } to { top: 40px; } }
+@-moz-keyframes move-down { from { top: 55px; } to { top: 40px; } }
+@-ms-keyframes move-down { from { top: 55px; } to { top: 40px; } }
+/* @end POPOVER */
 
 @media only screen and (max-width: 992px), (min-device-width: 768px) and (max-device-width: 1024px), print {
     #page-wrap { width: calc(90% - 40px); margin: 5px auto; padding: 20px; }
@@ -80,6 +108,7 @@ pre { width: 70%; margin: 10px auto; padding: 15px; font-size: 1.2rem; color: #3
 	.table td:nth-of-type(9):before { content: "Aspect Ratio"; }
 	.table td:nth-of-type(10):before { content: "Graphics Array"; }
 	.table td:nth-of-type(11):before { content: "OS"; }
+	.table td:nth-of-type(12):before { content: "Release"; }
 }
 	
 /* Smartphones (portrait and landscape) ----------- */
