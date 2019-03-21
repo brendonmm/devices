@@ -744,7 +744,7 @@
         <icon>tablet</icon>
         <nome>Apple iPad mini 5</nome>
         <resolution>2048 x 1536</resolution>
-        <density>hdpi</density>
+        <density>mdpi</density>
         <screen_size>7.9-inches</screen_size>
         <ppi>326ppi</ppi>
         <dpi>~320dpi</dpi>
