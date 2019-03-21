@@ -533,7 +533,7 @@
     </device>
     <device>
         <icon>tablet</icon>
-        <nome>Apple iPad 3 (Retina)</nome>
+        <nome>Apple iPad 3</nome>
         <resolution>2048 x 1536</resolution>
         <density>hdpi</density>
         <screen_size>9.7-inches</screen_size>
@@ -571,7 +571,7 @@
     </device>
     <device>
         <icon>tablet</icon>
-        <nome>Apple iPad 4 (Retina)</nome>
+        <nome>Apple iPad 4</nome>
         <resolution>2048 x 1536</resolution>
         <density>hdpi</density>
         <screen_size>9.7-inches</screen_size>
@@ -590,7 +590,7 @@
     </device>
     <device>
         <icon>tablet</icon>
-        <nome>Apple iPad Air (Retina)</nome>
+        <nome>Apple iPad Air</nome>
         <resolution>2048 x 1536</resolution>
         <density>hdpi</density>
         <screen_size>9.7-inches</screen_size>
@@ -609,11 +609,11 @@
     </device>
     <device>
         <icon>tablet</icon>
-        <nome>Apple iPad mini 2 (Retina)</nome>
+        <nome>Apple iPad mini 2</nome>
         <resolution>2048 x 1536</resolution>
         <density>mdpi</density>
         <screen_size>7.9-inches</screen_size>
-        <ppi>324ppi</ppi>
+        <ppi>326ppi</ppi>
         <dpi>~320dpi</dpi>
         <css_pixel_ratio>2</css_pixel_ratio>
         <css_width>X</css_width>
@@ -628,7 +628,7 @@
     </device>
     <device>
         <icon>tablet</icon>
-        <nome>Apple iPad Air 2 (Retina)</nome>
+        <nome>Apple iPad Air 2</nome>
         <resolution>2048 x 1536</resolution>
         <density>hdpi</density>
         <screen_size>9.7-inches</screen_size>
@@ -647,7 +647,7 @@
     </device>
     <device>
         <icon>tablet</icon>
-        <nome>Apple iPad mini 3 (Retina)</nome>
+        <nome>Apple iPad mini 3</nome>
         <resolution>2048 x 1536</resolution>
         <density>mdpi</density>
         <screen_size>7.9-inches</screen_size>
@@ -666,7 +666,7 @@
     </device>
     <device>
         <icon>tablet</icon>
-        <nome>Apple iPad mini 4 (Retina)</nome>
+        <nome>Apple iPad mini 4</nome>
         <resolution>2048 x 1536</resolution>
         <density>mdpi</density>
         <screen_size>7.9-inches</screen_size>
@@ -681,6 +681,82 @@
         <status>com-suporte</status>
         <release>2015-09-09</release>
         <discontinued>2019-18-18</discontinued>
+        <unsupported>-</unsupported>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Apple iPad 5</nome>
+        <resolution>2048 x 1536</resolution>
+        <density>hdpi</density>
+        <screen_size>9.7-inches</screen_size>
+        <ppi>264ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>4:3</aspect_ratio>
+        <graphics_array>QXGA</graphics_array>
+        <first_os>10.2.1</first_os>
+        <last_os>12.1.4</last_os>
+        <status>com-suporte</status>
+        <release>2017-03-24</release>
+        <discontinued>2018-03-27</discontinued>
+        <unsupported>-</unsupported>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Apple iPad 6</nome>
+        <resolution>2048 x 1536</resolution>
+        <density>hdpi</density>
+        <screen_size>9.7-inches</screen_size>
+        <ppi>264ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>4:3</aspect_ratio>
+        <graphics_array>QXGA</graphics_array>
+        <first_os>11.2.6</first_os>
+        <last_os>12.1.4</last_os>
+        <status>existente</status>
+        <release>2018-03-27</release>
+        <discontinued>-</discontinued>
+        <unsupported>-</unsupported>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Apple iPad Air 3</nome>
+        <resolution>2224 x 1668</resolution>
+        <density>hdpi</density>
+        <screen_size>10.5-inches</screen_size>
+        <ppi>264ppi</ppi>
+        <dpi>~240dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>4:3</aspect_ratio>
+        <graphics_array>QXGA</graphics_array>
+        <first_os>12.1.4</first_os>
+        <last_os>12.1.4</last_os>
+        <status>novo</status>
+        <release>2019-03-18</release>
+        <discontinued>-</discontinued>
+        <unsupported>-</unsupported>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Apple iPad mini 5</nome>
+        <resolution>2048 x 1536</resolution>
+        <density>hdpi</density>
+        <screen_size>7.9-inches</screen_size>
+        <ppi>326ppi</ppi>
+        <dpi>~320dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>4:3</aspect_ratio>
+        <graphics_array>QXGA</graphics_array>
+        <first_os>12.1.4</first_os>
+        <last_os>12.1.4</last_os>
+        <status>novo</status>
+        <release>2019-03-18</release>
+        <discontinued>-</discontinued>
         <unsupported>-</unsupported>
     </device>
     <device>

@@ -26,16 +26,16 @@ pre { width: 70%; margin: 10px auto; padding: 15px; font-size: 1.2rem; color: #3
 .table tr:hover td:first-child { color: #000!important; background: #D9D9D9; }
 
 .novo td,
-.novo td:first-child { background: #aa6d22; }
+.novo td:first-child { background-color: #22ff3f; }
 
 .com-suporte td,
-.com-suporte td:first-child { background: #d5d3ff; }
+.com-suporte td:first-child { background-color: #d5d3ff; }
 
 .sem-suporte td,
-.sem-suporte td:first-child { color: #fff; background: #804f4f; }
+.sem-suporte td:first-child { color: #fff; background-color: #804f4f; }
 
 .obsoleto td,
-.obsoleto td:first-child { color: #fff; background: #3c3c3c; }
+.obsoleto td:first-child { color: #fff; background-color: #3c3c3c; }
 
 .alert li { padding: 5px; color: #000; border: 1px solid currentColor; }
 .alert li:before { content: ''; }
