@@ -99,8 +99,10 @@ function getDevice(){
         for (b = 0; b < dispositivo.length; b++) {
             if (dispositivo[b].status === 'novo') {
                 buffer += "<tr class=\"novo\">";
-            } else if (dispositivo[b].status === 'descontinuado') {
-                buffer += "<tr class=\"descontinuado\">";
+            } else if (dispositivo[b].status === 'com-suporte') {
+                buffer += "<tr class=\"com-suporte\">";
+            } else if (dispositivo[b].status === 'sem-suporte') {
+                buffer += "<tr class=\"sem-suporte\">";
             } else if (dispositivo[b].status === 'obsoleto') {
                 buffer += "<tr class=\"obsoleto\">";
             } else {
