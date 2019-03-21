@@ -439,7 +439,7 @@
         <graphics_array>Retina HD</graphics_array>
         <first_os>7.0</first_os>
         <last_os>7.0</last_os>
-        <status>descontinuado</status>
+        <status>sem-suporte</status>
         <release>XXXX</release>
     </device>
     <device>
@@ -495,7 +495,7 @@
     </device>
     <device>
         <icon>tablet</icon>
-        <nome>Apple iPad 1</nome>
+        <nome>Apple iPad</nome>
         <resolution>1024 x 768</resolution>
         <density>mdpi</density>
         <screen_size>9.7-inches</screen_size>
@@ -506,9 +506,11 @@
         <aspect_ratio>4:3</aspect_ratio>
         <graphics_array>XGA</graphics_array>
         <first_os>3.2</first_os>
-        <last_os>3.2</last_os>
+        <last_os>5.1.1</last_os>
         <status>obsoleto</status>
-        <release>XXXX</release>
+        <release>2010-04-03</release>
+        <discontinued>2011-03-02</discontinued>
+        <unsupported>2012-09-18</unsupported>
     </device>
     <device>
         <icon>tablet</icon>
@@ -522,10 +524,12 @@
         <css_width>X</css_width>
         <aspect_ratio>4:3</aspect_ratio>
         <graphics_array>XGA</graphics_array>
-        <first_os>4.2.1</first_os>
-        <last_os>4.2.1</last_os>
+        <first_os>4.3</first_os>
+        <last_os>9.3.5</last_os>
         <status>obsoleto</status>
-        <release>XXXX</release>
+        <release>2011-03-11</release>
+        <discontinued>2014-03-18</discontinued>
+        <unsupported>2016-09-12</unsupported>
     </device>
     <device>
         <icon>tablet</icon>
@@ -538,11 +542,32 @@
         <css_pixel_ratio>2</css_pixel_ratio>
         <css_width>X</css_width>
         <aspect_ratio>4:3</aspect_ratio>
-        <graphics_array>XGA</graphics_array>
+        <graphics_array>QXGA</graphics_array>
         <first_os>5.1</first_os>
-        <last_os>5.1</last_os>
+        <last_os>9.3.5</last_os>
         <status>obsoleto</status>
-        <release>XXXX</release>
+        <release>2012-03-16</release>
+        <discontinued>2012-10-23</discontinued>
+        <unsupported>2016-09-12</unsupported>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Apple iPad mini</nome>
+        <resolution>1024 x 768</resolution>
+        <density>mdpi</density>
+        <screen_size>7.9-inches</screen_size>
+        <ppi>162ppi</ppi>
+        <dpi>~160dpi</dpi>
+        <css_pixel_ratio>1</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>4:3</aspect_ratio>
+        <graphics_array>XGA</graphics_array>
+        <first_os>6.0.1</first_os>
+        <last_os>9.3.5</last_os>
+        <status>obsoleto</status>
+        <release>2012-11-02</release>
+        <discontinued>2015-06-19</discontinued>
+        <unsupported>2016-09-12</unsupported>
     </device>
     <device>
         <icon>tablet</icon>
@@ -557,13 +582,15 @@
         <aspect_ratio>4:3</aspect_ratio>
         <graphics_array>XGA</graphics_array>
         <first_os>6.0</first_os>
-        <last_os>6.0</last_os>
-        <status>descontinuado</status>
-        <release>XXXX</release>
+        <last_os>10.3.3</last_os>
+        <status>sem-suporte</status>
+        <release>2012-11-02</release>
+        <discontinued>2014-10-16</discontinued>
+        <unsupported>2017-09-18</unsupported>
     </device>
     <device>
         <icon>tablet</icon>
-        <nome>Apple iPad Air</nome>
+        <nome>Apple iPad Air (Retina)</nome>
         <resolution>2048 x 1536</resolution>
         <density>hdpi</density>
         <screen_size>9.7-inches</screen_size>
@@ -573,14 +600,35 @@
         <css_width>X</css_width>
         <aspect_ratio>4:3</aspect_ratio>
         <graphics_array>QXGA</graphics_array>
-        <first_os>7.0</first_os>
-        <last_os>7.0</last_os>
-        <status>existente</status>
-        <release>XXXX</release>
+        <first_os>7.0.3</first_os>
+        <last_os>12.1.4</last_os>
+        <status>com-suporte</status>
+        <release>2013-11-01</release>
+        <discontinued>2016-03-21</discontinued>
+        <unsupported>-</unsupported>
     </device>
     <device>
         <icon>tablet</icon>
-        <nome>Apple iPad Air 2</nome>
+        <nome>Apple iPad mini 2 (Retina)</nome>
+        <resolution>2048 x 1536</resolution>
+        <density>mdpi</density>
+        <screen_size>7.9-inches</screen_size>
+        <ppi>324ppi</ppi>
+        <dpi>~320dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>4:3</aspect_ratio>
+        <graphics_array>XGA</graphics_array>
+        <first_os>7.0.3</first_os>
+        <last_os>12.1.4</last_os>
+        <status>com-suporte</status>
+        <release>2013-11-12</release>
+        <discontinued>2017-03-21</discontinued>
+        <unsupported>-</unsupported>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Apple iPad Air 2 (Retina)</nome>
         <resolution>2048 x 1536</resolution>
         <density>hdpi</density>
         <screen_size>9.7-inches</screen_size>
@@ -591,60 +639,49 @@
         <aspect_ratio>4:3</aspect_ratio>
         <graphics_array>QXGA</graphics_array>
         <first_os>8.1</first_os>
-        <last_os>8.1</last_os>
-        <status>existente</status>
-        <release>XXXX</release>
+        <last_os>12.1.4</last_os>
+        <status>com-suporte</status>
+        <release>2014-10-22</release>
+        <discontinued>2012-10-23</discontinued>
+        <unsupported>-</unsupported>
     </device>
     <device>
         <icon>tablet</icon>
-        <nome>Apple iPad Mini</nome>
-        <resolution>1024 x 768</resolution>
-        <density>mdpi</density>
-        <screen_size>7.9-inches</screen_size>
-        <ppi>162ppi</ppi>
-        <dpi>~160dpi</dpi>
-        <css_pixel_ratio>1</css_pixel_ratio>
-        <css_width>X</css_width>
-        <aspect_ratio>4:3</aspect_ratio>
-        <graphics_array>XGA</graphics_array>
-        <first_os>6.0</first_os>
-        <last_os>6.0</last_os>
-        <status>existente</status>
-        <release>XXXX</release>
-    </device>
-    <device>
-        <icon>tablet</icon>
-        <nome>Apple iPad Mini 2 (Retina)</nome>
+        <nome>Apple iPad mini 3 (Retina)</nome>
         <resolution>2048 x 1536</resolution>
         <density>mdpi</density>
         <screen_size>7.9-inches</screen_size>
-        <ppi>324ppi</ppi>
-        <dpi>~320dpi</dpi>
-        <css_pixel_ratio>2</css_pixel_ratio>
-        <css_width>X</css_width>
-        <aspect_ratio>4:3</aspect_ratio>
-        <graphics_array>XGA</graphics_array>
-        <first_os>7.0</first_os>
-        <last_os>7.0</last_os>
-        <status>existente</status>
-        <release>XXXX</release>
-    </device>
-    <device>
-        <icon>tablet</icon>
-        <nome>Apple iPad Mini 3 (Retina)</nome>
-        <resolution>2048 x 1536</resolution>
-        <density>mdpi</density>
-        <screen_size>7.9-inches</screen_size>
-        <ppi>324ppi</ppi>
+        <ppi>326ppi</ppi>
         <dpi>~320dpi</dpi>
         <css_pixel_ratio>2</css_pixel_ratio>
         <css_width>X</css_width>
         <aspect_ratio>4:3</aspect_ratio>
         <graphics_array>XGA</graphics_array>
         <first_os>8.1</first_os>
-        <last_os>8.1</last_os>
-        <status>existente</status>
-        <release>XXXX</release>
+        <last_os>12.1.4</last_os>
+        <status>com-suporte</status>
+        <release>2014-10-22</release>
+        <discontinued>2015-09-09</discontinued>
+        <unsupported>-</unsupported>
+    </device>
+    <device>
+        <icon>tablet</icon>
+        <nome>Apple iPad mini 4 (Retina)</nome>
+        <resolution>2048 x 1536</resolution>
+        <density>mdpi</density>
+        <screen_size>7.9-inches</screen_size>
+        <ppi>326ppi</ppi>
+        <dpi>~320dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>X</css_width>
+        <aspect_ratio>4:3</aspect_ratio>
+        <graphics_array>XGA</graphics_array>
+        <first_os>9.0</first_os>
+        <last_os>12.1.4</last_os>
+        <status>com-suporte</status>
+        <release>2015-09-09</release>
+        <discontinued>2019-18-18</discontinued>
+        <unsupported>-</unsupported>
     </device>
     <device>
         <icon>smartwatch</icon>
@@ -659,7 +696,7 @@
         <aspect_ratio>16:9</aspect_ratio>
         <graphics_array>M/A</graphics_array>
         <first_os>8.1</first_os>
-        <last_os>8.1</last_os>
+        <last_os>12.1.4</last_os>
         <status>existente</status>
         <release>XXXX</release>
     </device>
@@ -744,7 +781,7 @@
         <aspect_ratio>16:9</aspect_ratio>
         <graphics_array>FHD</graphics_array>
         <first_os>8.1</first_os>
-        <last_os>8.1</last_os>
+        <last_os>12.1.4</last_os>
         <status>existente</status>
         <release>XXXX</release>
     </device>
