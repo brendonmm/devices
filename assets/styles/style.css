@@ -2,8 +2,8 @@
 ::selection { background: #dec36a; }
 
 * { margin: 0; padding: 0; }
-body { width: 100%; font-family: "Open Sans", 'Trebuchet MS', 'Courier Pro', 'Courier New', Arial, sans-serif; font-size: 10px; }
-h1, h2 { margin: 30px 0 10px 0; font-family: "PT Sans","PT Sans Pro",'Courier Pro', 'Courier New', Arial, sans-serif; }
+body { width: 100%; font-family: 'Open Sans', 'Trebuchet MS', 'Courier Pro', 'Courier New', Arial, sans-serif; font-size: 10px; }
+h1, h2 { margin: 30px 0 10px 0; font-family: 'PT Sans', 'PT Sans Pro', 'Courier Pro', 'Courier New', Arial, sans-serif; }
 h1 { width: calc(100% - 20px); padding: 10px 0; font-size: 2rem; font-weight: bold; color: #aa6d22; }
 h2 { font-size: 1.6rem; font-weight: bold; font-style: italic; }
 p { margin: 5px 0 10px 0; font-size: 1.3rem; font-weight: lighter; }

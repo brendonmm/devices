@@ -196,7 +196,7 @@ function getDevice() {
         mountTable(dispositivo);
     }
 
-    xml = xmlLoader("data/meus_devices.xml");
+    xml = xmlLoader("resources/data/meus_devices.xml");
     xmlParserDispositivosSimplificado(xml);
 }
 
