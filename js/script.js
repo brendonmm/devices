@@ -46,18 +46,18 @@ if (window.innerWidth > 1024) {
             reorder_noReorder: 'reorder-false',
             reorder_blocked: 'reorder-block-left reorder-block-end',
             reorder_complete: null, // callback
-            columnSelector_container : $('#columnSelector'),
-            columnSelector_columns : {
+            columnSelector_container: $('#columnSelector'),
+            columnSelector_columns: {
                 0: 'disable'
             },
             columnSelector_saveColumns: true,
-            columnSelector_layout : '<label><input type="checkbox">{name}</label>',
-            columnSelector_name  : 'data-selector-name',
+            columnSelector_layout: '<label><input type="checkbox">{name}</label>',
+            columnSelector_name: 'data-selector-name',
             columnSelector_mediaquery: true,
             columnSelector_mediaqueryName: 'Auto: ',
             columnSelector_mediaqueryState: true,
-            columnSelector_breakpoints : [ '20em', '30em', '40em', '50em', '60em', '70em' ],
-            columnSelector_priority : 'data-priority'
+            columnSelector_breakpoints: ['20em', '30em', '40em', '50em', '60em', '70em'],
+            columnSelector_priority: 'data-priority'
         },
         initialized: function (table) {
 
@@ -66,9 +66,9 @@ if (window.innerWidth > 1024) {
 }
 
 
-function buscarReferencia(mGlossario, id){
-    for(var i= 0; i<mGlossario.length; i++){
-        if(mGlossario[i].id == id){
+function buscarReferencia(mGlossario, id) {
+    for (var i = 0; i < mGlossario.length; i++) {
+        if (mGlossario[i].id == id) {
             var refGlossario = mGlossario[i];
             break;
         }
@@ -76,7 +76,7 @@ function buscarReferencia(mGlossario, id){
     return refGlossario;
 }
 
-function getDevice(){
+function getDevice() {
     var dispositivo;
 
     function xmlLoader(url) {
@@ -201,76 +201,76 @@ function getDevice(){
 }
 
 var deviceInfo =
-[
-    {
-        'id': 'device',
-        'title': 'Device',
-        'legenda': 'Device name and Brand'
-    },
-    {
-        'id': 'resolution',
-        'title': 'Resolution',
-        'legenda': 'Width x Height of Device'
-    },
-    {
-        'id': 'density',
-        'title': 'Density',
-        'legenda': 'Pixel Density'
-    },
-    {
-        'id': 'screen_size',
-        'title': 'Screen Size (inch)',
-        'legenda': 'How many inches is the screen'
-    },
-    {
-        'id': 'ppi',
-        'title': 'PPI',
-        'legenda': 'Pixels per inch of the screen'
-    },
-    {
-        'id': 'dpi',
-        'title': 'DPI',
-        'legenda': 'Dots per inch of the screen - Density'
-    },
-    {
-        'id': 'css_pixel_ratio',
-        'title': 'CSS Pixel Ratio',
-        'legenda': 'It is the ratio between hardware pixels and CSS pixels'
-    },
-    {
-        'id': 'css_width',
-        'title': 'CSS Width',
-        'legenda': 'Can be calculated by dividing the Pixel Width by the CSS Pixel Ratio'
-    },
-    {
-        'id': 'aspect_ratio',
-        'title': 'Aspect Ratio',
-        'legenda': 'Display Aspect Ratio - the proportional relationship between its width and its height'
-    },
-    {
-        'id': 'graphics_array',
-        'title': 'Graphics Array',
-        'legenda': 'Device\'s dimensions (width x height)'
-    },
-    {
-        'id': 'first_os',
-        'title': 'First OS',
-        'legenda': 'Device Operational System Version on Release'
-    },
-    {
-        'id': 'last_os',
-        'title': 'Last OS',
-        'legenda': 'Device Operational System Version on the last update'
-    },
-    {
-        'id': 'release',
-        'title': 'Release',
-        'legenda': 'Release date of device'
-    }
-];
+    [
+        {
+            'id': 'device',
+            'title': 'Device',
+            'legenda': 'Device name and Brand'
+        },
+        {
+            'id': 'resolution',
+            'title': 'Resolution',
+            'legenda': 'Width x Height of Device'
+        },
+        {
+            'id': 'density',
+            'title': 'Density',
+            'legenda': 'Pixel Density'
+        },
+        {
+            'id': 'screen_size',
+            'title': 'Screen Size (inch)',
+            'legenda': 'How many inches is the screen'
+        },
+        {
+            'id': 'ppi',
+            'title': 'PPI',
+            'legenda': 'Pixels per inch of the screen'
+        },
+        {
+            'id': 'dpi',
+            'title': 'DPI',
+            'legenda': 'Dots per inch of the screen - Density'
+        },
+        {
+            'id': 'css_pixel_ratio',
+            'title': 'CSS Pixel Ratio',
+            'legenda': 'It is the ratio between hardware pixels and CSS pixels'
+        },
+        {
+            'id': 'css_width',
+            'title': 'CSS Width',
+            'legenda': 'Can be calculated by dividing the Pixel Width by the CSS Pixel Ratio'
+        },
+        {
+            'id': 'aspect_ratio',
+            'title': 'Aspect Ratio',
+            'legenda': 'Display Aspect Ratio - the proportional relationship between its width and its height'
+        },
+        {
+            'id': 'graphics_array',
+            'title': 'Graphics Array',
+            'legenda': 'Device\'s dimensions (width x height)'
+        },
+        {
+            'id': 'first_os',
+            'title': 'First OS',
+            'legenda': 'Device Operational System Version on Release'
+        },
+        {
+            'id': 'last_os',
+            'title': 'Last OS',
+            'legenda': 'Device Operational System Version on the last update'
+        },
+        {
+            'id': 'release',
+            'title': 'Release',
+            'legenda': 'Release date of device'
+        }
+    ];
 
 /* GOOGLE FONTS PT Sans */
-(function() {
+(function () {
     var link_element = document.createElement("link"),
         s = document.getElementsByTagName("script")[0];
     if (window.location.protocol !== "http:" && window.location.protocol !== "https:") {
@@ -283,7 +283,7 @@ var deviceInfo =
 })();
 
 /* GOOGLE FONTS Open Sans */
-(function() {
+(function () {
     var link_element = document.createElement("link"),
         s = document.getElementsByTagName("script")[0];
     if (window.location.protocol !== "http:" && window.location.protocol !== "https:") {
@@ -293,4 +293,6 @@ var deviceInfo =
     link_element.rel = "stylesheet";
     link_element.type = "text/css";
     s.parentNode.insertBefore(link_element, s);
+
+
 })();
