@@ -135,6 +135,12 @@ pre {
     background-color: #804f4f;
 }
 
+.vintage td,
+.vintage td:first-child {
+    color: #3c3c3c!important;
+    background-color: #fdd;
+}
+
 .obsoleto td,
 .obsoleto td:first-child {
     color: #fff;
@@ -166,6 +172,10 @@ pre {
 .alert .span-sem-suporte {
     color: #fff;
     background-color: #804f4f;
+}
+
+.alert .span-vintage {
+    background-color: #fdd;
 }
 
 .alert .span-obsoleto {

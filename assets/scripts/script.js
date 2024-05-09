@@ -103,6 +103,8 @@ function getDevice() {
                 buffer += "<tr class=\"com-suporte\">";
             } else if (dispositivo[b].status === 'sem-suporte') {
                 buffer += "<tr class=\"sem-suporte\">";
+            } else if (dispositivo[b].status === 'vintage') {
+                buffer += "<tr class=\"vintage\">";
             } else if (dispositivo[b].status === 'obsoleto') {
                 buffer += "<tr class=\"obsoleto\">";
             } else {
