@@ -851,6 +851,227 @@
         <release>2020/11/13</release>
     </device>
     <device>
+        <icon>smartphone</icon>
+        <nome>Apple iPhone 13 mini</nome>
+        <resolution>1080 x 2340</resolution>
+        <density>xhdpi</density>
+        <screen_size>5.4-inches</screen_size>
+        <ppi>476ppi</ppi>
+        <dpi>~480dpi</dpi>
+        <css_pixel_ratio>3</css_pixel_ratio>
+        <css_width>360</css_width>
+        <aspect_ratio>19.5:9</aspect_ratio>
+        <graphics_array>Super Retina XDR OLED</graphics_array>
+        <first_os>15.0</first_os>
+        <last_os>17.4.1</last_os>
+        <status>com-suporte</status>
+        <release>2021/09/24</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Apple iPhone 13</nome>
+        <resolution>1170 x 2532</resolution>
+        <density>xhdpi</density>
+        <screen_size>6.1-inches</screen_size>
+        <ppi>460ppi</ppi>
+        <dpi>~460dpi</dpi>
+        <css_pixel_ratio>3</css_pixel_ratio>
+        <css_width>390</css_width>
+        <aspect_ratio>19.5:9</aspect_ratio>
+        <graphics_array>Super Retina XDR OLED</graphics_array>
+        <first_os>15.0</first_os>
+        <last_os>17.4.1</last_os>
+        <status>existente</status>
+        <release>2021/09/24</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Apple iPhone 13 Pro</nome>
+        <resolution>1170 x 2532</resolution>
+        <density>xhdpi</density>
+        <screen_size>6.1-inches</screen_size>
+        <ppi>460ppi</ppi>
+        <dpi>~460dpi</dpi>
+        <css_pixel_ratio>3</css_pixel_ratio>
+        <css_width>390</css_width>
+        <aspect_ratio>19.5:9</aspect_ratio>
+        <graphics_array>Super Retina XDR OLED</graphics_array>
+        <first_os>15.0</first_os>
+        <last_os>17.4.1</last_os>
+        <status>com-suporte</status>
+        <release>2021/09/24</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Apple iPhone 13 Pro Max</nome>
+        <resolution>1284 x 2778</resolution>
+        <density>xhdpi</density>
+        <screen_size>6.7-inches</screen_size>
+        <ppi>458ppi</ppi>
+        <dpi>~460dpi</dpi>
+        <css_pixel_ratio>3</css_pixel_ratio>
+        <css_width>428</css_width>
+        <aspect_ratio>19.5:9</aspect_ratio>
+        <graphics_array>Super Retina XDR OLED</graphics_array>
+        <first_os>15.0</first_os>
+        <last_os>17.4.1</last_os>
+        <status>com-suporte</status>
+        <release>2021/09/24</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Apple iPhone SE (3rd generation)</nome>
+        <resolution>750 x 1334</resolution>
+        <density>xhdpi</density>
+        <screen_size>4.7-inches</screen_size>
+        <ppi>326ppi</ppi>
+        <dpi>~326dpi</dpi>
+        <css_pixel_ratio>2</css_pixel_ratio>
+        <css_width>375</css_width>
+        <aspect_ratio>16:9</aspect_ratio>
+        <graphics_array>Retina HD</graphics_array>
+        <first_os>15.4</first_os>
+        <last_os>17.4.1</last_os>
+        <status>existente</status>
+        <release>2022/03/18</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Apple iPhone 14</nome>
+        <resolution>1170 x 2532</resolution>
+        <density>xhdpi</density>
+        <screen_size>6.1-inches</screen_size>
+        <ppi>460ppi</ppi>
+        <dpi>~460dpi</dpi>
+        <css_pixel_ratio>3</css_pixel_ratio>
+        <css_width>390</css_width>
+        <aspect_ratio>19.5:9</aspect_ratio>
+        <graphics_array>Super Retina XDR OLED</graphics_array>
+        <first_os>16.0</first_os>
+        <last_os>17.4.1</last_os>
+        <status>existente</status>
+        <release>2022/09/16</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Apple iPhone 14 Plus</nome>
+        <resolution>1284 x 2778</resolution>
+        <density>xhdpi</density>
+        <screen_size>6.7-inches</screen_size>
+        <ppi>458ppi</ppi>
+        <dpi>~460dpi</dpi>
+        <css_pixel_ratio>3</css_pixel_ratio>
+        <css_width>428</css_width>
+        <aspect_ratio>19.5:9</aspect_ratio>
+        <graphics_array>Super Retina XDR OLED</graphics_array>
+        <first_os>16.0</first_os>
+        <last_os>17.4.1</last_os>
+        <status>existente</status>
+        <release>2022/10/07</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Apple iPhone 14 Pro</nome>
+        <resolution>1179 x 2556</resolution>
+        <density>xhdpi</density>
+        <screen_size>6.1-inches</screen_size>
+        <ppi>460ppi</ppi>
+        <dpi>~460dpi</dpi>
+        <css_pixel_ratio>3</css_pixel_ratio>
+        <css_width>393</css_width>
+        <aspect_ratio>19.5:9</aspect_ratio>
+        <graphics_array>Super Retina XDR OLED</graphics_array>
+        <first_os>16.0</first_os>
+        <last_os>17.4.1</last_os>
+        <status>com-suporte</status>
+        <release>2022/09/16</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Apple iPhone 14 Pro Max</nome>
+        <resolution>1290 x 2796</resolution>
+        <density>xhdpi</density>
+        <screen_size>6.7-inches</screen_size>
+        <ppi>460ppi</ppi>
+        <dpi>~460dpi</dpi>
+        <css_pixel_ratio>3</css_pixel_ratio>
+        <css_width>430</css_width>
+        <aspect_ratio>19.5:9</aspect_ratio>
+        <graphics_array>Super Retina XDR OLED</graphics_array>
+        <first_os>16.0</first_os>
+        <last_os>17.4.1</last_os>
+        <status>com-suporte</status>
+        <release>2022/09/16</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Apple iPhone 15</nome>
+        <resolution>1179 x 2556</resolution>
+        <density>xhdpi</density>
+        <screen_size>6.1-inches</screen_size>
+        <ppi>460ppi</ppi>
+        <dpi>~460dpi</dpi>
+        <css_pixel_ratio>3</css_pixel_ratio>
+        <css_width>393</css_width>
+        <aspect_ratio>19.5:9</aspect_ratio>
+        <graphics_array>Super Retina XDR OLED</graphics_array>
+        <first_os>17.0</first_os>
+        <last_os>17.4.1</last_os>
+        <status>novo</status>
+        <release>2023/09/22</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Apple iPhone 15 Plus</nome>
+        <resolution>1290 x 2796</resolution>
+        <density>xhdpi</density>
+        <screen_size>6.7-inches</screen_size>
+        <ppi>458ppi</ppi>
+        <dpi>~460dpi</dpi>
+        <css_pixel_ratio>3</css_pixel_ratio>
+        <css_width>430</css_width>
+        <aspect_ratio>19.5:9</aspect_ratio>
+        <graphics_array>Super Retina XDR OLED</graphics_array>
+        <first_os>17.0</first_os>
+        <last_os>17.4.1</last_os>
+        <status>novo</status>
+        <release>2023/09/22</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Apple iPhone 15 Pro</nome>
+        <resolution>1179 x 2556</resolution>
+        <density>xhdpi</density>
+        <screen_size>6.1-inches</screen_size>
+        <ppi>460ppi</ppi>
+        <dpi>~460dpi</dpi>
+        <css_pixel_ratio>3</css_pixel_ratio>
+        <css_width>393</css_width>
+        <aspect_ratio>19.5:9</aspect_ratio>
+        <graphics_array>Super Retina XDR OLED</graphics_array>
+        <first_os>17.0</first_os>
+        <last_os>17.4.1</last_os>
+        <status>novo</status>
+        <release>2023/09/22</release>
+    </device>
+    <device>
+        <icon>smartphone</icon>
+        <nome>Apple iPhone 15 Pro Max</nome>
+        <resolution>1290 x 2796</resolution>
+        <density>xhdpi</density>
+        <screen_size>6.7-inches</screen_size>
+        <ppi>460ppi</ppi>
+        <dpi>~460dpi</dpi>
+        <css_pixel_ratio>3</css_pixel_ratio>
+        <css_width>430</css_width>
+        <aspect_ratio>19.5:9</aspect_ratio>
+        <graphics_array>Super Retina XDR OLED</graphics_array>
+        <first_os>17.0</first_os>
+        <last_os>17.4.1</last_os>
+        <status>novo</status>
+        <release>2023/09/22</release>
+    </device>
+    <device>
         <icon>tablet</icon>
         <nome>Apple iPad</nome>
         <resolution>1024 x 768</resolution>
