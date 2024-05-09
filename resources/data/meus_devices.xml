@@ -472,7 +472,7 @@
         <aspect_ratio>16:9</aspect_ratio>
         <graphics_array>Retina Display</graphics_array>
         <first_os>7.0</first_os>
-        <last_os>10.3.4</last_os>
+        <last_os>10.3.3</last_os>
         <status>obsoleto</status>
         <release>2013/09/20</release>
     </device>
@@ -489,7 +489,7 @@
         <aspect_ratio>16:9</aspect_ratio>
         <graphics_array>Retina Display</graphics_array>
         <first_os>7.0</first_os>
-        <last_os>12.5.5</last_os>
+        <last_os>12.5.7</last_os>
         <status>obsoleto</status>
         <release>2013/09/20</release>
     </device>
@@ -506,7 +506,7 @@
         <aspect_ratio>16:9</aspect_ratio>
         <graphics_array>Retina HD</graphics_array>
         <first_os>8.0</first_os>
-        <last_os>12.5.5</last_os>
+        <last_os>12.5.7</last_os>
         <status>obsoleto</status>
         <release>2014/09/19</release>
     </device>
@@ -523,7 +523,7 @@
         <aspect_ratio>16:9</aspect_ratio>
         <graphics_array>Retina HD</graphics_array>
         <first_os>8.0</first_os>
-        <last_os>12.5.5</last_os>
+        <last_os>12.5.7</last_os>
         <status>obsoleto</status>
         <release>2014/09/19</release>
     </device>
@@ -540,7 +540,7 @@
         <aspect_ratio>16:9</aspect_ratio>
         <graphics_array>Retina HD</graphics_array>
         <first_os>9.0</first_os>
-        <last_os>15.x</last_os>
+        <last_os>15.8.2</last_os>
         <status>vintage</status>
         <release>2015/09/25</release>
     </device>
@@ -557,7 +557,7 @@
         <aspect_ratio>16:9</aspect_ratio>
         <graphics_array>Retina HD</graphics_array>
         <first_os>9.0</first_os>
-        <last_os>15.x</last_os>
+        <last_os>15.8.2</last_os>
         <status>vintage</status>
         <release>2015/09/25</release>
     </device>
@@ -574,7 +574,7 @@
         <aspect_ratio>16:9</aspect_ratio>
         <graphics_array>Retina HD</graphics_array>
         <first_os>9.3</first_os>
-        <last_os>15.x</last_os>
+        <last_os>15.8.2</last_os>
         <status>vintage</status>
         <release>2016/03/31</release>
     </device>
@@ -591,7 +591,7 @@
         <aspect_ratio>16:9</aspect_ratio>
         <graphics_array>Retina HD</graphics_array>
         <first_os>10.0</first_os>
-        <last_os>15.x</last_os>
+        <last_os>15.8.2</last_os>
         <status>sem-suporte</status>
         <release>2016/09/16</release>
     </device>
@@ -608,7 +608,7 @@
         <aspect_ratio>16:9</aspect_ratio>
         <graphics_array>Retina HD</graphics_array>
         <first_os>10.0</first_os>
-        <last_os>15.x</last_os>
+        <last_os>15.8.2</last_os>
         <status>sem-suporte</status>
         <release>2016/09/16</release>
     </device>
@@ -625,7 +625,7 @@
         <aspect_ratio>16:9</aspect_ratio>
         <graphics_array>Retina HD</graphics_array>
         <first_os>11.0</first_os>
-        <last_os>15.x</last_os>
+        <last_os>16.7.7</last_os>
         <status>sem-suporte</status>
         <release>2017/09/22</release>
     </device>
@@ -642,7 +642,7 @@
         <aspect_ratio>16:9</aspect_ratio>
         <graphics_array>Retina HD</graphics_array>
         <first_os>11.0</first_os>
-        <last_os>15.x</last_os>
+        <last_os>16.7.7</last_os>
         <status>sem-suporte</status>
         <release>2017/09/22</release>
     </device>
@@ -658,8 +658,8 @@
         <css_width>375</css_width>
         <aspect_ratio>19.5:9</aspect_ratio>
         <graphics_array>Super Retina HD</graphics_array>
-        <first_os>11.1</first_os>
-        <last_os>15.x</last_os>
+        <first_os>11.0.1</first_os>
+        <last_os>16.7.7</last_os>
         <status>sem-suporte</status>
         <release>2017/11/03</release>
     </device>
@@ -676,7 +676,7 @@
         <aspect_ratio>19.5:9</aspect_ratio>
         <graphics_array>Super Retina HD</graphics_array>
         <first_os>12.0</first_os>
-        <last_os>15.x</last_os>
+        <last_os>17.4.1</last_os>
         <status>com-suporte</status>
         <release>2018/09/21</release>
     </device>
@@ -693,7 +693,7 @@
         <aspect_ratio>19.5:9</aspect_ratio>
         <graphics_array>Super Retina HD</graphics_array>
         <first_os>12.0</first_os>
-        <last_os>15.x</last_os>
+        <last_os>17.4.1</last_os>
         <status>com-suporte</status>
         <release>2018/09/21</release>
     </device>
@@ -710,7 +710,7 @@
         <aspect_ratio>19.5:9</aspect_ratio>
         <graphics_array>Liquid Retina HD</graphics_array>
         <first_os>12.0</first_os>
-        <last_os>15.x</last_os>
+        <last_os>17.4.1</last_os>
         <status>com-suporte</status>
         <release>2018/10/26</release>
     </device>
@@ -727,7 +727,7 @@
         <aspect_ratio>19.5:9</aspect_ratio>
         <graphics_array>Liquid Retina HD</graphics_array>
         <first_os>13.0</first_os>
-        <last_os>15.x</last_os>
+        <last_os>17.4.1</last_os>
         <status>com-suporte</status>
         <release>2019/09/20</release>
     </device>
@@ -744,7 +744,7 @@
         <aspect_ratio>19.5:9</aspect_ratio>
         <graphics_array>Super Retina XDR</graphics_array>
         <first_os>13.0</first_os>
-        <last_os>15.x</last_os>
+        <last_os>17.4.1</last_os>
         <status>com-suporte</status>
         <release>2019/09/20</release>
     </device>
@@ -761,7 +761,7 @@
         <aspect_ratio>19.5:9</aspect_ratio>
         <graphics_array>Super Retina XDR</graphics_array>
         <first_os>13.0</first_os>
-        <last_os>15.x</last_os>
+        <last_os>17.4.1</last_os>
         <status>com-suporte</status>
         <release>2019/09/20</release>
     </device>
@@ -778,7 +778,7 @@
         <aspect_ratio>16:9</aspect_ratio>
         <graphics_array>Retina HD</graphics_array>
         <first_os>13.4</first_os>
-        <last_os>15.x</last_os>
+        <last_os>17.4.1</last_os>
         <status>com-suporte</status>
         <release>2020/04/24</release>
     </device>
@@ -795,7 +795,7 @@
         <aspect_ratio>19.5:9</aspect_ratio>
         <graphics_array>Super Retina XDR</graphics_array>
         <first_os>14.1</first_os>
-        <last_os>15.x</last_os>
+        <last_os>17.4.1</last_os>
         <status>com-suporte</status>
         <release>2020/11/13</release>
     </device>
@@ -812,7 +812,7 @@
         <aspect_ratio>19.5:9</aspect_ratio>
         <graphics_array>Super Retina XDR</graphics_array>
         <first_os>14.1</first_os>
-        <last_os>15.x</last_os>
+        <last_os>17.4.1</last_os>
         <status>com-suporte</status>
         <release>2020/10/23</release>
     </device>
@@ -829,7 +829,7 @@
         <aspect_ratio>19.5:9</aspect_ratio>
         <graphics_array>Super Retina XDR</graphics_array>
         <first_os>14.1</first_os>
-        <last_os>15.x</last_os>
+        <last_os>17.4.1</last_os>
         <status>com-suporte</status>
         <release>2020/10/23</release>
     </device>
@@ -846,7 +846,7 @@
         <aspect_ratio>19.5:9</aspect_ratio>
         <graphics_array>Super Retina XDR</graphics_array>
         <first_os>14.1</first_os>
-        <last_os>15.x</last_os>
+        <last_os>17.4.1</last_os>
         <status>com-suporte</status>
         <release>2020/11/13</release>
     </device>
